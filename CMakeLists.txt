@@ -38,9 +38,15 @@ add_executable(voxel_cuda_test
 )
 target_link_libraries(voxel_cuda_test PRIVATE CUDA::cudart)
 
+add_executable(voxel_sdf_cuda_test
+  tests/voxel_sdf_cuda_test.cu
+)
+target_link_libraries(voxel_sdf_cuda_test PRIVATE CUDA::cudart)
+
 # Tests
 enable_testing()
 add_test(NAME picogk_api_test COMMAND picogk_api_test)
 add_test(NAME voxel_basic_test COMMAND voxel_basic_test)
 add_test(NAME uhtc_voxel_analysis_test COMMAND uhtc_voxel_analysis_test)
 add_test(NAME voxel_cuda_test COMMAND voxel_cuda_test)
+add_test(NAME voxel_sdf_cuda_test COMMAND voxel_sdf_cuda_test)

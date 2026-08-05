@@ -178,6 +178,19 @@ voxel_cuda_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_cuda_test.dir/build.make CMakeFiles/voxel_cuda_test.dir/build
 .PHONY : voxel_cuda_test/fast
 
+#=============================================================================
+# Target rules for targets named voxel_sdf_cuda_test
+
+# Build rule for target.
+voxel_sdf_cuda_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 voxel_sdf_cuda_test
+.PHONY : voxel_sdf_cuda_test
+
+# fast build rule for target.
+voxel_sdf_cuda_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_sdf_cuda_test.dir/build.make CMakeFiles/voxel_sdf_cuda_test.dir/build
+.PHONY : voxel_sdf_cuda_test/fast
+
 tests/picogk_api_test.o: tests/picogk_api_test.cpp.o
 .PHONY : tests/picogk_api_test.o
 
@@ -274,6 +287,30 @@ tests/voxel_cuda_test.cu.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_cuda_test.dir/build.make CMakeFiles/voxel_cuda_test.dir/tests/voxel_cuda_test.cu.s
 .PHONY : tests/voxel_cuda_test.cu.s
 
+tests/voxel_sdf_cuda_test.o: tests/voxel_sdf_cuda_test.cu.o
+.PHONY : tests/voxel_sdf_cuda_test.o
+
+# target to build an object file
+tests/voxel_sdf_cuda_test.cu.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_sdf_cuda_test.dir/build.make CMakeFiles/voxel_sdf_cuda_test.dir/tests/voxel_sdf_cuda_test.cu.o
+.PHONY : tests/voxel_sdf_cuda_test.cu.o
+
+tests/voxel_sdf_cuda_test.i: tests/voxel_sdf_cuda_test.cu.i
+.PHONY : tests/voxel_sdf_cuda_test.i
+
+# target to preprocess a source file
+tests/voxel_sdf_cuda_test.cu.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_sdf_cuda_test.dir/build.make CMakeFiles/voxel_sdf_cuda_test.dir/tests/voxel_sdf_cuda_test.cu.i
+.PHONY : tests/voxel_sdf_cuda_test.cu.i
+
+tests/voxel_sdf_cuda_test.s: tests/voxel_sdf_cuda_test.cu.s
+.PHONY : tests/voxel_sdf_cuda_test.s
+
+# target to generate assembly for a file
+tests/voxel_sdf_cuda_test.cu.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_sdf_cuda_test.dir/build.make CMakeFiles/voxel_sdf_cuda_test.dir/tests/voxel_sdf_cuda_test.cu.s
+.PHONY : tests/voxel_sdf_cuda_test.cu.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -287,6 +324,7 @@ help:
 	@echo "... uhtc_voxel_analysis_test"
 	@echo "... voxel_basic_test"
 	@echo "... voxel_cuda_test"
+	@echo "... voxel_sdf_cuda_test"
 	@echo "... tests/picogk_api_test.o"
 	@echo "... tests/picogk_api_test.i"
 	@echo "... tests/picogk_api_test.s"
@@ -299,6 +337,9 @@ help:
 	@echo "... tests/voxel_cuda_test.o"
 	@echo "... tests/voxel_cuda_test.i"
 	@echo "... tests/voxel_cuda_test.s"
+	@echo "... tests/voxel_sdf_cuda_test.o"
+	@echo "... tests/voxel_sdf_cuda_test.i"
+	@echo "... tests/voxel_sdf_cuda_test.s"
 .PHONY : help
 
 

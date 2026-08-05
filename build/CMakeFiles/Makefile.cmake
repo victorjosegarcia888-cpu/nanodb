@@ -60,4 +60,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/voxel_basic_test.dir/DependInfo.cmake"
   "CMakeFiles/uhtc_voxel_analysis_test.dir/DependInfo.cmake"
   "CMakeFiles/voxel_cuda_test.dir/DependInfo.cmake"
+  "CMakeFiles/voxel_sdf_cuda_test.dir/DependInfo.cmake"
   )

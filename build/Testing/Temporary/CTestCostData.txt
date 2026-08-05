@@ -1,5 +1,6 @@
-picogk_api_test 3 0.00120942
-voxel_basic_test 3 0.0063031
-voxel_cuda_test 2 0.00871839
-uhtc_voxel_analysis_test 1 0.0033707
+picogk_api_test 4 0.000493943
+voxel_basic_test 4 0.00493639
+voxel_cuda_test 3 0.00543397
+uhtc_voxel_analysis_test 2 0.00173281
+voxel_sdf_cuda_test 1 0.0163181
 ---
