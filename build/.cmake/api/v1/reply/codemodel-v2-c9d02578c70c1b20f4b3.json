@@ -22,7 +22,9 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9
 					]
 				}
 			],
@@ -44,12 +46,28 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cuda_rocket_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cuda_rocket_test-Release-4defe6dbf1f2faa35690.json",
+					"name" : "cuda_rocket_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cuda_thermal_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cuda_thermal_test-Release-d89b8d518f3dde61b2aa.json",
+					"name" : "cuda_thermal_test",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "picogk_api_test::@6890427a1f51a3e7e1df",

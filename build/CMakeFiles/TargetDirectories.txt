@@ -6,6 +6,8 @@
 /workspaces/uhtc-nanodb-/build/CMakeFiles/rocket_toolpath_test.dir
 /workspaces/uhtc-nanodb-/build/CMakeFiles/voxel_cuda_test.dir
 /workspaces/uhtc-nanodb-/build/CMakeFiles/voxel_sdf_cuda_test.dir
+/workspaces/uhtc-nanodb-/build/CMakeFiles/cuda_thermal_test.dir
+/workspaces/uhtc-nanodb-/build/CMakeFiles/cuda_rocket_test.dir
 /workspaces/uhtc-nanodb-/build/CMakeFiles/test.dir
 /workspaces/uhtc-nanodb-/build/CMakeFiles/edit_cache.dir
 /workspaces/uhtc-nanodb-/build/CMakeFiles/rebuild_cache.dir

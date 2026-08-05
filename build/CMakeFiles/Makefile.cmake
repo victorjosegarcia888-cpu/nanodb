@@ -67,4 +67,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/rocket_toolpath_test.dir/DependInfo.cmake"
   "CMakeFiles/voxel_cuda_test.dir/DependInfo.cmake"
   "CMakeFiles/voxel_sdf_cuda_test.dir/DependInfo.cmake"
+  "CMakeFiles/cuda_thermal_test.dir/DependInfo.cmake"
+  "CMakeFiles/cuda_rocket_test.dir/DependInfo.cmake"
   )

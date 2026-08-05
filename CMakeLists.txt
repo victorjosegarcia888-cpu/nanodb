@@ -73,6 +73,16 @@ add_executable(voxel_sdf_cuda_test
 )
 target_link_libraries(voxel_sdf_cuda_test PRIVATE CUDA::cudart)
 
+add_executable(cuda_thermal_test
+  tests/cuda_thermal_test.cu
+)
+target_link_libraries(cuda_thermal_test PRIVATE CUDA::cudart)
+
+add_executable(cuda_rocket_test
+  tests/cuda_rocket_test.cu
+)
+target_link_libraries(cuda_rocket_test PRIVATE CUDA::cudart)
+
 # Tests
 enable_testing()
 add_test(NAME picogk_api_test COMMAND picogk_api_test)
@@ -83,3 +93,5 @@ add_test(NAME printer_slicer_test COMMAND printer_slicer_test)
 add_test(NAME rocket_toolpath_test COMMAND rocket_toolpath_test)
 add_test(NAME voxel_cuda_test COMMAND voxel_cuda_test)
 add_test(NAME voxel_sdf_cuda_test COMMAND voxel_sdf_cuda_test)
+add_test(NAME cuda_thermal_test COMMAND cuda_thermal_test)
+add_test(NAME cuda_rocket_test COMMAND cuda_rocket_test)

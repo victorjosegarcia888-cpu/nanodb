@@ -71,6 +71,8 @@ all: CMakeFiles/printer_slicer_test.dir/all
 all: CMakeFiles/rocket_toolpath_test.dir/all
 all: CMakeFiles/voxel_cuda_test.dir/all
 all: CMakeFiles/voxel_sdf_cuda_test.dir/all
+all: CMakeFiles/cuda_thermal_test.dir/all
+all: CMakeFiles/cuda_rocket_test.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -86,6 +88,8 @@ clean: CMakeFiles/printer_slicer_test.dir/clean
 clean: CMakeFiles/rocket_toolpath_test.dir/clean
 clean: CMakeFiles/voxel_cuda_test.dir/clean
 clean: CMakeFiles/voxel_sdf_cuda_test.dir/clean
+clean: CMakeFiles/cuda_thermal_test.dir/clean
+clean: CMakeFiles/cuda_rocket_test.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -95,7 +99,7 @@ clean: CMakeFiles/voxel_sdf_cuda_test.dir/clean
 CMakeFiles/picogk_api_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/picogk_api_test.dir/build.make CMakeFiles/picogk_api_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/picogk_api_test.dir/build.make CMakeFiles/picogk_api_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/uhtc-nanodb-/build/CMakeFiles --progress-num=1,2 "Built target picogk_api_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/uhtc-nanodb-/build/CMakeFiles --progress-num=5,6 "Built target picogk_api_test"
 .PHONY : CMakeFiles/picogk_api_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -121,7 +125,7 @@ CMakeFiles/picogk_api_test.dir/clean:
 CMakeFiles/voxel_basic_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_basic_test.dir/build.make CMakeFiles/voxel_basic_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_basic_test.dir/build.make CMakeFiles/voxel_basic_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/uhtc-nanodb-/build/CMakeFiles --progress-num=11,12 "Built target voxel_basic_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/uhtc-nanodb-/build/CMakeFiles --progress-num=15,16 "Built target voxel_basic_test"
 .PHONY : CMakeFiles/voxel_basic_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -147,7 +151,7 @@ CMakeFiles/voxel_basic_test.dir/clean:
 CMakeFiles/uhtc_voxel_analysis_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uhtc_voxel_analysis_test.dir/build.make CMakeFiles/uhtc_voxel_analysis_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uhtc_voxel_analysis_test.dir/build.make CMakeFiles/uhtc_voxel_analysis_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/uhtc-nanodb-/build/CMakeFiles --progress-num=9,10 "Built target uhtc_voxel_analysis_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/uhtc-nanodb-/build/CMakeFiles --progress-num=13,14 "Built target uhtc_voxel_analysis_test"
 .PHONY : CMakeFiles/uhtc_voxel_analysis_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -173,7 +177,7 @@ CMakeFiles/uhtc_voxel_analysis_test.dir/clean:
 CMakeFiles/pnanovdb_portable_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pnanovdb_portable_test.dir/build.make CMakeFiles/pnanovdb_portable_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pnanovdb_portable_test.dir/build.make CMakeFiles/pnanovdb_portable_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/uhtc-nanodb-/build/CMakeFiles --progress-num=3,4 "Built target pnanovdb_portable_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/uhtc-nanodb-/build/CMakeFiles --progress-num=7,8 "Built target pnanovdb_portable_test"
 .PHONY : CMakeFiles/pnanovdb_portable_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -199,7 +203,7 @@ CMakeFiles/pnanovdb_portable_test.dir/clean:
 CMakeFiles/printer_slicer_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/printer_slicer_test.dir/build.make CMakeFiles/printer_slicer_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/printer_slicer_test.dir/build.make CMakeFiles/printer_slicer_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/uhtc-nanodb-/build/CMakeFiles --progress-num=5,6 "Built target printer_slicer_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/uhtc-nanodb-/build/CMakeFiles --progress-num=9,10 "Built target printer_slicer_test"
 .PHONY : CMakeFiles/printer_slicer_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -225,7 +229,7 @@ CMakeFiles/printer_slicer_test.dir/clean:
 CMakeFiles/rocket_toolpath_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rocket_toolpath_test.dir/build.make CMakeFiles/rocket_toolpath_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rocket_toolpath_test.dir/build.make CMakeFiles/rocket_toolpath_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/uhtc-nanodb-/build/CMakeFiles --progress-num=7,8 "Built target rocket_toolpath_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/uhtc-nanodb-/build/CMakeFiles --progress-num=11,12 "Built target rocket_toolpath_test"
 .PHONY : CMakeFiles/rocket_toolpath_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -251,7 +255,7 @@ CMakeFiles/rocket_toolpath_test.dir/clean:
 CMakeFiles/voxel_cuda_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_cuda_test.dir/build.make CMakeFiles/voxel_cuda_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_cuda_test.dir/build.make CMakeFiles/voxel_cuda_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/uhtc-nanodb-/build/CMakeFiles --progress-num=13,14 "Built target voxel_cuda_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/uhtc-nanodb-/build/CMakeFiles --progress-num=17,18 "Built target voxel_cuda_test"
 .PHONY : CMakeFiles/voxel_cuda_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -277,7 +281,7 @@ CMakeFiles/voxel_cuda_test.dir/clean:
 CMakeFiles/voxel_sdf_cuda_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_sdf_cuda_test.dir/build.make CMakeFiles/voxel_sdf_cuda_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_sdf_cuda_test.dir/build.make CMakeFiles/voxel_sdf_cuda_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/uhtc-nanodb-/build/CMakeFiles --progress-num=15,16 "Built target voxel_sdf_cuda_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/uhtc-nanodb-/build/CMakeFiles --progress-num=19,20 "Built target voxel_sdf_cuda_test"
 .PHONY : CMakeFiles/voxel_sdf_cuda_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -295,6 +299,58 @@ voxel_sdf_cuda_test: CMakeFiles/voxel_sdf_cuda_test.dir/rule
 CMakeFiles/voxel_sdf_cuda_test.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_sdf_cuda_test.dir/build.make CMakeFiles/voxel_sdf_cuda_test.dir/clean
 .PHONY : CMakeFiles/voxel_sdf_cuda_test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/cuda_thermal_test.dir
+
+# All Build rule for target.
+CMakeFiles/cuda_thermal_test.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda_thermal_test.dir/build.make CMakeFiles/cuda_thermal_test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda_thermal_test.dir/build.make CMakeFiles/cuda_thermal_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/uhtc-nanodb-/build/CMakeFiles --progress-num=3,4 "Built target cuda_thermal_test"
+.PHONY : CMakeFiles/cuda_thermal_test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/cuda_thermal_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/uhtc-nanodb-/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cuda_thermal_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/uhtc-nanodb-/build/CMakeFiles 0
+.PHONY : CMakeFiles/cuda_thermal_test.dir/rule
+
+# Convenience name for target.
+cuda_thermal_test: CMakeFiles/cuda_thermal_test.dir/rule
+.PHONY : cuda_thermal_test
+
+# clean rule for target.
+CMakeFiles/cuda_thermal_test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda_thermal_test.dir/build.make CMakeFiles/cuda_thermal_test.dir/clean
+.PHONY : CMakeFiles/cuda_thermal_test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/cuda_rocket_test.dir
+
+# All Build rule for target.
+CMakeFiles/cuda_rocket_test.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda_rocket_test.dir/build.make CMakeFiles/cuda_rocket_test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda_rocket_test.dir/build.make CMakeFiles/cuda_rocket_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/uhtc-nanodb-/build/CMakeFiles --progress-num=1,2 "Built target cuda_rocket_test"
+.PHONY : CMakeFiles/cuda_rocket_test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/cuda_rocket_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/uhtc-nanodb-/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cuda_rocket_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/uhtc-nanodb-/build/CMakeFiles 0
+.PHONY : CMakeFiles/cuda_rocket_test.dir/rule
+
+# Convenience name for target.
+cuda_rocket_test: CMakeFiles/cuda_rocket_test.dir/rule
+.PHONY : cuda_rocket_test
+
+# clean rule for target.
+CMakeFiles/cuda_rocket_test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda_rocket_test.dir/build.make CMakeFiles/cuda_rocket_test.dir/clean
+.PHONY : CMakeFiles/cuda_rocket_test.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

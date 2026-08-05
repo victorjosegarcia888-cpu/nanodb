@@ -230,6 +230,80 @@ voxel_sdf_cuda_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel_sdf_cuda_test.dir/build.make CMakeFiles/voxel_sdf_cuda_test.dir/build
 .PHONY : voxel_sdf_cuda_test/fast
 
+#=============================================================================
+# Target rules for targets named cuda_thermal_test
+
+# Build rule for target.
+cuda_thermal_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cuda_thermal_test
+.PHONY : cuda_thermal_test
+
+# fast build rule for target.
+cuda_thermal_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda_thermal_test.dir/build.make CMakeFiles/cuda_thermal_test.dir/build
+.PHONY : cuda_thermal_test/fast
+
+#=============================================================================
+# Target rules for targets named cuda_rocket_test
+
+# Build rule for target.
+cuda_rocket_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cuda_rocket_test
+.PHONY : cuda_rocket_test
+
+# fast build rule for target.
+cuda_rocket_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda_rocket_test.dir/build.make CMakeFiles/cuda_rocket_test.dir/build
+.PHONY : cuda_rocket_test/fast
+
+tests/cuda_rocket_test.o: tests/cuda_rocket_test.cu.o
+.PHONY : tests/cuda_rocket_test.o
+
+# target to build an object file
+tests/cuda_rocket_test.cu.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda_rocket_test.dir/build.make CMakeFiles/cuda_rocket_test.dir/tests/cuda_rocket_test.cu.o
+.PHONY : tests/cuda_rocket_test.cu.o
+
+tests/cuda_rocket_test.i: tests/cuda_rocket_test.cu.i
+.PHONY : tests/cuda_rocket_test.i
+
+# target to preprocess a source file
+tests/cuda_rocket_test.cu.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda_rocket_test.dir/build.make CMakeFiles/cuda_rocket_test.dir/tests/cuda_rocket_test.cu.i
+.PHONY : tests/cuda_rocket_test.cu.i
+
+tests/cuda_rocket_test.s: tests/cuda_rocket_test.cu.s
+.PHONY : tests/cuda_rocket_test.s
+
+# target to generate assembly for a file
+tests/cuda_rocket_test.cu.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda_rocket_test.dir/build.make CMakeFiles/cuda_rocket_test.dir/tests/cuda_rocket_test.cu.s
+.PHONY : tests/cuda_rocket_test.cu.s
+
+tests/cuda_thermal_test.o: tests/cuda_thermal_test.cu.o
+.PHONY : tests/cuda_thermal_test.o
+
+# target to build an object file
+tests/cuda_thermal_test.cu.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda_thermal_test.dir/build.make CMakeFiles/cuda_thermal_test.dir/tests/cuda_thermal_test.cu.o
+.PHONY : tests/cuda_thermal_test.cu.o
+
+tests/cuda_thermal_test.i: tests/cuda_thermal_test.cu.i
+.PHONY : tests/cuda_thermal_test.i
+
+# target to preprocess a source file
+tests/cuda_thermal_test.cu.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda_thermal_test.dir/build.make CMakeFiles/cuda_thermal_test.dir/tests/cuda_thermal_test.cu.i
+.PHONY : tests/cuda_thermal_test.cu.i
+
+tests/cuda_thermal_test.s: tests/cuda_thermal_test.cu.s
+.PHONY : tests/cuda_thermal_test.s
+
+# target to generate assembly for a file
+tests/cuda_thermal_test.cu.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda_thermal_test.dir/build.make CMakeFiles/cuda_thermal_test.dir/tests/cuda_thermal_test.cu.s
+.PHONY : tests/cuda_thermal_test.cu.s
+
 tests/picogk_api_test.o: tests/picogk_api_test.cpp.o
 .PHONY : tests/picogk_api_test.o
 
@@ -431,6 +505,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... cuda_rocket_test"
+	@echo "... cuda_thermal_test"
 	@echo "... picogk_api_test"
 	@echo "... pnanovdb_portable_test"
 	@echo "... printer_slicer_test"
@@ -439,6 +515,12 @@ help:
 	@echo "... voxel_basic_test"
 	@echo "... voxel_cuda_test"
 	@echo "... voxel_sdf_cuda_test"
+	@echo "... tests/cuda_rocket_test.o"
+	@echo "... tests/cuda_rocket_test.i"
+	@echo "... tests/cuda_rocket_test.s"
+	@echo "... tests/cuda_thermal_test.o"
+	@echo "... tests/cuda_thermal_test.i"
+	@echo "... tests/cuda_thermal_test.s"
 	@echo "... tests/picogk_api_test.o"
 	@echo "... tests/picogk_api_test.i"
 	@echo "... tests/picogk_api_test.s"

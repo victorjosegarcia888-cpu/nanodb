@@ -97,6 +97,93 @@ Included tests:
 - `rocket_toolpath_test` — PASSED
 - `voxel_cuda_test` — PASSED
 - `voxel_sdf_cuda_test` — PASSED
+- `cuda_thermal_test` — PASSED (requires NVIDIA GPU)
+- `cuda_rocket_test` — PASSED (requires NVIDIA GPU)
+
+## Exhaustive CUDA Test Analysis
+
+### `voxel_sdf_cuda_test.cu` — Baseline SDF Voxel Test
+
+**Kernel `init_voxel_grid`:**
+- 3D grid initialization with sphere + cylinder SDF
+- Radius: `r_sphere = 0.02 + 0.005 * t_snap` (time-dependent growth)
+- Channel: cylinder carved through sphere via `fmax(sphere, -cylinder)`
+- Material IDs: `0=empty, 1=solid, 2=channel`
+- Launch config: `dim3 block(8,8,8)`, `dim3 grid(8,8,8)` for 64³ grid
+
+**Kernel `count_materials`:**
+- Parallel reduction with 3-way split in shared memory
+- Shared memory layout: `[0..b-1]=c0, [b..2b-1]=c1, [2b..3b-1]=c2`
+- Reduction pattern: `s >>= 1` with `__syncthreads()`
+- 256 threads per block, 1024 blocks for 64³ grid
+
+**Validation gaps identified:**
+- No explicit CUDA error checking after kernel launches
+- No validation of SDF values at known coordinates
+- No verification of material distribution consistency
+- No edge case testing (non-multiple grid sizes)
+- No timing measurements
+- No overflow protection for large grids
+
+### `CudaVoxelTestUtils.h` — Testing Infrastructure
+
+Provides:
+- `CudaError` RAII wrapper for error checking
+- `CudaTimer` for kernel timing measurements
+- `validateMaterialCounts()` — tolerance-based material distribution check
+- `validateSphereCarving()` — SDF correctness against analytic sphere
+- `validateChannelCarving()` — cylindrical channel validation
+- `measureKernelTime()` — automatic timing with iterations
+- `verifyDeviceProperties()` — compute capability validation
+- `allocateDeviceVoxelGrid()` — safe allocation with zero-init
+
+### `CudaThermalKernels.h` — Rocket Thermal Analysis
+
+**Kernels:**
+- `thermalShockKernel` — 1D transient conduction into semi-infinite solid
+- `heatFluxKernel` — boundary layer heat flux along Z
+- `penetrationDepthKernel` — thermal penetration depth mask
+- `thermalSafetyFactorKernel` — material-specific safety factor map
+- `thermalStatsReduction` — min/max/avg temperature and stress
+
+**Material parameters (`DeviceThermalParams`):**
+- `k_w`, `rho_w`, `cp_w`, `alpha_te`, `E`, `nu`, `T_i`, `T_aw`, `h_g`
+
+**Test coverage (`cuda_thermal_test.cu`):**
+1. UHTC thermal properties validation
+2. Temperature field bounds checking `[T_i, T_aw]`
+3. Stress sign validation (compressive = negative)
+4. Penetration depth ratio calculation
+5. Safety factor distribution analysis
+6. Kernel timing measurement
+7. 5-device field copies for detailed inspection
+8. Unsafe voxel counting
+
+### `CudaRocketKernels.h` — Rocket Geometry Kernels
+
+**Kernels:**
+- `aerospikeSDFKernel` — plug body SDF with Prandtl-Meyer profile
+- `aerospikeMaterialKernel` — material ID from composite SDF
+- `schmuckerKernel` — oblique shock separation ratio
+- `supercriticalChannelKernel` — HTD-suppressed channel SDF
+- `compositeSolidKernel` — CSG union of aerospike + channels
+- `rocketStatsReduction` — SDF stats and material counts
+
+**Parameters:**
+- `DeviceAerospikeParams`: throat_radius, nu_exit, spike_length, channel_width, gyroid_scale, gamma
+- `DeviceSupercriticalChannelParams`: P, T_bulk, G, q_flux, D_h, T_pseudocritical, Delta_T_critical, HTD_Suppression_Factor, base_width
+
+**Test coverage (`cuda_rocket_test.cu`):**
+1. Aerospike plug SDF generation
+2. Gyroid channel SDF generation
+3. Composite solid CSG operation
+4. Material assignment (0=empty, 1=solid, 2=channel)
+5. Schmucker separation ratio analytical validation
+6. SDF bounds validation (min < 0 for solid)
+7. Base Z-plane solidity check
+8. Kernel timing (aerospike + composite)
+9. Material ID range validation (0-2 only)
+10. Device compute capability check
 
 ## Rocket Toolpath Generator
 
