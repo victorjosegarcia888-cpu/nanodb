@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "UHTCNanoDB",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "picogk_api_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-picogk_api_test-Release-d627edab95fa977b2779.json",
+					"name" : "picogk_api_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pnanovdb_portable_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pnanovdb_portable_test-Release-2a3067ae935fca3f7273.json",
+					"name" : "pnanovdb_portable_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "printer_slicer_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-printer_slicer_test-Release-ed922595dddc976c6614.json",
+					"name" : "printer_slicer_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uhtc_voxel_analysis_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uhtc_voxel_analysis_test-Release-54724b67198ab0a0fa3f.json",
+					"name" : "uhtc_voxel_analysis_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voxel_basic_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voxel_basic_test-Release-b6d23db15ce32cc7783a.json",
+					"name" : "voxel_basic_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voxel_cuda_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voxel_cuda_test-Release-e5b69fe2b5ee1f4f1a02.json",
+					"name" : "voxel_cuda_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voxel_sdf_cuda_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voxel_sdf_cuda_test-Release-bca12f671ed3a7e0f2bf.json",
+					"name" : "voxel_sdf_cuda_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspaces/uhtc-nanodb-/build",
+		"source" : "/workspaces/uhtc-nanodb-"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

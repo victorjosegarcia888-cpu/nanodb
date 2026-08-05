@@ -1,0 +1,1 @@
+/usr/bin/clang++ -O3 -DNDEBUG CMakeFiles/printer_slicer_test.dir/tests/printer_slicer_test.cpp.o -o printer_slicer_test  /usr/lib/x86_64-linux-gnu/libcudart.so 

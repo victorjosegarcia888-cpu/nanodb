@@ -166,6 +166,32 @@ uhtc_voxel_analysis_test/fast:
 .PHONY : uhtc_voxel_analysis_test/fast
 
 #=============================================================================
+# Target rules for targets named pnanovdb_portable_test
+
+# Build rule for target.
+pnanovdb_portable_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pnanovdb_portable_test
+.PHONY : pnanovdb_portable_test
+
+# fast build rule for target.
+pnanovdb_portable_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pnanovdb_portable_test.dir/build.make CMakeFiles/pnanovdb_portable_test.dir/build
+.PHONY : pnanovdb_portable_test/fast
+
+#=============================================================================
+# Target rules for targets named printer_slicer_test
+
+# Build rule for target.
+printer_slicer_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 printer_slicer_test
+.PHONY : printer_slicer_test
+
+# fast build rule for target.
+printer_slicer_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printer_slicer_test.dir/build.make CMakeFiles/printer_slicer_test.dir/build
+.PHONY : printer_slicer_test/fast
+
+#=============================================================================
 # Target rules for targets named voxel_cuda_test
 
 # Build rule for target.
@@ -214,6 +240,54 @@ tests/picogk_api_test.s: tests/picogk_api_test.cpp.s
 tests/picogk_api_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/picogk_api_test.dir/build.make CMakeFiles/picogk_api_test.dir/tests/picogk_api_test.cpp.s
 .PHONY : tests/picogk_api_test.cpp.s
+
+tests/pnanovdb_portable_test.o: tests/pnanovdb_portable_test.cpp.o
+.PHONY : tests/pnanovdb_portable_test.o
+
+# target to build an object file
+tests/pnanovdb_portable_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pnanovdb_portable_test.dir/build.make CMakeFiles/pnanovdb_portable_test.dir/tests/pnanovdb_portable_test.cpp.o
+.PHONY : tests/pnanovdb_portable_test.cpp.o
+
+tests/pnanovdb_portable_test.i: tests/pnanovdb_portable_test.cpp.i
+.PHONY : tests/pnanovdb_portable_test.i
+
+# target to preprocess a source file
+tests/pnanovdb_portable_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pnanovdb_portable_test.dir/build.make CMakeFiles/pnanovdb_portable_test.dir/tests/pnanovdb_portable_test.cpp.i
+.PHONY : tests/pnanovdb_portable_test.cpp.i
+
+tests/pnanovdb_portable_test.s: tests/pnanovdb_portable_test.cpp.s
+.PHONY : tests/pnanovdb_portable_test.s
+
+# target to generate assembly for a file
+tests/pnanovdb_portable_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pnanovdb_portable_test.dir/build.make CMakeFiles/pnanovdb_portable_test.dir/tests/pnanovdb_portable_test.cpp.s
+.PHONY : tests/pnanovdb_portable_test.cpp.s
+
+tests/printer_slicer_test.o: tests/printer_slicer_test.cpp.o
+.PHONY : tests/printer_slicer_test.o
+
+# target to build an object file
+tests/printer_slicer_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printer_slicer_test.dir/build.make CMakeFiles/printer_slicer_test.dir/tests/printer_slicer_test.cpp.o
+.PHONY : tests/printer_slicer_test.cpp.o
+
+tests/printer_slicer_test.i: tests/printer_slicer_test.cpp.i
+.PHONY : tests/printer_slicer_test.i
+
+# target to preprocess a source file
+tests/printer_slicer_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printer_slicer_test.dir/build.make CMakeFiles/printer_slicer_test.dir/tests/printer_slicer_test.cpp.i
+.PHONY : tests/printer_slicer_test.cpp.i
+
+tests/printer_slicer_test.s: tests/printer_slicer_test.cpp.s
+.PHONY : tests/printer_slicer_test.s
+
+# target to generate assembly for a file
+tests/printer_slicer_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printer_slicer_test.dir/build.make CMakeFiles/printer_slicer_test.dir/tests/printer_slicer_test.cpp.s
+.PHONY : tests/printer_slicer_test.cpp.s
 
 tests/uhtc_voxel_analysis_test.o: tests/uhtc_voxel_analysis_test.cpp.o
 .PHONY : tests/uhtc_voxel_analysis_test.o
@@ -321,6 +395,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... picogk_api_test"
+	@echo "... pnanovdb_portable_test"
+	@echo "... printer_slicer_test"
 	@echo "... uhtc_voxel_analysis_test"
 	@echo "... voxel_basic_test"
 	@echo "... voxel_cuda_test"
@@ -328,6 +404,12 @@ help:
 	@echo "... tests/picogk_api_test.o"
 	@echo "... tests/picogk_api_test.i"
 	@echo "... tests/picogk_api_test.s"
+	@echo "... tests/pnanovdb_portable_test.o"
+	@echo "... tests/pnanovdb_portable_test.i"
+	@echo "... tests/pnanovdb_portable_test.s"
+	@echo "... tests/printer_slicer_test.o"
+	@echo "... tests/printer_slicer_test.i"
+	@echo "... tests/printer_slicer_test.s"
 	@echo "... tests/uhtc_voxel_analysis_test.o"
 	@echo "... tests/uhtc_voxel_analysis_test.i"
 	@echo "... tests/uhtc_voxel_analysis_test.s"

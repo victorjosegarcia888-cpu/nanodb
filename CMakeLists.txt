@@ -31,6 +31,16 @@ add_executable(uhtc_voxel_analysis_test
 )
 target_link_libraries(uhtc_voxel_analysis_test PRIVATE CUDA::cudart)
 
+add_executable(pnanovdb_portable_test
+  tests/pnanovdb_portable_test.cpp
+)
+target_link_libraries(pnanovdb_portable_test PRIVATE CUDA::cudart)
+
+add_executable(printer_slicer_test
+  tests/printer_slicer_test.cpp
+)
+target_link_libraries(printer_slicer_test PRIVATE CUDA::cudart)
+
 # CUDA voxel test (compiles .cu if available)
 enable_language(CUDA)
 add_executable(voxel_cuda_test
@@ -48,5 +58,7 @@ enable_testing()
 add_test(NAME picogk_api_test COMMAND picogk_api_test)
 add_test(NAME voxel_basic_test COMMAND voxel_basic_test)
 add_test(NAME uhtc_voxel_analysis_test COMMAND uhtc_voxel_analysis_test)
+add_test(NAME pnanovdb_portable_test COMMAND pnanovdb_portable_test)
+add_test(NAME printer_slicer_test COMMAND printer_slicer_test)
 add_test(NAME voxel_cuda_test COMMAND voxel_cuda_test)
 add_test(NAME voxel_sdf_cuda_test COMMAND voxel_sdf_cuda_test)

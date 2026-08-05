@@ -1,1 +1,1 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.o -o uhtc_voxel_analysis_test  /usr/lib/x86_64-linux-gnu/libcudart.so 
+/usr/bin/clang++ -O3 -DNDEBUG CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.o -o uhtc_voxel_analysis_test  /usr/lib/x86_64-linux-gnu/libcudart.so 

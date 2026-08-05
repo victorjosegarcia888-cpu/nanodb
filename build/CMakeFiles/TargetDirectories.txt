@@ -1,6 +1,8 @@
 /workspaces/uhtc-nanodb-/build/CMakeFiles/picogk_api_test.dir
 /workspaces/uhtc-nanodb-/build/CMakeFiles/voxel_basic_test.dir
 /workspaces/uhtc-nanodb-/build/CMakeFiles/uhtc_voxel_analysis_test.dir
+/workspaces/uhtc-nanodb-/build/CMakeFiles/pnanovdb_portable_test.dir
+/workspaces/uhtc-nanodb-/build/CMakeFiles/printer_slicer_test.dir
 /workspaces/uhtc-nanodb-/build/CMakeFiles/voxel_cuda_test.dir
 /workspaces/uhtc-nanodb-/build/CMakeFiles/voxel_sdf_cuda_test.dir
 /workspaces/uhtc-nanodb-/build/CMakeFiles/test.dir

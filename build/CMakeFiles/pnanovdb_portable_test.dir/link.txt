@@ -1,0 +1,1 @@
+/usr/bin/clang++ -O3 -DNDEBUG CMakeFiles/pnanovdb_portable_test.dir/tests/pnanovdb_portable_test.cpp.o -o pnanovdb_portable_test  /usr/lib/x86_64-linux-gnu/libcudart.so 

@@ -73,15 +73,15 @@ CMakeFiles/voxel_basic_test.dir/tests/voxel_basic_test.cpp.o: CMakeFiles/voxel_b
 CMakeFiles/voxel_basic_test.dir/tests/voxel_basic_test.cpp.o: /workspaces/uhtc-nanodb-/tests/voxel_basic_test.cpp
 CMakeFiles/voxel_basic_test.dir/tests/voxel_basic_test.cpp.o: CMakeFiles/voxel_basic_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/uhtc-nanodb-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/voxel_basic_test.dir/tests/voxel_basic_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/voxel_basic_test.dir/tests/voxel_basic_test.cpp.o -MF CMakeFiles/voxel_basic_test.dir/tests/voxel_basic_test.cpp.o.d -o CMakeFiles/voxel_basic_test.dir/tests/voxel_basic_test.cpp.o -c /workspaces/uhtc-nanodb-/tests/voxel_basic_test.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/voxel_basic_test.dir/tests/voxel_basic_test.cpp.o -MF CMakeFiles/voxel_basic_test.dir/tests/voxel_basic_test.cpp.o.d -o CMakeFiles/voxel_basic_test.dir/tests/voxel_basic_test.cpp.o -c /workspaces/uhtc-nanodb-/tests/voxel_basic_test.cpp
 
 CMakeFiles/voxel_basic_test.dir/tests/voxel_basic_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/voxel_basic_test.dir/tests/voxel_basic_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/uhtc-nanodb-/tests/voxel_basic_test.cpp > CMakeFiles/voxel_basic_test.dir/tests/voxel_basic_test.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/uhtc-nanodb-/tests/voxel_basic_test.cpp > CMakeFiles/voxel_basic_test.dir/tests/voxel_basic_test.cpp.i
 
 CMakeFiles/voxel_basic_test.dir/tests/voxel_basic_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/voxel_basic_test.dir/tests/voxel_basic_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/uhtc-nanodb-/tests/voxel_basic_test.cpp -o CMakeFiles/voxel_basic_test.dir/tests/voxel_basic_test.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/uhtc-nanodb-/tests/voxel_basic_test.cpp -o CMakeFiles/voxel_basic_test.dir/tests/voxel_basic_test.cpp.s
 
 # Object files for target voxel_basic_test
 voxel_basic_test_OBJECTS = \

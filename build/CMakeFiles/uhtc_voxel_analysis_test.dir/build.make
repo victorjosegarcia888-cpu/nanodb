@@ -73,15 +73,15 @@ CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.o: CM
 CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.o: /workspaces/uhtc-nanodb-/tests/uhtc_voxel_analysis_test.cpp
 CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.o: CMakeFiles/uhtc_voxel_analysis_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/uhtc-nanodb-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.o -MF CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.o.d -o CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.o -c /workspaces/uhtc-nanodb-/tests/uhtc_voxel_analysis_test.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.o -MF CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.o.d -o CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.o -c /workspaces/uhtc-nanodb-/tests/uhtc_voxel_analysis_test.cpp
 
 CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/uhtc-nanodb-/tests/uhtc_voxel_analysis_test.cpp > CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/uhtc-nanodb-/tests/uhtc_voxel_analysis_test.cpp > CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.i
 
 CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/uhtc-nanodb-/tests/uhtc_voxel_analysis_test.cpp -o CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/uhtc-nanodb-/tests/uhtc_voxel_analysis_test.cpp -o CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.s
 
 # Object files for target uhtc_voxel_analysis_test
 uhtc_voxel_analysis_test_OBJECTS = \

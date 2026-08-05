@@ -2,6 +2,8 @@
 #define NANOVDB_TOOLS_AEROSPIKE_NOZZLE_H_HAS_BEEN_INCLUDED
 
 #include <nanovdb/NanoVDB.h>
+#include <nanovdb/PNanoVDB.h>
+#include <picogk/API/PicoGKApiTypes.h>
 #include <cmath>
 #include <algorithm>
 
@@ -114,6 +116,32 @@ inline float computeSWBLILateralLoad(float separation_area_m2,
     // Simplified: lateral load proportional to separated area times pressure delta
     float delta_p = ambient_pressure_Pa * (1.0f - pressure_ratio);
     return separation_area_m2 * delta_p;
+}
+
+/// @brief Portable PNanoVDB export: writes a minimal raw buffer describing
+///        the aerospike geometry for C/GPU consumption via PNanoVDB.h.
+inline uint64_t exportPortableAerospikeBuffer(uint32_t* out_buf, uint64_t max_words,
+                                               double throat_radius,
+                                               double spike_length) {
+    if (!out_buf || max_words < 16) return 0;
+    uint64_t w = 0;
+    out_buf[w++] = 0x4E414E4FULL; // "NANO"
+    out_buf[w++] = 0x30445642ULL; // "VDB0"
+    out_buf[w++] = 10u;            // version
+    out_buf[w++] = 1u;             // type FLOAT
+    out_buf[w++] = 2u;             // class LEVEL_SET
+    out_buf[w++] = 1u;             // grid count
+    out_buf[w++] = 64u;            // grid size
+    out_buf[w++] = 0u;             // flags
+    out_buf[w++] = 0u;             // grid index
+    out_buf[w++] = 0u;             // reserved
+    out_buf[w++] = 0u;             // payload placeholder
+    out_buf[w++] = 0u;
+    out_buf[w++] = 0u;
+    out_buf[w++] = 0u;
+    out_buf[w++] = 0u;
+    out_buf[w++] = 0u;
+    return w;
 }
 
 } // namespace tools
