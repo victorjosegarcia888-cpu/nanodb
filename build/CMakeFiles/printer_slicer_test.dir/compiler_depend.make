@@ -342,6 +342,7 @@ CMakeFiles/printer_slicer_test.dir/tests/printer_slicer_test.cpp.o: /workspaces/
   /workspaces/uhtc-nanodb-/nanodb/nanovdb/HostBuffer.h \
   /workspaces/uhtc-nanodb-/nanodb/nanovdb/NanoVDB.h \
   /workspaces/uhtc-nanodb-/nanodb/nanovdb/NodeManager.h \
+  /workspaces/uhtc-nanodb-/nanodb/nanovdb/PNanoVDB.h \
   /workspaces/uhtc-nanodb-/nanodb/nanovdb/math/Math.h \
   /workspaces/uhtc-nanodb-/nanodb/nanovdb/tools/AerospikeNozzle.h \
   /workspaces/uhtc-nanodb-/nanodb/nanovdb/tools/GridBuilder.h \
@@ -351,8 +352,11 @@ CMakeFiles/printer_slicer_test.dir/tests/printer_slicer_test.cpp.o: /workspaces/
   /workspaces/uhtc-nanodb-/nanodb/nanovdb/tools/TransientThermalShock.h \
   /workspaces/uhtc-nanodb-/nanodb/nanovdb/util/ForEach.h \
   /workspaces/uhtc-nanodb-/nanodb/nanovdb/util/Range.h \
-  /workspaces/uhtc-nanodb-/nanodb/nanovdb/util/Util.h
+  /workspaces/uhtc-nanodb-/nanodb/nanovdb/util/Util.h \
+  /workspaces/uhtc-nanodb-/picogk/API/PicoGKApiTypes.h
 
+
+/workspaces/uhtc-nanodb-/picogk/API/PicoGKApiTypes.h:
 
 /workspaces/uhtc-nanodb-/nanodb/nanovdb/tools/TransientThermalShock.h:
 
@@ -559,6 +563,8 @@ CMakeFiles/printer_slicer_test.dir/tests/printer_slicer_test.cpp.o: /workspaces/
 /usr/include/c++/13/bits/std_mutex.h:
 
 /usr/include/c++/13/bits/stl_bvector.h:
+
+/workspaces/uhtc-nanodb-/nanodb/nanovdb/PNanoVDB.h:
 
 /usr/include/c++/13/bits/allocator.h:
 

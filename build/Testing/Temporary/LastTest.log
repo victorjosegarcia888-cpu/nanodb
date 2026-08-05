@@ -1,10 +1,10 @@
-Start testing: Aug 05 15:48 UTC
+Start testing: Aug 05 15:54 UTC
 ----------------------------------------------------------
-1/6 Testing: picogk_api_test
-1/6 Test: picogk_api_test
+1/7 Testing: picogk_api_test
+1/7 Test: picogk_api_test
 Command: "/workspaces/uhtc-nanodb-/build/picogk_api_test"
 Directory: /workspaces/uhtc-nanodb-/build
-"picogk_api_test" start time: Aug 05 15:48 UTC
+"picogk_api_test" start time: Aug 05 15:54 UTC
 Output:
 ----------------------------------------------------------
 === PicoGK API Test ===
@@ -22,15 +22,15 @@ PicoGK API type tests passed.
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"picogk_api_test" end time: Aug 05 15:48 UTC
+"picogk_api_test" end time: Aug 05 15:54 UTC
 "picogk_api_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/6 Testing: voxel_basic_test
-2/6 Test: voxel_basic_test
+2/7 Testing: voxel_basic_test
+2/7 Test: voxel_basic_test
 Command: "/workspaces/uhtc-nanodb-/build/voxel_basic_test"
 Directory: /workspaces/uhtc-nanodb-/build
-"voxel_basic_test" start time: Aug 05 15:48 UTC
+"voxel_basic_test" start time: Aug 05 15:54 UTC
 Output:
 ----------------------------------------------------------
 === UHTC-NanoDB Voxel Test ===
@@ -45,15 +45,15 @@ All compilation tests passed.
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"voxel_basic_test" end time: Aug 05 15:48 UTC
+"voxel_basic_test" end time: Aug 05 15:54 UTC
 "voxel_basic_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/6 Testing: uhtc_voxel_analysis_test
-3/6 Test: uhtc_voxel_analysis_test
+3/7 Testing: uhtc_voxel_analysis_test
+3/7 Test: uhtc_voxel_analysis_test
 Command: "/workspaces/uhtc-nanodb-/build/uhtc_voxel_analysis_test"
 Directory: /workspaces/uhtc-nanodb-/build
-"uhtc_voxel_analysis_test" start time: Aug 05 15:48 UTC
+"uhtc_voxel_analysis_test" start time: Aug 05 15:54 UTC
 Output:
 ----------------------------------------------------------
 === UHTC Thermal/Fluid/Nozzle Voxel Tests ===
@@ -66,15 +66,15 @@ All UHTC voxel analysis tests passed.
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"uhtc_voxel_analysis_test" end time: Aug 05 15:48 UTC
+"uhtc_voxel_analysis_test" end time: Aug 05 15:54 UTC
 "uhtc_voxel_analysis_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/6 Testing: pnanovdb_portable_test
-4/6 Test: pnanovdb_portable_test
+4/7 Testing: pnanovdb_portable_test
+4/7 Test: pnanovdb_portable_test
 Command: "/workspaces/uhtc-nanodb-/build/pnanovdb_portable_test"
 Directory: /workspaces/uhtc-nanodb-/build
-"pnanovdb_portable_test" start time: Aug 05 15:48 UTC
+"pnanovdb_portable_test" start time: Aug 05 15:54 UTC
 Output:
 ----------------------------------------------------------
 === PNanoVDB Portable C/GPU Test ===
@@ -84,15 +84,57 @@ PNanoVDB portable C/GPU test passed.
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"pnanovdb_portable_test" end time: Aug 05 15:48 UTC
+"pnanovdb_portable_test" end time: Aug 05 15:54 UTC
 "pnanovdb_portable_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/6 Testing: voxel_cuda_test
-5/6 Test: voxel_cuda_test
+5/7 Testing: printer_slicer_test
+5/7 Test: printer_slicer_test
+Command: "/workspaces/uhtc-nanodb-/build/printer_slicer_test"
+Directory: /workspaces/uhtc-nanodb-/build
+"printer_slicer_test" start time: Aug 05 15:54 UTC
+Output:
+----------------------------------------------------------
+=== Printer Slicer / Output Module Test ===
+Printer: EOS M400-4, family=LPBF, material=Inconel/Ti64
+Printer: SLM Solutions NXG XII 600, family=LPBF, material=Inconel/Ti64
+Printer: Renishaw RenAM 500Q, family=LPBF, material=Inconel/Ti64
+Printer: Arcam EBM Q20+, family=EBM, material=Ti64
+Printer: DMG Mori Lasertec 4300, family=DED, material=Inconel/Ti64
+Printer: Lithoz CeraFab S65, family=Ceramic, material=Ceramic
+Material: Inconel 718, density=8190 kg/m3, Tm=1608 K
+Material: Ti-6Al-4V, density=4420 kg/m3, Tm=1933 K
+Material: ZrB2/TaC, density=6000 kg/m3, Tm=3500 K
+Material: Monolithic Weave II, density=5800 kg/m3, Tm=3400 K
+Material: Modified Borosilicate, density=2200 kg/m3, Tm=1500 K
+Printer: EOS M400-4 (LPBF)
+Material: Inconel 718
+Layer thickness: 60.0 um
+Infill: 100.0%
+Supports: Yes
+Laser power: 200.0 W
+Scan speed: 1000.0 mm/s
+SLM NXG XII 600 Ti64: layer=60.0 um, infill=100.0%
+STL write: OK
+CLI write: OK
+Thermal PNanoVDB export: 18 words
+Channel PNanoVDB export: 16 words
+Aerospike PNanoVDB export: 16 words
+Thermal buffer magic: 0x4e414e4f30445642
+Printer slicer/output module test passed.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"printer_slicer_test" end time: Aug 05 15:54 UTC
+"printer_slicer_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/7 Testing: voxel_cuda_test
+6/7 Test: voxel_cuda_test
 Command: "/workspaces/uhtc-nanodb-/build/voxel_cuda_test"
 Directory: /workspaces/uhtc-nanodb-/build
-"voxel_cuda_test" start time: Aug 05 15:48 UTC
+"voxel_cuda_test" start time: Aug 05 15:54 UTC
 Output:
 ----------------------------------------------------------
 === CUDA Voxel Test ===
@@ -102,15 +144,15 @@ CUDA compilation test: PASSED (code compiles, runtime requires GPU)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"voxel_cuda_test" end time: Aug 05 15:48 UTC
+"voxel_cuda_test" end time: Aug 05 15:54 UTC
 "voxel_cuda_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-6/6 Testing: voxel_sdf_cuda_test
-6/6 Test: voxel_sdf_cuda_test
+7/7 Testing: voxel_sdf_cuda_test
+7/7 Test: voxel_sdf_cuda_test
 Command: "/workspaces/uhtc-nanodb-/build/voxel_sdf_cuda_test"
 Directory: /workspaces/uhtc-nanodb-/build
-"voxel_sdf_cuda_test" start time: Aug 05 15:48 UTC
+"voxel_sdf_cuda_test" start time: Aug 05 15:54 UTC
 Output:
 ----------------------------------------------------------
 === CUDA Voxel SDF + Material Count Test ===
@@ -120,8 +162,8 @@ Compilation-only mode: PASS
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"voxel_sdf_cuda_test" end time: Aug 05 15:48 UTC
+"voxel_sdf_cuda_test" end time: Aug 05 15:54 UTC
 "voxel_sdf_cuda_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Aug 05 15:48 UTC
+End testing: Aug 05 15:54 UTC

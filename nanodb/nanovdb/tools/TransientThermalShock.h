@@ -4,6 +4,9 @@
 #include <nanovdb/NanoVDB.h>
 #include <nanovdb/GridHandle.h>
 #include <nanovdb/tools/GridBuilder.h>
+#define PNANOVDB_C
+#define PNANOVDB_ADDRESS_64
+#include <nanovdb/PNanoVDB.h>
 #include <cmath>
 #include <algorithm>
 

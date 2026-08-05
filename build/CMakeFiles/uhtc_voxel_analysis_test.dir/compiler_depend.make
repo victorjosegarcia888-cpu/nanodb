@@ -342,6 +342,7 @@ CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.o: /w
   /workspaces/uhtc-nanodb-/nanodb/nanovdb/HostBuffer.h \
   /workspaces/uhtc-nanodb-/nanodb/nanovdb/NanoVDB.h \
   /workspaces/uhtc-nanodb-/nanodb/nanovdb/NodeManager.h \
+  /workspaces/uhtc-nanodb-/nanodb/nanovdb/PNanoVDB.h \
   /workspaces/uhtc-nanodb-/nanodb/nanovdb/math/Math.h \
   /workspaces/uhtc-nanodb-/nanodb/nanovdb/tools/AerospikeNozzle.h \
   /workspaces/uhtc-nanodb-/nanodb/nanovdb/tools/GridBuilder.h \
@@ -561,6 +562,8 @@ CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.o: /w
 /usr/include/c++/13/bits/std_mutex.h:
 
 /usr/include/c++/13/bits/stl_bvector.h:
+
+/workspaces/uhtc-nanodb-/nanodb/nanovdb/PNanoVDB.h:
 
 /usr/include/c++/13/bits/allocator.h:
 

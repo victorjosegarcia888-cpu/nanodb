@@ -331,5 +331,7 @@ CMakeFiles/printer_slicer_test.dir/tests/printer_slicer_test.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_tree.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_map.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_multimap.h \
+  /workspaces/uhtc-nanodb-/nanodb/nanovdb/PNanoVDB.h \
   /workspaces/uhtc-nanodb-/nanodb/nanovdb/tools/SupercriticalChannel.h \
+  /workspaces/uhtc-nanodb-/picogk/API/PicoGKApiTypes.h \
   /workspaces/uhtc-nanodb-/nanodb/nanovdb/tools/AerospikeNozzle.h

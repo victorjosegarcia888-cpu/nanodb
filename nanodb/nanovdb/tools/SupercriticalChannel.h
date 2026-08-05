@@ -2,6 +2,8 @@
 #define NANOVDB_TOOLS_SUPERCRITICAL_CHANNEL_H_HAS_BEEN_INCLUDED
 
 #include <nanovdb/NanoVDB.h>
+#define PNANOVDB_C
+#define PNANOVDB_ADDRESS_64
 #include <nanovdb/PNanoVDB.h>
 #include <picogk/API/PicoGKApiTypes.h>
 #include <cmath>

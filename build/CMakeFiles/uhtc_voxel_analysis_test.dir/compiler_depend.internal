@@ -343,6 +343,7 @@ CMakeFiles/uhtc_voxel_analysis_test.dir/tests/uhtc_voxel_analysis_test.cpp.o
  /workspaces/uhtc-nanodb-/nanodb/nanovdb/HostBuffer.h
  /workspaces/uhtc-nanodb-/nanodb/nanovdb/NanoVDB.h
  /workspaces/uhtc-nanodb-/nanodb/nanovdb/NodeManager.h
+ /workspaces/uhtc-nanodb-/nanodb/nanovdb/PNanoVDB.h
  /workspaces/uhtc-nanodb-/nanodb/nanovdb/math/Math.h
  /workspaces/uhtc-nanodb-/nanodb/nanovdb/tools/AerospikeNozzle.h
  /workspaces/uhtc-nanodb-/nanodb/nanovdb/tools/GridBuilder.h

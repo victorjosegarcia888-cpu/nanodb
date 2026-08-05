@@ -1,3 +1,5 @@
+#define PNANOVDB_C
+#define PNANOVDB_ADDRESS_64
 #include <cstdio>
 #include <cstring>
 #include <cmath>
