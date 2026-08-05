@@ -1,8 +1,9 @@
-picogk_api_test 8 0.000365758
-voxel_basic_test 8 0.00232946
-voxel_cuda_test 7 0.00253974
-uhtc_voxel_analysis_test 6 0.000594677
-voxel_sdf_cuda_test 5 0.00309464
-pnanovdb_portable_test 2 0.00159321
-printer_slicer_test 1 0.00352417
+picogk_api_test 10 0.000421719
+voxel_basic_test 10 0.00209666
+voxel_cuda_test 9 0.00196839
+uhtc_voxel_analysis_test 9 0.000414671
+voxel_sdf_cuda_test 7 0.00301899
+pnanovdb_portable_test 4 0.00105979
+printer_slicer_test 3 0.00146799
+rocket_toolpath_test 2 0.00828026
 ---

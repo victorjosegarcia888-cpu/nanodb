@@ -21,14 +21,48 @@
 	TotalVirtualMemory="0"
 	TotalPhysicalMemory="15995"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="2870.06"
+	ProcessorClockFrequency="2870.28"
 	>
 	<Testing>
-		<StartDateTime>Aug 05 15:49 UTC</StartDateTime>
-		<StartTestTime>1785944949</StartTestTime>
-		<TestList/>
-		<EndDateTime>Aug 05 15:49 UTC</EndDateTime>
-		<EndTestTime>1785944949</EndTestTime>
+		<StartDateTime>Aug 05 16:05 UTC</StartDateTime>
+		<StartTestTime>1785945916</StartTestTime>
+		<TestList>
+			<Test>./uhtc_voxel_analysis_test</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>uhtc_voxel_analysis_test</Name>
+			<Path>.</Path>
+			<FullName>./uhtc_voxel_analysis_test</FullName>
+			<FullCommandLine>/workspaces/uhtc-nanodb-/build/uhtc_voxel_analysis_test</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00494614</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/workspaces/uhtc-nanodb-/build/uhtc_voxel_analysis_test</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>=== UHTC Thermal/Fluid/Nozzle Voxel Tests ===
+[1] Transient thermal shock... OK
+[2] Supercritical channel / HTD... OK
+[3] Aerospike nozzle / SWBLI... OK
+
+All UHTC voxel analysis tests passed.
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Aug 05 16:05 UTC</EndDateTime>
+		<EndTestTime>1785945916</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

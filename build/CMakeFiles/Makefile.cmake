@@ -64,6 +64,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uhtc_voxel_analysis_test.dir/DependInfo.cmake"
   "CMakeFiles/pnanovdb_portable_test.dir/DependInfo.cmake"
   "CMakeFiles/printer_slicer_test.dir/DependInfo.cmake"
+  "CMakeFiles/rocket_toolpath_test.dir/DependInfo.cmake"
   "CMakeFiles/voxel_cuda_test.dir/DependInfo.cmake"
   "CMakeFiles/voxel_sdf_cuda_test.dir/DependInfo.cmake"
   )

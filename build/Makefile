@@ -192,6 +192,19 @@ printer_slicer_test/fast:
 .PHONY : printer_slicer_test/fast
 
 #=============================================================================
+# Target rules for targets named rocket_toolpath_test
+
+# Build rule for target.
+rocket_toolpath_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rocket_toolpath_test
+.PHONY : rocket_toolpath_test
+
+# fast build rule for target.
+rocket_toolpath_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rocket_toolpath_test.dir/build.make CMakeFiles/rocket_toolpath_test.dir/build
+.PHONY : rocket_toolpath_test/fast
+
+#=============================================================================
 # Target rules for targets named voxel_cuda_test
 
 # Build rule for target.
@@ -288,6 +301,30 @@ tests/printer_slicer_test.s: tests/printer_slicer_test.cpp.s
 tests/printer_slicer_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/printer_slicer_test.dir/build.make CMakeFiles/printer_slicer_test.dir/tests/printer_slicer_test.cpp.s
 .PHONY : tests/printer_slicer_test.cpp.s
+
+tests/rocket_toolpath_test.o: tests/rocket_toolpath_test.cpp.o
+.PHONY : tests/rocket_toolpath_test.o
+
+# target to build an object file
+tests/rocket_toolpath_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rocket_toolpath_test.dir/build.make CMakeFiles/rocket_toolpath_test.dir/tests/rocket_toolpath_test.cpp.o
+.PHONY : tests/rocket_toolpath_test.cpp.o
+
+tests/rocket_toolpath_test.i: tests/rocket_toolpath_test.cpp.i
+.PHONY : tests/rocket_toolpath_test.i
+
+# target to preprocess a source file
+tests/rocket_toolpath_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rocket_toolpath_test.dir/build.make CMakeFiles/rocket_toolpath_test.dir/tests/rocket_toolpath_test.cpp.i
+.PHONY : tests/rocket_toolpath_test.cpp.i
+
+tests/rocket_toolpath_test.s: tests/rocket_toolpath_test.cpp.s
+.PHONY : tests/rocket_toolpath_test.s
+
+# target to generate assembly for a file
+tests/rocket_toolpath_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rocket_toolpath_test.dir/build.make CMakeFiles/rocket_toolpath_test.dir/tests/rocket_toolpath_test.cpp.s
+.PHONY : tests/rocket_toolpath_test.cpp.s
 
 tests/uhtc_voxel_analysis_test.o: tests/uhtc_voxel_analysis_test.cpp.o
 .PHONY : tests/uhtc_voxel_analysis_test.o
@@ -397,6 +434,7 @@ help:
 	@echo "... picogk_api_test"
 	@echo "... pnanovdb_portable_test"
 	@echo "... printer_slicer_test"
+	@echo "... rocket_toolpath_test"
 	@echo "... uhtc_voxel_analysis_test"
 	@echo "... voxel_basic_test"
 	@echo "... voxel_cuda_test"
@@ -410,6 +448,9 @@ help:
 	@echo "... tests/printer_slicer_test.o"
 	@echo "... tests/printer_slicer_test.i"
 	@echo "... tests/printer_slicer_test.s"
+	@echo "... tests/rocket_toolpath_test.o"
+	@echo "... tests/rocket_toolpath_test.i"
+	@echo "... tests/rocket_toolpath_test.s"
 	@echo "... tests/uhtc_voxel_analysis_test.o"
 	@echo "... tests/uhtc_voxel_analysis_test.i"
 	@echo "... tests/uhtc_voxel_analysis_test.s"

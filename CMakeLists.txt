@@ -41,6 +41,26 @@ add_executable(printer_slicer_test
 )
 target_link_libraries(printer_slicer_test PRIVATE CUDA::cudart)
 
+add_executable(rocket_toolpath_test
+  tests/rocket_toolpath_test.cpp
+)
+target_link_libraries(rocket_toolpath_test PRIVATE CUDA::cudart)
+
+# Optional PicoGK viewer (requires OpenGL/GLFW)
+option(BUILD_PICOGK_VIEWER "Build PicoGK GL viewer" OFF)
+if(BUILD_PICOGK_VIEWER)
+  find_package(OpenGL REQUIRED)
+  find_package(glfw3 REQUIRED)
+  add_executable(picogk_viewer
+    picogk/Source/PicoGKGLViewer.cpp
+    picogk/Source/PicoGKGLViewerGui.cpp
+    picogk/Source/PicoGKGLViewerManager.cpp
+    picogk/Source/PicoGKGLViewerObjects.cpp
+    picogk/Source/PicoGKGLViewerShaders.cpp
+  )
+  target_link_libraries(picogk_viewer PRIVATE OpenGL::GL glfw CUDA::cudart)
+endif()
+
 # CUDA voxel test (compiles .cu if available)
 enable_language(CUDA)
 add_executable(voxel_cuda_test
@@ -60,5 +80,6 @@ add_test(NAME voxel_basic_test COMMAND voxel_basic_test)
 add_test(NAME uhtc_voxel_analysis_test COMMAND uhtc_voxel_analysis_test)
 add_test(NAME pnanovdb_portable_test COMMAND pnanovdb_portable_test)
 add_test(NAME printer_slicer_test COMMAND printer_slicer_test)
+add_test(NAME rocket_toolpath_test COMMAND rocket_toolpath_test)
 add_test(NAME voxel_cuda_test COMMAND voxel_cuda_test)
 add_test(NAME voxel_sdf_cuda_test COMMAND voxel_sdf_cuda_test)
