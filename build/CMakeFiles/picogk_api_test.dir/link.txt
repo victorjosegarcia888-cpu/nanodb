@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/picogk_api_test.dir/tests/picogk_api_test.cpp.o -o picogk_api_test  /usr/lib/x86_64-linux-gnu/libcudart.so 

@@ -1,0 +1,91 @@
+Start testing: Aug 05 15:20 UTC
+----------------------------------------------------------
+1/4 Testing: picogk_api_test
+1/4 Test: picogk_api_test
+Command: "/workspaces/uhtc-nanodb-/build/picogk_api_test"
+Directory: /workspaces/uhtc-nanodb-/build
+"picogk_api_test" start time: Aug 05 15:20 UTC
+Output:
+----------------------------------------------------------
+=== PicoGK API Test ===
+Library: picogk
+Version: 26.2.0
+Build: 2026-06-05 21:31:47
+PKVector3 sizeof=12
+PKBBox3 sizeof=24
+PKTriangle sizeof=12
+Vec: (1.000000, 2.000000, 3.000000)
+Box: min(0.000000,0.000000,0.000000) max(10.000000,10.000000,10.000000)
+Tri: 0 1 2
+PicoGK API type tests passed.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"picogk_api_test" end time: Aug 05 15:20 UTC
+"picogk_api_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: voxel_basic_test
+2/4 Test: voxel_basic_test
+Command: "/workspaces/uhtc-nanodb-/build/voxel_basic_test"
+Directory: /workspaces/uhtc-nanodb-/build
+"voxel_basic_test" start time: Aug 05 15:20 UTC
+Output:
+----------------------------------------------------------
+=== UHTC-NanoDB Voxel Test ===
+[1] PicoGK types... OK
+[2] CUDA runtime... NO GPU (expected in codespace)
+[3] OpenVDB tools headers... OK
+[4] NanoDB CUDA tools headers... OK
+[5] Voxel math... grid 64x64x64 = 262144 voxels... OK
+
+All compilation tests passed.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"voxel_basic_test" end time: Aug 05 15:20 UTC
+"voxel_basic_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: uhtc_voxel_analysis_test
+3/4 Test: uhtc_voxel_analysis_test
+Command: "/workspaces/uhtc-nanodb-/build/uhtc_voxel_analysis_test"
+Directory: /workspaces/uhtc-nanodb-/build
+"uhtc_voxel_analysis_test" start time: Aug 05 15:20 UTC
+Output:
+----------------------------------------------------------
+=== UHTC Thermal/Fluid/Nozzle Voxel Tests ===
+[1] Transient thermal shock... OK
+[2] Supercritical channel / HTD... OK
+[3] Aerospike nozzle / SWBLI... OK
+
+All UHTC voxel analysis tests passed.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"uhtc_voxel_analysis_test" end time: Aug 05 15:20 UTC
+"uhtc_voxel_analysis_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: voxel_cuda_test
+4/4 Test: voxel_cuda_test
+Command: "/workspaces/uhtc-nanodb-/build/voxel_cuda_test"
+Directory: /workspaces/uhtc-nanodb-/build
+"voxel_cuda_test" start time: Aug 05 15:20 UTC
+Output:
+----------------------------------------------------------
+=== CUDA Voxel Test ===
+No CUDA-capable device detected (expected in headless codespace).
+CUDA compilation test: PASSED (code compiles, runtime requires GPU)
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"voxel_cuda_test" end time: Aug 05 15:20 UTC
+"voxel_cuda_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 05 15:20 UTC

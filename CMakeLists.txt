@@ -1,0 +1,46 @@
+cmake_minimum_required(VERSION 3.24)
+project(UHTCNanoDB LANGUAGES CXX C)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# CUDA
+find_package(CUDAToolkit REQUIRED)
+
+# OpenVDB/NanoVDB headers (standalone for now)
+include_directories(
+  ${CMAKE_CURRENT_SOURCE_DIR}
+  ${CMAKE_CURRENT_SOURCE_DIR}/nanodb
+  ${CMAKE_CURRENT_SOURCE_DIR}/picogk/API
+  ${CMAKE_CURRENT_SOURCE_DIR}/openvdb
+)
+
+# PicoGK API tests
+add_executable(picogk_api_test
+  tests/picogk_api_test.cpp
+)
+target_link_libraries(picogk_api_test PRIVATE CUDA::cudart)
+
+add_executable(voxel_basic_test
+  tests/voxel_basic_test.cpp
+)
+target_link_libraries(voxel_basic_test PRIVATE CUDA::cudart)
+
+add_executable(uhtc_voxel_analysis_test
+  tests/uhtc_voxel_analysis_test.cpp
+)
+target_link_libraries(uhtc_voxel_analysis_test PRIVATE CUDA::cudart)
+
+# CUDA voxel test (compiles .cu if available)
+enable_language(CUDA)
+add_executable(voxel_cuda_test
+  tests/voxel_cuda_test.cu
+)
+target_link_libraries(voxel_cuda_test PRIVATE CUDA::cudart)
+
+# Tests
+enable_testing()
+add_test(NAME picogk_api_test COMMAND picogk_api_test)
+add_test(NAME voxel_basic_test COMMAND voxel_basic_test)
+add_test(NAME uhtc_voxel_analysis_test COMMAND uhtc_voxel_analysis_test)
+add_test(NAME voxel_cuda_test COMMAND voxel_cuda_test)

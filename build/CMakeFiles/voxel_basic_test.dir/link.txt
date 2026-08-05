@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/voxel_basic_test.dir/tests/voxel_basic_test.cpp.o -o voxel_basic_test  /usr/lib/x86_64-linux-gnu/libcudart.so 
