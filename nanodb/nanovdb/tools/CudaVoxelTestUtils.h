@@ -7,6 +7,21 @@
 #include <cmath>
 #include <chrono>
 
+// Macros must be defined before any code that uses them
+#define CUDA_CHECK(call) \
+    do { \
+        cudaError_t _err = (call); \
+        nanovdb::tools::cuda_tools::CudaError _ce(_err, __FILE__, __LINE__); \
+        if (_ce) _ce.report(#call); \
+    } while(0)
+
+#define CUDA_CHECK_AND_RETURN(call, retval) \
+    do { \
+        cudaError_t _err = (call); \
+        nanovdb::tools::cuda_tools::CudaError _ce(_err, __FILE__, __LINE__); \
+        if (_ce) { _ce.report(#call); return retval; } \
+    } while(0)
+
 namespace nanovdb {
 namespace tools {
 namespace cuda_tools {
@@ -31,20 +46,6 @@ private:
     const char* m_file;
     int m_line;
 };
-
-#define CUDA_CHECK(call) \
-    do { \
-        cudaError_t _err = (call); \
-        CudaError _ce(_err, __FILE__, __LINE__); \
-        if (_ce) _ce.report(#call); \
-    } while(0)
-
-#define CUDA_CHECK_AND_RETURN(call, retval) \
-    do { \
-        cudaError_t _err = (call); \
-        CudaError _ce(_err, __FILE__, __LINE__); \
-        if (_ce) { _ce.report(#call); return retval; } \
-    } while(0)
 
 /// @brief Timing helper for CUDA kernels
 class CudaTimer {
