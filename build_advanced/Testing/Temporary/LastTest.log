@@ -1,0 +1,21 @@
+Start testing: Aug 07 10:48 UTC
+----------------------------------------------------------
+1/1 Testing: advanced_rocket_test
+1/1 Test: advanced_rocket_test
+Command: "/workspaces/uhtc-nanodb-/build_advanced/advanced_rocket_test"
+Directory: /workspaces/uhtc-nanodb-/build_advanced
+"advanced_rocket_test" start time: Aug 07 10:48 UTC
+Output:
+----------------------------------------------------------
+CUDA Error [/workspaces/uhtc-nanodb-/rocket_advanced/../nanodb/nanovdb/tools/CudaVoxelTestUtils.h:186] cudaGetDeviceProperties(&prop, device): no CUDA-capable device is detected
+=== Advanced Rocket Geometries Test ===
+No suitable CUDA device. Skipping.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"advanced_rocket_test" end time: Aug 07 10:48 UTC
+"advanced_rocket_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 07 10:48 UTC

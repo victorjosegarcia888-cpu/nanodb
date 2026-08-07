@@ -32,7 +32,7 @@ __device__ float sdTorus(float x, float y, float z, float cx, float cy, float cz
 
 __device__ float sdBox(float x, float y, float z, float bx, float by, float bz) {
     float dx = fabsf(x) - bx, dy = fabsf(y) - by, dz = fabsf(z) - bz;
-    return fminf(fmaxf(dx, fmaxf(dy, dz)), 0.0f) + length(make_float3(dx, dy, dz));
+    return fminf(fmaxf(dx, fmaxf(dy, dz)), 0.0f) + sqrtf(dx*dx + dy*dy + dz*dz);
 }
 
 __device__ float sdGyroid(float x, float y, float z, float scale, float half_width, float z_offset) {

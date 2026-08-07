@@ -1,10 +1,10 @@
-Start testing: Aug 05 16:35 UTC
+Start testing: Aug 07 10:49 UTC
 ----------------------------------------------------------
 1/10 Testing: picogk_api_test
 1/10 Test: picogk_api_test
 Command: "/workspaces/uhtc-nanodb-/build/picogk_api_test"
 Directory: /workspaces/uhtc-nanodb-/build
-"picogk_api_test" start time: Aug 05 16:35 UTC
+"picogk_api_test" start time: Aug 07 10:49 UTC
 Output:
 ----------------------------------------------------------
 === PicoGK API Test ===
@@ -19,10 +19,10 @@ Box: min(0.000000,0.000000,0.000000) max(10.000000,10.000000,10.000000)
 Tri: 0 1 2
 PicoGK API type tests passed.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"picogk_api_test" end time: Aug 05 16:35 UTC
+"picogk_api_test" end time: Aug 07 10:49 UTC
 "picogk_api_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -30,7 +30,7 @@ Test Passed.
 2/10 Test: voxel_basic_test
 Command: "/workspaces/uhtc-nanodb-/build/voxel_basic_test"
 Directory: /workspaces/uhtc-nanodb-/build
-"voxel_basic_test" start time: Aug 05 16:35 UTC
+"voxel_basic_test" start time: Aug 07 10:49 UTC
 Output:
 ----------------------------------------------------------
 === UHTC-NanoDB Voxel Test ===
@@ -45,7 +45,7 @@ All compilation tests passed.
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"voxel_basic_test" end time: Aug 05 16:35 UTC
+"voxel_basic_test" end time: Aug 07 10:49 UTC
 "voxel_basic_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -53,7 +53,7 @@ Test Passed.
 3/10 Test: uhtc_voxel_analysis_test
 Command: "/workspaces/uhtc-nanodb-/build/uhtc_voxel_analysis_test"
 Directory: /workspaces/uhtc-nanodb-/build
-"uhtc_voxel_analysis_test" start time: Aug 05 16:35 UTC
+"uhtc_voxel_analysis_test" start time: Aug 07 10:49 UTC
 Output:
 ----------------------------------------------------------
 === UHTC Thermal/Fluid/Nozzle Voxel Tests ===
@@ -63,10 +63,10 @@ Output:
 
 All UHTC voxel analysis tests passed.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"uhtc_voxel_analysis_test" end time: Aug 05 16:35 UTC
+"uhtc_voxel_analysis_test" end time: Aug 07 10:49 UTC
 "uhtc_voxel_analysis_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -74,7 +74,7 @@ Test Passed.
 4/10 Test: pnanovdb_portable_test
 Command: "/workspaces/uhtc-nanodb-/build/pnanovdb_portable_test"
 Directory: /workspaces/uhtc-nanodb-/build
-"pnanovdb_portable_test" start time: Aug 05 16:35 UTC
+"pnanovdb_portable_test" start time: Aug 07 10:49 UTC
 Output:
 ----------------------------------------------------------
 === PNanoVDB Portable C/GPU Test ===
@@ -84,7 +84,7 @@ PNanoVDB portable C/GPU test passed.
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"pnanovdb_portable_test" end time: Aug 05 16:35 UTC
+"pnanovdb_portable_test" end time: Aug 07 10:49 UTC
 "pnanovdb_portable_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -92,7 +92,7 @@ Test Passed.
 5/10 Test: printer_slicer_test
 Command: "/workspaces/uhtc-nanodb-/build/printer_slicer_test"
 Directory: /workspaces/uhtc-nanodb-/build
-"printer_slicer_test" start time: Aug 05 16:35 UTC
+"printer_slicer_test" start time: Aug 07 10:49 UTC
 Output:
 ----------------------------------------------------------
 === Printer Slicer / Output Module Test ===
@@ -126,7 +126,7 @@ Printer slicer/output module test passed.
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"printer_slicer_test" end time: Aug 05 16:35 UTC
+"printer_slicer_test" end time: Aug 07 10:49 UTC
 "printer_slicer_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -134,7 +134,7 @@ Test Passed.
 6/10 Test: rocket_toolpath_test
 Command: "/workspaces/uhtc-nanodb-/build/rocket_toolpath_test"
 Directory: /workspaces/uhtc-nanodb-/build
-"rocket_toolpath_test" start time: Aug 05 16:35 UTC
+"rocket_toolpath_test" start time: Aug 07 10:49 UTC
 Output:
 ----------------------------------------------------------
 === Rocket Toolpath Generator Test ===
@@ -173,7 +173,7 @@ Rocket toolpath generator test passed.
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"rocket_toolpath_test" end time: Aug 05 16:35 UTC
+"rocket_toolpath_test" end time: Aug 07 10:49 UTC
 "rocket_toolpath_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -181,7 +181,7 @@ Test Passed.
 7/10 Test: voxel_cuda_test
 Command: "/workspaces/uhtc-nanodb-/build/voxel_cuda_test"
 Directory: /workspaces/uhtc-nanodb-/build
-"voxel_cuda_test" start time: Aug 05 16:35 UTC
+"voxel_cuda_test" start time: Aug 07 10:49 UTC
 Output:
 ----------------------------------------------------------
 === CUDA Voxel Test ===
@@ -191,7 +191,7 @@ CUDA compilation test: PASSED (code compiles, runtime requires GPU)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"voxel_cuda_test" end time: Aug 05 16:35 UTC
+"voxel_cuda_test" end time: Aug 07 10:49 UTC
 "voxel_cuda_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -199,7 +199,7 @@ Test Passed.
 8/10 Test: voxel_sdf_cuda_test
 Command: "/workspaces/uhtc-nanodb-/build/voxel_sdf_cuda_test"
 Directory: /workspaces/uhtc-nanodb-/build
-"voxel_sdf_cuda_test" start time: Aug 05 16:35 UTC
+"voxel_sdf_cuda_test" start time: Aug 07 10:49 UTC
 Output:
 ----------------------------------------------------------
 === CUDA Voxel SDF + Material Count Test ===
@@ -209,7 +209,7 @@ Compilation-only mode: PASS
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"voxel_sdf_cuda_test" end time: Aug 05 16:35 UTC
+"voxel_sdf_cuda_test" end time: Aug 07 10:49 UTC
 "voxel_sdf_cuda_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -217,7 +217,7 @@ Test Passed.
 9/10 Test: cuda_thermal_test
 Command: "/workspaces/uhtc-nanodb-/build/cuda_thermal_test"
 Directory: /workspaces/uhtc-nanodb-/build
-"cuda_thermal_test" start time: Aug 05 16:35 UTC
+"cuda_thermal_test" start time: Aug 07 10:49 UTC
 Output:
 ----------------------------------------------------------
 CUDA Error [/workspaces/uhtc-nanodb-/nanodb/nanovdb/tools/CudaVoxelTestUtils.h:186] cudaGetDeviceProperties(&prop, device): no CUDA-capable device is detected
@@ -227,7 +227,7 @@ No suitable CUDA device. Skipping.
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"cuda_thermal_test" end time: Aug 05 16:35 UTC
+"cuda_thermal_test" end time: Aug 07 10:49 UTC
 "cuda_thermal_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -235,7 +235,7 @@ Test Passed.
 10/10 Test: cuda_rocket_test
 Command: "/workspaces/uhtc-nanodb-/build/cuda_rocket_test"
 Directory: /workspaces/uhtc-nanodb-/build
-"cuda_rocket_test" start time: Aug 05 16:35 UTC
+"cuda_rocket_test" start time: Aug 07 10:49 UTC
 Output:
 ----------------------------------------------------------
 CUDA Error [/workspaces/uhtc-nanodb-/nanodb/nanovdb/tools/CudaVoxelTestUtils.h:186] cudaGetDeviceProperties(&prop, device): no CUDA-capable device is detected
@@ -245,8 +245,8 @@ No suitable CUDA device. Skipping.
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"cuda_rocket_test" end time: Aug 05 16:35 UTC
+"cuda_rocket_test" end time: Aug 07 10:49 UTC
 "cuda_rocket_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Aug 05 16:35 UTC
+End testing: Aug 07 10:49 UTC

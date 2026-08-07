@@ -109,6 +109,8 @@ struct MultiResAssembly {
 // CUDA Kernel declarations (implemented in AdvancedRocketGeometries.cu)
 // ============================================================================
 
+namespace cuda {
+
 /// @brief Render an arbitrary SDF into a float voxel field on device.
 ///         Inspirado en: PicoGKRuntime Voxels::RenderImplicit
 __global__ void renderImplicitSDFKernel(float* sdf_field, const VoxelGridDesc desc,
@@ -159,6 +161,8 @@ __global__ void computeThermalGradientKernel(float* grad_x, float* grad_y, float
                                              const float* temperature_field,
                                              int nx, int ny, int nz, float voxel_size);
 
+} // namespace cuda
+
 // ============================================================================
 // Host-side wrapper functions (implemented in AdvancedRocketGeometries.cpp)
 // ============================================================================
@@ -174,7 +178,7 @@ bool renderRegenerativeJacket(float* d_sdf_field, const RegenerativeJacket& para
 
 /// @brief Host-side wrapper: perform CSG boolean operation on device
 bool performCSGOnDevice(float* d_result, const float* d_a, const float* d_b,
-                       int nx, int ny, int nz, const char* operation);
+                        int nx, int ny, int nz, const char* operation);
 
 /// @brief Host-side wrapper: extract mesh from device SDF and write STL
 bool extractMeshToSTL(const float* d_sdf_field, const VoxelGridDesc& desc,

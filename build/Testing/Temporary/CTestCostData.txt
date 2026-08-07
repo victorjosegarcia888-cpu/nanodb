@@ -1,11 +1,11 @@
-picogk_api_test 11 0.000377549
-voxel_basic_test 11 0.00192459
-voxel_cuda_test 10 0.00196518
-uhtc_voxel_analysis_test 10 0.000369658
-voxel_sdf_cuda_test 8 0.00225416
-pnanovdb_portable_test 5 0.000767619
-printer_slicer_test 4 0.00102345
-rocket_toolpath_test 3 0.00568849
-cuda_thermal_test 1 0.0199094
-cuda_rocket_test 1 0.0191706
+picogk_api_test 12 0.000510322
+voxel_basic_test 12 0.0016392
+voxel_cuda_test 11 0.00162689
+uhtc_voxel_analysis_test 11 0.000538149
+voxel_sdf_cuda_test 9 0.00173958
+pnanovdb_portable_test 6 0.000648114
+printer_slicer_test 5 0.000661142
+rocket_toolpath_test 4 0.00403722
+cuda_thermal_test 2 0.0084794
+cuda_rocket_test 2 0.00865415
 ---

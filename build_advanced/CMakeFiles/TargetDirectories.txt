@@ -1,0 +1,4 @@
+/workspaces/uhtc-nanodb-/build_advanced/CMakeFiles/advanced_rocket_test.dir
+/workspaces/uhtc-nanodb-/build_advanced/CMakeFiles/test.dir
+/workspaces/uhtc-nanodb-/build_advanced/CMakeFiles/edit_cache.dir
+/workspaces/uhtc-nanodb-/build_advanced/CMakeFiles/rebuild_cache.dir
