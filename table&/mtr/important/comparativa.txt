@@ -1,0 +1,122 @@
+===========================================================
+DATOS COMPARATIVOS DE MOTORES COHETE NASA / SPACEX
+===========================================================
+
+-------------------------------------------
+1. RAPTOR (SpaceX / NASA SP-8120 equivalentes)
+-------------------------------------------
+Ciclo: Full-Flow Staged Combustion (FFSCC)
+Propelentes: LOX / CH4
+Presión cámara Pc: 250–300 bar
+Temperatura cámara Tc: 3300–3600 K
+O/F global: 3.6
+Empuje: 2.0 MN (vacío)
+Isp: 380 s (vacío)
+c*: 1750–1900 m/s
+CF: 1.4–1.8
+Heat flux q'': 10–20 MW/m²
+Diámetro garganta Dt: 0.4 m
+Diámetro salida De: 1.3 m
+Longitud tobera L: 0.48 m
+Masa motor: 1600–2000 kg
+Materiales: Inconel + Cu + liner regenerativo
+Refrigeración: Metano regenerativo
+Fabricación: Impresión 3D + soldadura haz de electrones
+Referencia: NASA SP‑8120 + SpaceX Raptor + Wikipedia
+
+-------------------------------------------
+2. MERLIN 1D / II (SpaceX / NASA LOX/RP‑1)
+-------------------------------------------
+Ciclo: Gas Generator (GG)
+Propelentes: LOX / RP‑1
+Presión cámara Pc: 97 bar
+Temperatura cámara Tc: 3500–3700 K
+O/F: 2.7
+Empuje: 845 kN (vacío)
+Isp: 311 s (vacío)
+c*: 1650 m/s
+CF: 1.5
+Heat flux q'': 8–15 MW/m²
+Dt: 0.27 m
+De: 1.0 m
+L: 0.35 m
+Masa motor: 470 kg
+Materiales: Ni‑base + Cu + liner regenerativo
+Refrigeración: RP‑1 regenerativo
+Referencia: NASA SP‑8120 + SpaceX Merlin + Wikipedia
+
+-------------------------------------------
+3. RS‑25 (NASA SSME)
+-------------------------------------------
+Ciclo: Staged Combustion (Fuel‑Rich)
+Propelentes: LOX / LH2
+Presión cámara Pc: 207 bar
+Temperatura cámara Tc: 3600 K
+O/F: 6.0
+Empuje: 1.86 MN (vacío)
+Isp: 452 s (vacío)
+c*: 1800 m/s
+CF: 1.7
+Heat flux q'': 15–25 MW/m²
+Dt: 0.33 m
+De: 2.4 m
+L: 0.6 m
+Masa motor: 3170 kg
+Materiales: Inconel + cobre + revestimiento plateado
+Refrigeración: Hidrógeno regenerativo
+Referencia: NASA SSME Technical Reports + Wikipedia
+
+-------------------------------------------
+4. PARÁMETROS DE PREQUEMADORES (NASA TM / CR)
+-------------------------------------------
+Temperatura salida prequemadores Tpb: 750–1000 K
+Caída de presión turbina (Pin/Pout): 1.3–1.8
+Relación O/F ORPB: 20–40
+Relación O/F FRPB: 0.2–0.4
+Potencia turbina: 5–20 MW
+Materiales: Inconel 718 / Monel / Cu‑Ni
+Riesgo coking (FRPB): alto entre 850–1200 K
+Riesgo ignición por O₂ (ORPB): alto > 950 K
+Referencia: NASA TM FFSCC + NASA CR LOX/CH₄
+
+-------------------------------------------
+5. INYECTOR PINTLE (NASA TM)
+-------------------------------------------
+TMR (Total Momentum Ratio): 0.5–1.5
+Ángulo spray θ: 40°–60°
+Factor de bloqueo BF: 0.40–0.70
+Relación Dc/Dp: 3.0–5.0
+Velocidad radial: 50–120 m/s
+Velocidad anular: 40–100 m/s
+SMD (D32): 40–80 µm
+Referencia: NASA Pintle Injector TM + LMDE + Merlin
+
+-------------------------------------------
+6. TURBINA DE ALTA PRESIÓN (NASA TM)
+-------------------------------------------
+OTDF (Overall Temperature Distortion Factor): 0.10–0.22
+Gradiente térmico ∂T/∂t: >1500 K/s (encendido)
+Error inercial sensor τ: 0.05–0.25 s
+Tmax turbina: 950–1000 K
+Materiales: Superaleaciones Ni‑Co, monocristalinas
+Referencia: NASA High‑Pressure Preburner TIT TM
+
+-------------------------------------------
+7. PARÁMETROS TERMOQUÍMICOS (UC3M + NASA)
+-------------------------------------------
+Temperatura adiabática Tad: 3300–3600 K
+Cp gases calientes: 3.5–4.0 kJ/kg·K
+Fracciones molares (30 atm, 2750 K):
+  CO₂ = 0.15
+  H₂O = 0.25
+  O₂ = 0.05
+  N₂ = 0.55
+Disociación:
+  CO₂ ⇌ CO + O
+  H₂O ⇌ H₂ + O
+Rendimiento de combustión nc: 0.98–0.995
+Densidad mezcla gases ρg: ≈1.5 kg/m³
+Volumen cámara Vc: ≈0.06 m³
+Caudal másico ṁ: ≈120 kg/s
+Empuje F: ≈2.0 MN
+Referencia: UC3M Termoquímica + NASA SP‑8120
