@@ -1,0 +1,282 @@
+rocket_engine_tables.txt
+txt
+===========================================
+TABLAS NASA PARA DISEÑO DE MOTOR LOX/CH4
+===========================================
+
+-------------------------------------------
+1. CAMARA DE COMBUSTION (NASA SP-8120)
+-------------------------------------------
+Pc = 150–300 bar
+Tc = 3300–3800 K
+O/F = 2.7–3.8
+c* = 1500–1900 m/s
+CF = 1.4–1.8
+Heat flux q'' = 5–20 MW/m2
+Conductividad liner = 20–120 W/mK
+
+Ecuaciones:
+At = (m_dot * c*) / Pc
+Dt = 2 * sqrt(At / π)
+L_c = 1.5 * Dt
+V_c = π * (Dt/2)^2 * L_c
+
+-------------------------------------------
+2. TOBERA (NASA THRUST CHAMBER DESIGN)
+-------------------------------------------
+Ae/At = 20–40
+Ángulo divergencia = 12–18 grados
+Longitud tobera L = 0.8–1.2 * Dt
+Presión salida Pe = 0.1–1 bar
+Heat flux = 2–8 MW/m2
+
+Perfil Rao:
+r(z) = r_t + (r_e - r_t)(10t^3 - 15t^4 + 6t^5)
+
+Volumen:
+V_n = ∫ π r(z)^2 dz
+
+-------------------------------------------
+3. INYECTOR (NASA INJECTOR DESIGN)
+-------------------------------------------
+Diámetro orificio = 0.5–2.0 mm
+Número orificios = 100–3000
+ΔP inyector = 0.1–0.3 Pc
+Ángulo spray = 20–60 grados
+
+m_dot = Cd * A * sqrt(2 * rho * ΔP)
+
+-------------------------------------------
+4. TURBOBOMBAS (NASA TURBOPUMP MANUAL)
+-------------------------------------------
+RPM LOX = 30k–36k
+RPM CH4 = 25k–32k
+Presión salida = 250–350 bar
+Potencia eje = 5–20 MW
+NPSH = 3–10 m
+Temperatura turbina = 900–1200 K
+
+P = (m_dot * ΔP) / η
+
+-------------------------------------------
+5. PREBURNERS FFSC (NASA SP-8120)
+-------------------------------------------
+Presión preburner = 250–300 bar
+Temperatura gas = 900–1200 K
+Riqueza OX-rich = 20–40%
+Riqueza Fuel-rich = 10–30%
+Caudal gas turbina = 5–20 kg/s
+Velocidad gas = 300–600 m/s
+
+-------------------------------------------
+6. MATERIALES UHTC (NASA TM)
+-------------------------------------------
+ZrB2 conductividad = 60–120 W/mK
+HfC conductividad = 20–40 W/mK
+Temp máx ZrB2 = 3300 K
+Temp máx HfC = 3900 K
+
+-------------------------------------------
+7. CUASICRISTALES (NASA TM)
+-------------------------------------------
+Al-Cu-Fe conductividad = 2–10 W/mK
+Ti-Zr-Ni conductividad = 1–5 W/mK
+Temp máx = 1100–1400 K
+
+-------------------------------------------
+8. GEOMETRIA AEROSPIKE (NASA XRS-2200)
+-------------------------------------------
+Voxel size = 0.1–1.0 mm
+
+Perfil aerospike:
+r(z) = r0 + k * z^n
+
+Volumen aerospike:
+V = ∫ π r(z)^2 dz
+
+Expansión aerospike:
+Ae/At = función(z, presión ambiente)
+
+Heat flux aerospike:
+q'' = 3–12 MW/m2
+
+Materiales aerospike:
+ZrB2 + HfC + cuasicristales
+📄 3. TABLAS NASA + ECUACIONES (formato LaTeX)
+rocket_engine_tables.tex
+latex
+\section*{NASA Rocket Engine Design Tables}
+
+\subsection*{1. Combustion Chamber}
+
+\begin{tabular}{ll}
+$P_c$ & 150--300 bar \\
+$T_c$ & 3300--3800 K \\
+$O/F$ & 2.7--3.8 \\
+$c^*$ & 1500--1900 m/s \\
+$q''$ & 5--20 MW/m$^2$ \\
+\end{tabular}
+
+
+
+\[
+A_t = \frac{\dot{m} c^*}{P_c}
+\]
+
+
+
+
+\[
+D_t = 2\sqrt{\frac{A_t}{\pi}}
+\]
+
+
+
+
+\[
+L_c = 1.5 D_t
+\]
+
+
+
+
+\[
+V_c = \pi (D_t/2)^2 L_c
+\]
+
+
+
+\subsection*{2. Nozzle (Rao)}
+
+\begin{tabular}{ll}
+$A_e/A_t$ & 20--40 \\
+Angle & 12--18$^\circ$ \\
+\end{tabular}
+
+
+
+\[
+r(z) = r_t + (r_e - r_t)(10t^3 - 15t^4 + 6t^5)
+\]
+
+
+
+
+
+\[
+V_n = \int_0^L \pi r(z)^2 dz
+\]
+
+
+
+\subsection*{3. Injector}
+
+
+
+\[
+\dot{m} = C_d A \sqrt{2\rho\Delta P}
+\]
+
+
+
+\subsection*{4. Turbopump}
+
+
+
+\[
+P = \frac{\dot{m}\Delta P}{\eta}
+\]
+
+
+
+\subsection*{5. Aerospike Geometry}
+
+
+
+\[
+r(z) = r_0 + kz^n
+\]
+
+
+
+
+\[
+V = \int_0^L \pi r(z)^2 dz
+\]
+
+
+
+
+\[
+A_e/A_t = f(z, P_{amb})
+\]
+
+
+📁 4. ARCHIVO DatosMotor.txt (listo para copiar en tu Codespace)
+txt
+Pc = 300e5
+Tc = 3500
+OF = 3.6
+cStar = 1700
+CF = 1.6
+
+Ae_At = 40
+AnguloDivergencia = 15
+
+DiametroOrificio = 1.2
+NumeroOrificios = 1200
+DeltaPInyector = 0.25
+
+RPM_LOX = 35000
+RPM_CH4 = 30000
+PresionSalidaLOX = 320e5
+PresionSalidaCH4 = 300e5
+PotenciaTurbobomba = 12e6
+
+PresionPreburner = 280e5
+TempGasPreburner = 1100
+RiquezaOX = 0.35
+RiquezaFuel = 0.20
+
+ConductividadZrB2 = 80
+ConductividadHfC = 30
+ConductividadAlCuFe = 5
+ConductividadTiZrNi = 3
+
+VoxelSize = 0.5
+🧩 5. LISTA DE TASKS QUE DEBES CREAR
+Cada Task usa las tablas anteriores.
+
+Tasks principales
+TaskCamara
+
+TaskTobera
+
+TaskInyector
+
+TaskPreburnerOX
+
+TaskPreburnerFuel
+
+TaskTurbobombaLOX
+
+TaskTurbobombaCH4
+
+TaskConductosGas
+
+TaskCanalesRegenerativos
+
+TaskMateriales
+
+TaskAerospike (si quieres aerospike)
+
+TaskMotorCompleto
+
+Tasks auxiliares
+TaskContornoRao
+
+TaskAerospikeProfile
+
+TaskLatticeInterno
+
+TaskExportVDB
