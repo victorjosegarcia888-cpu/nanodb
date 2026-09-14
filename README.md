@@ -1,6 +1,6 @@
 # UHTC-NanoDB
 
-Computational thermal/fluid/structural analysis + voxel engine for 3D printing of monolithic UHTC structures and aerospike nozzles.
+Computational thermal/fluid/structural analysis + voxel engine for 3D printing of monolithic UHTC structures and aerospike nozzles. rust for systems:https://github.com/Traverse-Research/vdb-rs/tree/main/src
 
 ## UHTC Aperiodic Cooling Engine
 
