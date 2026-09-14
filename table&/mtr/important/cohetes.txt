@@ -1,0 +1,314 @@
+1. NASA SP‑8120 — Liquid Rocket Engine Design Handbook
+El documento más importante para cámaras, toberas, preburners, ciclos FFSC.
+
+2. Huzel & Huang — Design of Liquid Propellant Rocket Engines (NASA SP)
+Manual clásico: inyectores, cámaras, toberas, combustión.
+
+3. NASA Turbopump Design Manual
+Todo sobre turbobombas LOX/CH₄.
+
+4. NASA Injector Design (Liquid Rocket Engine Injector Design)
+Diseño de inyectores coaxiales, swirl, pintle.
+
+5. NASA Thrust Chamber Design
+Geometría de cámara y tobera, contorno Rao, refrigeración regenerativa.
+
+6. NASA Propellant Feed System Design
+Líneas, válvulas, presurización, cavitación.
+
+7. NASA TM — Ultra‑High Temperature Ceramics (UHTC)
+ZrB₂, HfC, SiC, C/C.
+
+8. NASA TM — Quasicrystal Coatings
+Al‑Cu‑Fe, Ti‑Zr‑Ni.
+
+*********************************************************************************************************************************************
+Instrucciones para kilo code:extraer ecuaciones y variables para pikogk,shapekernel,lattice para motor de cohete. 3D
+
+TABLAS NASA + ECUACIONES PARA TU CODESPACE
+Formato LaTeX y .txt, listo para copiar.
+
+📄 motor_tables.tex
+latex
+% Tablas NASA para diseño de motor FFSC tipo Raptor
+% Formato LaTeX para tu Codespace
+
+\section*{1. Cámara de Combustión (NASA SP-8120)}
+
+\begin{tabular}{l l}
+Presión de cámara $P_c$ & 150–300 bar \\
+Temperatura de combustión $T_c$ & 3300–3800 K \\
+Relación de mezcla O/F & 2.7–3.8 \\
+Velocidad característica $c^*$ & 1500–1900 m/s \\
+Coeficiente de empuje $C_F$ & 1.4–1.8 \\
+Flujo térmico $q''$ & 5–20 MW/m^2 \\
+Conductividad térmica liner & 20–120 W/mK \\
+\end{tabular}
+
+
+
+\[
+A_t = \frac{\dot{m} c^*}{P_c}
+\]
+
+
+
+
+
+\[
+D_t = 2 \sqrt{\frac{A_t}{\pi}}
+\]
+
+
+
+\section*{2. Tobera (Thrust Chamber Design)}
+
+\begin{tabular}{l l}
+Relación de áreas $A_e/A_t$ & 20–40 \\
+Ángulo de divergencia & 12–18^\circ \\
+Longitud de tobera $L$ & 0.8–1.2 D_t \\
+Presión de salida $P_e$ & 0.1–1 bar \\
+Flujo térmico & 2–8 MW/m^2 \\
+\end{tabular}
+
+Perfil Rao:
+
+
+\[
+r(z) = r_t + (r_e - r_t)(10t^3 - 15t^4 + 6t^5)
+\]
+
+
+
+\section*{3. Inyector (Injector Design)}
+
+\begin{tabular}{l l}
+Diámetro orificio & 0.5–2.0 mm \\
+Número de orificios & 100–3000 \\
+Pérdida de presión $\Delta P$ & 0.1–0.3 P_c \\
+Ángulo de spray & 20–60^\circ \\
+\end{tabular}
+
+
+
+\[
+\dot{m} = C_d A \sqrt{2 \rho \Delta P}
+\]
+
+
+
+\section*{4. Turbobombas (NASA Turbopump Manual)}
+
+\begin{tabular}{l l}
+RPM LOX & 30,000–36,000 rpm \\
+RPM CH_4 & 25,000–32,000 rpm \\
+Presión salida & 250–350 bar \\
+Potencia eje & 5–20 MW \\
+NPSH & 3–10 m \\
+\end{tabular}
+
+
+
+\[
+P = \dot{m} \Delta P / \eta
+\]
+
+
+
+\section*{5. Preburners FFSC}
+
+\begin{tabular}{l l}
+Presión preburner & 250–300 bar \\
+Temperatura gas & 900–1200 K \\
+Riqueza OX-rich & 20–40\% \\
+Riqueza Fuel-rich & 10–30\% \\
+\end{tabular}
+
+
+
+\[
+T_{gas} = f(O/F, P)
+\]
+
+
+
+\section*{6. Materiales UHTC}
+
+\begin{tabular}{l l}
+ZrB_2 conductividad & 60–120 W/mK \\
+HfC conductividad & 20–40 W/mK \\
+Temp máx ZrB_2 & 3300 K \\
+Temp máx HfC & 3900 K \\
+\end{tabular}
+
+\section*{7. Cuasicristales}
+
+\begin{tabular}{l l}
+Al-Cu-Fe conductividad & 2–10 W/mK \\
+Ti-Zr-Ni conductividad & 1–5 W/mK \\
+Temp máx & 1100–1400 K \\
+\end{tabular}
+
+\section*{8. Volumetría para geometría tipo Aerospike}
+
+
+
+\[
+V = \int_0^L \pi r(z)^2 dz
+\]
+
+
+
+
+
+\[
+r(z) = r_0 + k z^n
+\]
+
+
+
+
+
+\[
+\text{Voxel size} = 0.1 - 1.0 \text{ mm}
+\]
+
+
+
+📄 motor_tables.txt
+txt
+TABLAS NASA PARA DISEÑO DE MOTOR FFSC (RAPTOR-LIKE)
+
+CAMARA DE COMBUSTION
+Pc = 150–300 bar
+Tc = 3300–3800 K
+O/F = 2.7–3.8
+c* = 1500–1900 m/s
+CF = 1.4–1.8
+q'' = 5–20 MW/m2
+
+TOBERA
+Ae/At = 20–40
+Angulo = 12–18 deg
+L = 0.8–1.2 Dt
+Pe = 0.1–1 bar
+
+INYECTOR
+Diametro = 0.5–2.0 mm
+Orificios = 100–3000
+DeltaP = 0.1–0.3 Pc
+
+TURBOBOMBAS
+RPM LOX = 30k–36k
+RPM CH4 = 25k–32k
+Presion salida = 250–350 bar
+Potencia = 5–20 MW
+
+PREBURNERS FFSC
+Presion = 250–300 bar
+Temp gas = 900–1200 K
+Riqueza OX = 20–40%
+Riqueza Fuel = 10–30%
+
+MATERIALES UHTC
+ZrB2 = 60–120 W/mK
+HfC = 20–40 W/mK
+
+CUASICRISTALES
+AlCuFe = 2–10 W/mK
+TiZrNi = 1–5 W/mK
+
+GEOMETRIA AEROSPIKE (VOLÚMENES)
+Voxel size = 0.1–1.0 mm
+Volumen = integral(pi * r(z)^2 dz)
+Perfil = r(z) = r0 + k z^n
+
+***************************************************************************************************************************
+===========================================
+TABLAS NASA PARA DISEÑO DE MOTOR LOX/CH4
+===========================================
+
+-------------------------------------------
+1. CAMARA DE COMBUSTION (NASA SP-8120)
+-------------------------------------------
+Pc (presión cámara): 150–300 bar
+Tc (temperatura combustión): 3300–3800 K
+O/F (relación mezcla): 2.7–3.8
+c* (velocidad característica): 1500–1900 m/s
+CF (coeficiente empuje): 1.4–1.8
+Heat flux q'': 5–20 MW/m2
+Conductividad liner: 20–120 W/mK
+
+Ecuaciones:
+At = (m_dot * c*) / Pc
+Dt = 2 * sqrt(At / π)
+L_c = 1.5 * Dt
+
+-------------------------------------------
+2. TOBERA (NASA THRUST CHAMBER DESIGN)
+-------------------------------------------
+Ae/At (relación áreas): 20–40
+Ángulo divergencia: 12–18 grados
+Longitud tobera L: 0.8–1.2 * Dt
+Presión salida Pe: 0.1–1 bar
+Heat flux: 2–8 MW/m2
+
+Perfil Rao:
+r(z) = r_t + (r_e - r_t)(10t^3 - 15t^4 + 6t^5)
+
+-------------------------------------------
+3. INYECTOR (NASA INJECTOR DESIGN)
+-------------------------------------------
+Diámetro orificio: 0.5–2.0 mm
+Número orificios: 100–3000
+ΔP inyector: 0.1–0.3 Pc
+Ángulo spray: 20–60 grados
+
+Ecuación:
+m_dot = Cd * A * sqrt(2 * rho * ΔP)
+
+-------------------------------------------
+4. TURBOBOMBAS (NASA TURBOPUMP MANUAL)
+-------------------------------------------
+RPM LOX: 30k–36k
+RPM CH4: 25k–32k
+Presión salida: 250–350 bar
+Potencia eje: 5–20 MW
+NPSH: 3–10 m
+
+Ecuación potencia:
+P = (m_dot * ΔP) / η
+
+-------------------------------------------
+5. PREBURNERS FFSC (NASA SP-8120)
+-------------------------------------------
+Presión preburner: 250–300 bar
+Temperatura gas: 900–1200 K
+Riqueza OX-rich: 20–40%
+Riqueza Fuel-rich: 10–30%
+Caudal gas turbina: 5–20 kg/s
+
+-------------------------------------------
+6. MATERIALES UHTC (NASA TM)
+-------------------------------------------
+ZrB2 conductividad: 60–120 W/mK
+HfC conductividad: 20–40 W/mK
+Temp máx ZrB2: 3300 K
+Temp máx HfC: 3900 K
+
+-------------------------------------------
+7. CUASICRISTALES (NASA TM)
+-------------------------------------------
+Al-Cu-Fe conductividad: 2–10 W/mK
+Ti-Zr-Ni conductividad: 1–5 W/mK
+Temp máx: 1100–1400 K
+
+-------------------------------------------
+8. GEOMETRIA AEROSPIKE (VOLÚMENES)
+-------------------------------------------
+Voxel size: 0.1–1.0 mm
+Volumen:
+V = ∫ π r(z)^2 dz
+
+Perfil aerospike:
+r(z) = r0 + k * z^n

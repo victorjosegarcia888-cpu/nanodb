@@ -1,0 +1,79 @@
+\section*{NASA Rocket Engine Design Tables}
+
+\subsection*{1. Combustion Chamber}
+
+\begin{tabular}{ll}
+$P_c$ & 150--300 bar \\
+$T_c$ & 3300--3800 K \\
+$O/F$ & 2.7--3.8 \\
+$c^*$ & 1500--1900 m/s \\
+$q''$ & 5--20 MW/m$^2$ \\
+\end{tabular}
+
+
+
+\[
+A_t = \frac{\dot{m} c^*}{P_c}
+\]
+
+
+
+
+\[
+D_t = 2\sqrt{\frac{A_t}{\pi}}
+\]
+
+
+
+\subsection*{2. Nozzle (Rao)}
+
+\begin{tabular}{ll}
+$A_e/A_t$ & 20--40 \\
+Angle & 12--18$^\circ$ \\
+\end{tabular}
+
+
+
+\[
+r(z) = r_t + (r_e - r_t)(10t^3 - 15t^4 + 6t^5)
+\]
+
+
+
+\subsection*{3. Injector}
+
+
+
+\[
+\dot{m} = C_d A \sqrt{2\rho\Delta P}
+\]
+
+
+
+\subsection*{4. Turbopump}
+
+
+
+\[
+P = \frac{\dot{m}\Delta P}{\eta}
+\]
+
+
+
+\subsection*{5. Aerospike Geometry}
+
+
+
+\[
+V = \int_0^L \pi r(z)^2 dz
+\]
+
+
+
+
+
+\[
+r(z) = r_0 + kz^n
+\]
+
+
