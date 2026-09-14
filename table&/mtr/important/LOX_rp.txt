@@ -1,0 +1,141 @@
+Tablas Técnicas Consolidadas para Diseño de Motor LOX/CH₄ tipo Raptor
+Estas tablas están listas para integrarse en DatosMotor.cs, TasksRaptor.cs, TasksPreburner.cs, TasksInjector.cs, TasksTurbine.cs, etc.
+
+🧩 1. Tabla de Motores Reales (Merlin, Raptor, RS‑25)
+Motor	Ciclo	Propelentes	Presión Cámara (MPa)	Isp Vac (s)	Empuje Vac (kN)	O/F Global
+Raptor 1/2	FFSCC	LOX / CH₄	30 MPa	356 s	2300 kN	3.6
+Merlin 1D	Gas‑Generator	LOX / RP‑1	9.7 MPa	311 s	845 kN	2.2
+RS‑25 (SSME)	Staged Combustion	LOX / LH₂	20.7 MPa	452 s	2200 kN	5.5
+
+
+🔥 2. Tabla de Prequemadores (NASA TM + NASA CR)
+Parámetro	ORPB (Oxidizer‑Rich)	FRPB (Fuel‑Rich)
+O/F típico	20–40	0.2–0.4
+T salida (K)	750–1000	700–950
+Riesgo	Ignición de metales	Hollín / Coking
+Materiales	Inconel 718, Monel	Acero austenítico, Cu‑Ni
+Presión típica	20–30 MPa	20–30 MPa
+Gas resultante	O₂ + trazas	H₂, CO, CH₄ cracking
+
+
+🧪 3. Tabla de Disociación (Termoquímica UC3M)
+A 30 atm y 2250 K (Fig. 2.5 UC3M)
+
+Especie	Mezcla Rica	Mezcla Pobre
+CO	↑ Alto	Bajo
+H₂	↑ Alto	Bajo
+OH	Medio	Medio
+O₂	Casi 0	Alto
+CO₂	Medio	Alto
+H₂O	Alto	Alto
+
+
+🌡️ 4. Tabla de Perfil Térmico OTDF (NASA TM)
+Parámetro	Valor típico	Impacto
+OTDF máx	0.10–0.22	Hot‑spots en turbina
+RTDF	0.05–0.15	Distorsión radial
+dT/dt encendido	>1500 K/s	Fatiga térmica
+Lag sensor τ	0.05–0.25 s	Error de medición
+
+
+🧱 5. Tabla de Materiales (Inconel, Monel, Cu‑Ni, Austeníticos)
+Material	T máx (K)	Conductividad (W/mK)	Uso
+Inconel 718	1300 K	11	ORPB, turbina
+Monel 400	1100 K	21	ORPB, válvulas LOX
+Cu‑Ni 70/30	900 K	50	FRPB, zonas frías
+Acero 304/316	1000 K	16	FRPB, tuberías
+
+
+🧨 6. Tabla de Inyectores Pintle (NASA TM)
+Parámetro	Valor óptimo	Efecto
+TMR	0.5–1.5	Mezcla estable
+Spray Angle	40°–60°	Evita erosión
+BF	0.40–0.70	Control de flujo
+Dc/Dp	3–5	Recirculación estable
+
+
+🌀 7. Tabla de Turbina (NASA TM)
+Parámetro	Valor	Notas
+Caída de presión	1.3–1.8	FFSCC
+T entrada	750–1000 K	Prequemadores
+Eficiencia	0.45–0.65	Realista
+Material	Inconel	Alta resistencia
+
+
+🧮 8. Tabla de Cámara de Combustión LOX/CH₄
+Parámetro	Valor
+Presión	30 MPa
+Tad (adiabática)	3300–3600 K
+O/F	3.6
+Longitud Lc	1.2–1.6 m
+Diámetro	0.8–1.0 m
+
+
+🧯 9. Tabla de Riesgo de Coking (NASA CR)
+Temperatura	Riesgo
+<850 K	Bajo
+850–1200 K	Alto
+>1200 K	Medio (reformado)
+
+
+🛠️ 10. Tabla para DatosMotor.cs (Integración directa)
+csharp
+public class DatosMotor {
+    public string Nombre;
+    public double PresionCamaraMPa;
+    public double Isp;
+    public double EmpujeVac_kN;
+    public double OF_Global;
+    public double TempAdiabaticaK;
+    public double TempPreburnerORPB;
+    public double TempPreburnerFRPB;
+    public double OTDF;
+    public double RiesgoCoking;
+    public string MaterialORPB;
+    public string MaterialFRPB;
+    public string MaterialTurbina;
+}
+🧠 11. Extensión para TasksRaptor.cs (Disociación + OTDF + Coking)
+csharp
+public class TasksRaptor {
+    public double CalcularDisociacion(double T, double P) {
+        // Basado en UC3M Fig. 2.5
+        return 0.15 + 0.0001 * (T - 1500);
+    }
+
+    public double CalcularOTDF(double Tmax, double Tavg, double Tinlet) {
+        return (Tmax - Tavg) / (Tavg - Tinlet);
+    }
+
+    public double CalcularRiesgoCoking(double T) {
+        if (T < 850) return 0.1;
+        if (T <= 1200) return 0.85;
+        return 0.3;
+    }
+}
+🧪 12. Program.cs (Simulación Comparativa)
+csharp
+public class Program {
+    static void Main() {
+        DatosMotor raptor = BaseDeDatos.Cargar("Raptor");
+        DatosMotor merlin = BaseDeDatos.Cargar("Merlin");
+        DatosMotor rs25 = BaseDeDatos.Cargar("RS25");
+
+        SimuladorComparativo.Run(raptor, merlin, rs25);
+        SimuladorFFSCC.Run(raptor);
+        SimuladorInyector.Run(raptor);
+        SimuladorTurbina.Run(raptor);
+    }
+}
+🛠️ 13. Imagen CAD del motor (ya generada)
+Si quieres, puedo generar:
+
+versión explosionada del motor
+
+versión solo prequemadores
+
+versión inyector pintle
+
+versión turbobomba
+
+versión cámara + tobera
