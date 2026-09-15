@@ -1,0 +1,87 @@
+2. Suggest one or two specific applications (intercontinental missile, anti-aircraft, space
+launch vehicle upper stage, etc.) for each of the propellant categories listed in Table
+12-2 and explain why it was selected when compared to other propellants.
+3. Prepare a detailed outline of a procedure to be followed by a crew operating a
+propellant mixer. This 1 m3 vertical solid propellant mixer has two rotating blades,
+a mixing bowl, a vacuum pump system to allow mix operations under vacuum, feed
+chutes or pipes with valves to supply the ingredients, and variable-speed electric
+motor drive, a provision for removing some propellant for laboratory samples,
+and a double-wall jacket around the mixing bowl to allow heating or cooling. It is
+known that the composite propellant properties are affected by mix time, small
+deviations from the exact composition, the temperature of the mix, the mechanical
+energy added by the blades, the blade speed, and the sequence in which the ingredients are added. It is also known that bad propellant would be produced if there are
+leaks that destroy the vacuum, if the bowl, mixing blades, feed chutes, and so on, are
+not clean but contain deposits of old propellant on their walls, if they are not mixed
+at 80°C, or if the viscosity of the mix becomes excessive. The sequence of loading
+ingredients shall be: (I) prepolymer binder, (2) plasticizer, (3) minor liquid additives,
+(4) solid consisting of first powdered aluminum and thereafter mixed bimodal AP
+crystals, and (5) finally the polymerizing agent or crosslinker. Refer to Fig. 12-11.
+Samples of the final liquid mix are taken to check viscosity and density. Please list all
+the sequential steps that the crew should undertake before, during, and after the
+mixing operation. If it is desired to control to a specific parameter (weight, duration,
+etc.), that fact should be stated; however, the specific data of ingredient mass, time,
+power, temperature, and so on, can be left blank. Mention all instruments (e.g.,
+thermometers, wattmeter, etc.) that the crew should have and identify those that
+they must monitor closely. Assume that all ingredients were found to be of the
+desired composition, purity, and quality.
+4. Determine the longitudinal growth of a 24-in.-long free-standing grain with a linear
+thermal coefficient of expansion of 7.5 x 10-5
+/°F for temperature limits of -40 to
+PROBLEMS 517
+140°F.
+Answer: 0.32 in.
+5. The following data are given for an internally burning solid propellant grain with
+inhibited end faces and a small initial port area:
+Length 40 in.
+Port area 27 in. 2
+Propellant weight 240 lb
+Initial pressure at front end of chamber 1608 psi
+Initial pressure at nozzle end of chamber 1412 psi
+Propellant density 0.060 lb/in. 3
+Vehicle acceleration 21.2 g0
+Determine the initial forces on the propellant supports produced by pressure differential and vehicle acceleration.
+Answers: 19,600 !bf, 5090 !bf.
+6. A solid propellant unit with an end-burning grain has a thrust of 4700 N and a
+duration of 14 sec. Four different burning rate propellants are available, all with
+approximately the same performance and the same specific gravity, but different AP
+mix and sizes and different burning rate enhancements. They are 5.0, 7.0, 10, and 13
+mm/sec. The preferred L/D is 2.60, but values of 2.2 to 3.5 are acceptable. The
+impulse-to-initial-weight ratio is 96 at an L/D of 2.5. Assume optimum nozzle expansion. Chamber pressure is 6.894 MPa or 1000 psia and the operating temperature is
+20°C or 68°F. Determine grain geometry, propellant mass, hardware mass, and
+initial mass.
+7. For the rocket in Problem 6 determine the approximate chamber pressure, thrust,
+and duration at 245 and 328 K. Assume the temperature sensitivity (at a constant
+value of Ab! A,) of 0.01 %/K does not change with temperature.
+8. A fuel-rich solid propellant gas generator propellant is required to drive a turbine of
+a liquid propellant turbopump. Determine its mass flow rate. The following data are
+given:
+Chamber pressure
+Combustion temperature
+Specific heat ratio
+Required pump input power
+Turbine outlet pressure
+Turbine efficiency
+Molecular weight of gas
+Pressure drop between gas
+generator and turbine
+nozzle inlet
+p 1 = 5 MPa
+T1 = 1500 K
+k = 1.25
+970 kW
+0 psia
+65%
+22 kg/kg-mo!
+0.10 MPa
+Windage and bearing friction is 10 kW. Neglect start transients.
+Answer: ri1 = 0.257 kg/sec.
+9. The propellant for this gas generator has these characteristics:
+Burn rate at standard conditions 4.0 mm/sec
+Burn time 110 sec
+Chamber pressure 5.1 MPa
+518 SOLID PROPELLANTS
+Pressure exponent n 0.55
+Propellant specific gravity 1.47
+Determine the size of an end-burning cylindrical grain.
+Answer: Single end-burning grain 27.2 cm in diameter and 31.9 cm long, or two endburning opposed grains (each 19.6 cm diameter x 31.9 cm long) in a single chamber
+with ignition of both grains in the middle of the case. 
