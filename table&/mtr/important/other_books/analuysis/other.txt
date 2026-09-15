@@ -1,0 +1,44 @@
+TABLE 8-3. Typical Materials used in Several Common Liquid Propellant Thrust
+Chambers
+Cooling
+Application Propellant Components Method Typical Materials
+Bipropellant TC, Oxygen- C,N,E F Copper alloy
+cooled, high pressure hydrogen
+(Booster or upper F Transpiration cooled
+stage) porous stainless
+steel face. Structure
+is stainless steel
+Alternate E R Carbon fiber in a
+carbon matrix, or
+niobium
+Alternate E T Steel shell with
+ablative inner liner
+Same Oxygen- C, N, E, I F Stainless steel with
+hycrocarbon tubes or milled
+or storable slots
+propellant* Alternate E R Carbon fiber in a
+carbon matrix, or
+niobium
+Alternate E T Steel shell with
+ablative inner liner
+Experimental TC All types C,N,E u Low carbon steel
+(very limited
+duration----only a
+few seconds)
+Small bipropellant All types C,N, E R Carbon fiber in
+TC carbon matrix,
+rhenium,
+niobium
+T Steel shell with
+ablative inner linear
+F Stainless steels,
+titanium
+Small monopropellant Hydrazine C, N, E, R Inconel, alloy steels
+TC I F Stainless steel
+Cold gas TC Compressed C, N, E, I u Aluminum, steel or
+air, nitrogen plastic
+*HN03 or N20 4 oxidizer with N2H4 , MMH, or UDMH as fuels (see Chapter 7). TC = thrust
+chamber, C = chamber wall, N = nozzle convering section wall and throat region walls, E = walls
+at exit region of diverging section of nozzle, I = injector face, F = fuel cooled (regenerative), R =
+radiation cooled, U = uncooled, T = transient heat transfer or heat sink method (ablative
+material). 
