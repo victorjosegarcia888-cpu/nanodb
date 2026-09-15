@@ -1,4 +1,4 @@
-# UHTC-NanoDB
+# UHTC-NanoDB tests/motor
 
 Computational thermal/fluid/structural analysis + voxel engine for 3D printing of monolithic UHTC structures and aerospike nozzles. rust for systems:https://github.com/Traverse-Research/vdb-rs/tree/main/src
 variables book: https://books.google.es/books?id=XMpyDwAAQBAJ&pg=PA2&hl=es&source=gbs_toc_r&cad=2#v=onepage&q&f=false
