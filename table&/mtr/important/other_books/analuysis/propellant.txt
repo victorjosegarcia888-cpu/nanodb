@@ -1,0 +1,574 @@
+LIQUID PROPELLANT ROCKET ENGINE FUNDAMENTALS
+The propellant mixture ratio for a bipropellant is the ratio at which the
+oxidizer and fuel are mixed and react to give hot gases. The mixture ratio r
+is defined as the ratio of the oxidizer mass flow rate m0 and the fuel mass flow
+rate mf or
+(6-1)
+The mixture ratio defines the composition of the reaction products. It is usually
+chosen to give a maximum value of specific impulse or T1 /911, where T1 is the
+combustion temperature and 9J1 is the average molecular mass of the reaction
+gases (see Eq. 3-16 or Fig. 3-2). For a given thrust F and a given effective
+exhaust velocity c, the total propellant flow is given by Eq. 2-6; namely,
+ri1 = w Igo = FI C. The relationships between r' m, mo, and mf are
+mo+ rry = m
+lrlo = rm/(r + 1)
+mr = m/(r + 1)
+(6-2)
+(6-3)
+(6-4)
+These same four equations are valid when w and w (weight) are substituted for
+m and m. Calculated performance values for a number of different propellant
+combinations are given for specific mixture ratios in Table 5-5. Physical properties and a discussion of several common liquid propellants and their safety
+concerns are described in Chapter 7.
+Example 6-1. A liquid oxygen-liquid hydrogen rocket thrust chamber of 10,000-lbf
+thrust operates at a chamber pressure of 1000 psia, a mixture ratio of 3.40, has exhaust
+products with a mean molecular mass of 8.9 lbm/lb-mol, a combustion temperature of
+4380°F, and a specific heat ratio of 1.26. Determine the nozzle area, exit area for
+optimum operation at an altitude where p3 = p2 = 1.58 psia, the propellant weight
+and volume flow rates, and the total propellant requirements for 2 min of operation.
+Assume that the actual specific impulse is 97% of the theoretical value.
+SOLUTION. The exhaust velocity for an optimum nozzle is determined from Eq. 3-16,
+but with a correction factor of g0 for the foot-pound system.
+2gok R'T1 [l _ (JJ_2)<k-ll/k]
+k - 1 fill \p1
+2 x 32.2: 1.26 1544 x 4840 ( 1 - 0.001580 20s) = 13,900 ft/ sec 0.2 8.9
+The theoretical specific impulse is c/g0 , or in this case v2 /g0 or 13,900/32.2 = 431 sec.
+The actual specific impulse is 0.97 x 431 = 418 sec. The theoretical or ideal thrust
+coefficient can be found from Eq. 3-30 or from Fig. 3-6 (p2 = p3) to be CF= 1.76.
+The actual thrust coefficient is slightly less, say 98% or CF= 1.72. The throat area
+required is found from Eq. 3-31. 
+
+TABLE 5-1. Chemical Thermodynamic Properties of Selected Substances at 298.15K (25°C) and 0.1 MPa (I bar)
+Molar Mass f1. Ho f f1. G° f log K1 so cp
+Substance Phase* (g/mol) (kJ/mol) (kJ/mol) (J/mol-K) (J/mol-K)
+Al (crystal) s 29.9815 0 0 0 28.275 24.204
+Al20 3 I 101.9612 -1620.567 -1532.025 268.404 67.298 79.015
+C (graphite) s 12.011 0 0 0 5.740 8.517
+CH4 g 16.0476 -74.873 -50.768 8.894 186.251 35.639
+co g 28.0106 -110.527 -137.163 24.030 197.653 29.142
+CO2 g 44.010 -393.522 -394.389 69.095 213.795 37.129
+H2 g 2.01583 0 0 0 130.680 28.836
+HCl g 36.4610 -92.312 -95.300 16.696 186.901 29.136
+HF g 20.0063 -272.546 -274.646 48.117 172.780 29.138
+H 20 I 18.01528 -285.830 -237.141 41.546 69.950 75.351
+H20 g 18.01528 -241.826 -228.582 40.047 188.834 33.590
+N2H4 1 32.0451 +50.626 149.440 -28.181 121.544 98.840
+N2H4 g 32.0451 +95.353 + 159.232 -27.897 238.719 50.813
+NH4Cl04 s 117.485 -295.767 -88.607 15.524 184.180 128.072
+ClF5 g 130.4450 -238.488 -146.725 25.706 310.739 97.165
+ClF3 g 92.442 -158.866 -118.877 20.827 281.600 63.845
+N204 1 92.011 -19.564 +97.521 -17.085 209.198 142.509
+N204 g 92.011 9.079 97.787 -17.132 304.376 77.256
+N02 g 46.0055 33.095 51.258 -8.980 240.034 36.974
+HN03 g 63.0128 -134.306 -73.941 12.954 266.400 53.326
+N2 g 28.0134 0 0 0 191.609 29.125
+02 g 31.9988 0 0 0 205.147 29.376
+NH3 g 17.0305 -45.898 -16.367 2.867 192.774 35.652
+*s = solid, I = liquid, g = gas. Several species are listed twice, as a liquid and as a gas; the difference is due to evaporation or condensation . ..... The molar mass can be in g/g-mol or kg/kg-mo! and CP can be in J/g-mol-K or kJ/kg-mol-K. en
+UI Source: Refs. 5-8 and 5-9. 
+
+************************************************************************************************************************************************************************************************************************************
+A1 = F/(CFp1) = 10,000/(1.72 x 1000) = 5.80 in. 2 (2.71 in. diameter)
+The optimum area ratio can be found from Eq. 3-25 or Fig. 3-5 to be 42. The exit area
+is 5.80 x 42 = 244 in. 2 (17.6 in. diameter). The weight density of oxygen is 71.1 lbf/ft3
+and of hydrogen is 4.4 lbf/ft3
+. The propellant weight flow rate is (Equation 2-5)
+iv= F/ /5 = 10,000/418 = 24.0 !bf/ sec
+The oxygen and fuel weight flow rates are, from Eqs. 6--3 and 6--4,
+w0 = wr/(r + I)= 24.0 x 3.40/4.40 = 18.55 !bf/ sec
+ivr = w/(r + I)= 24/4.40 = 5.45 !bf/ sec
+The volume flow rates are determined from the densities and the weight flow rates.
+. . 3 V0 = w0 /p0 = 18.55/71.1 = 0.261 ft /sec . 3
+Vr=w1/Pr=5.45/4.4= 1.24ft /sec
+For 120 sec of operations (arbitrarily allow the equivalent of two additional seconds for
+start and stop transients and unavailable propellant), the weight and volume of required
+propellant are
+w0 = 18.55 x 122 = 2260 !bf of oxygen
+w1 = 5.45 x 122 = 665 !bf of hydrogen
+V0 = 0.261 x 122 = 31.8 ft 3 of oxygen
+v1 = 1.24 x 122 = 151 ft 3 of hydrogen
+Note that, with the low-density fuel, the volume flow rate and therefore the tank volume
+of hydrogen are large compared to that of the oxidizer.
+6.2. PROPELLANT FEED SYSTEMS
+The propellant feed system has two principal functions: to raise the pressure of
+the propellants and to feed them to one or more thrust chambers. The energy
+for these functions comes either from a high-pressure gas, centrifugal pumps,
+or a combination of the two. The selection of a particular feed system and its
+components is governed primarily by the application of the rocket, the requirements mentioned at the beginning of this chapter, duration, number or type of
+thrust chambers, past experience, mission, and by general requirements of
+simplicity of design, ease of manufacture, low cost, and minimum inert mass.
+A classification of several of the more important types of feed system is shown
+in Fig. 6-2 and some are discussed in more detail below. All feed systems have
+piping, a series of valves, provisions for filling and removing (draining and
+flushing) the liquid propellants, and control devices to initiate, stop, and regulate their flow and operation. 
+*************************************************************************************************************************************************************************
+6.3. GAS PRESSURE FEED SYSTEMS
+One of the simplest and most common means of pressurizing the propellants is
+to force them out of their respective tanks by displacing them with high-pressure gas. This gas is fed into the propellant tanks at a controlled pressure,
+thereby giving a controlled propellant discharge. Because of their relative simplicity, the rocket engines with pressurized feed systems can be very reliable.
+Reference 6-3 includes a design guide for pressurized gas systems.
+A simple pressurized feed system is shown schematically in Fig. 1-3. It
+consists of a high-pressure gas tank, a gas starting valve, a pressure regulator,
+propellant tanks, propellant valves, and feed lines. Additional components,
+such as filling and draining provisions, check valves, filters, flexible elastic
+bladders for separating the liquid from the pressurizing gas, and pressure
+sensors or gauges, are also often incorporated. After all tanks are filled, the
+high-pressure gas valve in Fig. 1-3 is remotely actuated and admits gas through
+206 LIQUID PROPELLANT ROCKET ENGINE FUNDAMENTALS
+TABLE 6-2. Typical Features of Liquid Propellant Feed Systems
+Enhance Safety
+Sniff devices to detect leak of hazardous vapor; used on Space Shuttle orbiter
+Check valves to prevent backflow of propellant into the gas tank and inadvertent mixing of
+propllants inside flow passages
+Features that prevent an unsafe condition to occur or persist and shut down engine safely, such
+as relief valves or relief burst diaphragms to prevent tank overpressurization), or a vibration
+monitor to shut off operation in the case of combustion instability
+Isolation valves to shut off a section of a system that has a leak or malfunction
+Burst diaphragms or isolation valves to isolate the propellants in their tanks and positively
+prevent leakage into the thrust chamber or into the other propellant tank during storage
+Inert pressurizing gas
+Provide Control
+Valves to control pressurization and flow to the thrust chambers (start/stop/throttle)
+Sensors to measure temperatures, pressures, valve positions, thrust, etc., and computers to
+monitor/analyze system status, issue command signals, and correct if sensed condition is
+outside predetermined limits
+Manned vehicle can require system status display and command signal override
+Fault detection, identification, and automatic remedy, such as shut-off isolation valves in
+compartment in case of fire, leak, or disabled thruster
+Control thrust (throttle valve) to fit a desired thrust-time profile
+Enhance Reliability
+Fewest practical number of components/subassemblies
+Ability to provide emergency mode engine operation, such as return of Space Shuttle vehicle to
+landing
+Filters to catch dirt in propellant lines, which could prevent valve from closing or small injector
+holes from being plugged up or bearings from galling.
+Duplication of unreliable key components, such as redundant small thrusters, regulators, check
+valves, or isolation valves
+Heaters to prevent freezing of moisture or low-melting-point propellant
+Long storage life-use propellants with little or no chemical deterioration and no reaction with
+wall materials
+Provide for Reusability
+Provisions to drain remaining propellants or pressurants
+Provision for cleaning, purging, flushing, and drying the feed system and refilling propellants
+and pressurizing gas in field
+Devices to check functioning of key components prior to next operation
+Features to allow checking of engine calibration and leak testing after operation
+Features for access of inspection devices for visual inspection at internal surfaces or components
+Enable Effective Propellant Utilization
+High tank expulsion efficiency with minimum residual, unavailable propellant
+Lowest possible ambient temperature variation or matched propellant property variation with
+temperature so as to minimize mixture ratio change and residual propellant
+Alternatively, measure remaining propellant in tanks (using a special gauge) and automatically
+adjust mixture ratio (throttling) to minimize residual propellant
+Minimize pockets in the piping and valves that cannot be readily drained
+************************************************************************************************************************************************************************************************************
+TABLE 4-7. Payload Capabilities and Rocket Propulsion Systems of Four Titan Space Launch Vehicle Configurations
+....
+Space Launch Vehicle
+100 mi circular orbit, 28.6°
+inclination from Cape Canaveral
+Same, but 99° launch from
+Vandenberg AFB
+Elliptic orbit, !00 mi -+ 1000 mi,
+28.6° inclination
+Payload for third-stage propulsion
+system, optional (see below)
+Solid rocket boosters
+(United Technologies/CSD)
+Stage I, Aerojet LR 87-AJ-l l
+engine, N20 4 with 50%
+N2H4 /50% UDMH
+Stage II, Aerojet LR 91-AJ-l 1
+engine N20 4 with 50% N2H4
+50% UDMH
+Stage III has several
+alternative systems for each
+vehicle; only one is
+listed here
+Titan II SLY Titan III Titan IV
+Payloads ( lbm) in Low Earth Orbits for 2-Stage Configurations
+5000 31,000 39,000
+4200 26,800 32,000
+3000 25,000 - 30,000
+Payloads (lbm) in Synchronous Earth Orbit, 3-Stage Configurations
+2200 4000 I0,000
+Rocket Propulsion Systems in Titan Launch Vehicles
+None 2 units, each metal case Same, but 7 segments
+5! segments I,= 159.7 x 106 !bf-sec
+I, = 123 x 106 I bf-sec
+2 thrust chambers 430,000 !bf Same, 529,000 !bf thrust Same, but uprated to
+thrust at SL (vacuum) 550,000 !bf thrust in a vacuum
+101,000 !bf thrust in vacuum Same Uprated to I 06,000 I bf
+thrust in vacuum
+SSPS with Aerojet liquid United Technologies/ Centaur;
+storable propellant CSD, Interim Upper 2 Pratt & Whitney
+engine Al 10-118 K Stage (!US) solid RL IOA-3-3A rocket
+(9800 !bf thrust) propellant rocket engines, 33,000 !bf
+motor (see Table 11-3) thrust, H2 /02
+:!:j Source: Lockheed-Martin Astronautics, Aerojet Propulsion Company, and Pratt & Whitney Division of United Technologies Corp.
+Titan IV B
+47,800
+38,800
+- 34,000
+12,700
+12% more propellant,
+3 segments
+I, = I 79 x !06 I bf-sec
+Same
+Same
+Same
+***************************************************************************************************************************************
+TABLE 4-3. Space Shuttle Incremental Flight Velocity Breakdown
+Ideal satellite velocity
+!).u to overcome gravity losses
+!).u to turn the flight path from the vertical
+!).u to counteract aerodynamic drag
+Orbit injection
+Deorbit maneuver to re-enter atmosphere and aerodynamic braking
+Correction maneuvers and velocity adjustments
+Initial velocity provided by the earth's rotation at 28.5° latitude
+Total required mission velocity
+7790 m/sec
+1220 m/sec
+360 m/sec
+118 m/sec
+145 m/sec
+60 m/sec
+62 m/sec
+-408 m/sec
+9347 m/sec
+
+The trajectory is two-dimensional and is contained in a fixed plane. The
+vehicle has wings that are inclined to the flight path at an angle of attack a and
+that give a lift in a direction normal to the flight path. The direction of flight
+does not coincide with the direction of thrust. Figure 4-4 shows these conditions schematically.
+Let e be the angle of the flight path with the horizontal and ijJ the angle of
+the direction of thrust with the horizontal. In the direction of the flight path the
+product of the mass and the acceleration has to equal the sum of all forces,
+namely the propulsive, aerodynamic, and gravitational forces:
+m(du/dt) = Fcos(ijf- e) - D - mg sine (4-13)
+The acceleration perpendicular to the flight path is u(d8/dt); for a constant
+value of u and the instantaneous radius R of the flight path it is u2 / R. The
+equation of motion in a direction normal to the flight velocity is
+mu(d8/dt) = F sin(ijf- e) + L - mgcose (4-14)
+By substituting from Equations 4-10 and 4-11, these two basic equations can
+be solved for the accelerations as
+du F Cn 2 .
+- = -cos(ijf- e) - -pu A - gsme dt m 2m (4-15)
+de F . cL 2
+u- = -sm(ijf- e) +-pu A - gcose dt m 2m (4-16)
+No general solution can be given to these equations, since tp, u, Cn, CL,P, e, or
+1/1 can vary independently with time, mission profile, or altitude. Also, Cn and
+CL are functions of velocity or Mach number. In a more sophisticated analysis
+other factors may be considered, such as the propellant used for non propulsive
+purposes (e.g., attitude control or flight stability). See Refs. 4-1 to 4-5 for a
+*************************************************************************************************************************************************************************************************************
+Aerospike Thrust Chamber
+A separate category comprises thrust chambers using a center body, such as a
+plug nozzle or aerospike nozzle. They have more surface to cool than ordinary
+thrust chambers. A circular aerospike thruster is described in Chapter 3 and
+8.2. COMBUSTION CHAMBER AND NOZZLE 297
+shown schematically in Fig. 3-12. Here the diameter of the exhaust flow plume
+increases with altitude. A linear version of a truncated (shortened) aerospike
+thrust chamber is currently being developed with liquid oxygen and liquid
+hydrogen as the propellants; see Refs. 8-7 and 8-8. An experimental engine;
+assembly (XRS-2200) with 20 cells and two hydrogen-cooled, two-dimensional,
+curved ramps is shown in Figs 8-13 and 8-14. Each individual small (regeneratively cooled) thrust chamber or cell has its own cylindrical combustion
+chamber, a circular small nozzle throat, but a rectangular nozzle exit of low
+area ratio. The gas from these 20 rectangular nozzle exits is further expanded
+(and thus reaches a higher exhaust velocity) along the contour of the spike or
+ramp. The two fuel-cooled side panels are not shown in these figures. The flat
+surface at the bottom or base is porous or full of small holes and a low-pressure
+gas flows through these openings. This causes a back pressure on the flat base
+surface. This flow can be the exhaust gas from the turbopumps and is typically
+1 or 2% of the total flow. The gas region below this base is enclosed by the two
+gas flows from the ramps and the two side plates and is essentially independent
+of ambient pressure or altitude. Two of the XRS-2200 engine drive the X-33
+wing shaped vehicle aimed at investigating a single stage to orbit concept.
+The thrust F of this aerospike thrust chamber consists of (1) the axial
+component thrusts of each of the little chamber modules, (2) the integral of
+the pressures acting on the ramps over the axially projected area Aa normal to
+the axis of the ramps, and (3) the pressure acting over the base area Abase·
+(8-13)
+Here () is the angle of the module nozzle axis to the centerline of the spike, m is
+the total propellant flow, v2 is the exhaust velocity of the module, A2 is the total
+exit area of all the modules, p2 is the exhaust pressure at the exit of the module,
+and p3 is the ambient pressure at the nozzle exit level. These expressions are a
+simplified version of the thrust. Not included, for example, is the negative effect
+of the slipstream of air around the engine (which causes a low-pressure region)
+and the friction on the side plates; both actually decrease the thrust slightly.
+For each application there is an optimum angle e, an optimum ramp length, an
+optimum ratio of the projected ramp area to the base area, and an optimum
+base pressure, which is a function of the base flow. 
+**************************************************************************************************************************************************************
+very effective, it is better understood, and theory fits. This leads to the application of injector face baffles, discrete acoustic energy absorption cavities, and
+combustion chamber liners or changes in injector design, often by using a trial
+and error approach.
+Injector face baffles (see Fig. 9-6) were a widely accepted design practice in
+the 1960s for overcoming or preventing high-frequency instability. Baffle
+design is predicated on the assumption that the most severe instability, oscillations, along witht he driving source, are located in or near the injector-atomization zone at the injector end of the combustion chamber. The baffles
+minimize influential coupling and amplification of gas dynamic forces within
+the chamber. Obviously, baffles must be strong, have excellent resistance to
+combustion temperatures (they are usually cooled by propellant), and must
+protrude into the chamber enough to be effective, yet not so far as to act like an
+individual combustion chamber with its own acoustical characteristics. The
+number of baffle compartments is always odd. An even number of compartments enhances the standing modes of instability, with the baffles acting as
+nodal lines separating regions of relatively high and low pressure. The design
+and development of baffles remains highly empirical. Generally, baffles are
+designed to minimize acoustical frequencies below 4000 Hz, since experience
+has shown damaging instability is rare at frequencies above 4000 Hz. 
+***********************************************************************************************************************************************************************************
+PROBLEMS
+1. For a particular liquid propellant thrust chamber the following data are given:
+Chamber presure 68 MPa
+Chamber shape cylindrical
+Internal chamber diameter 0.270 m
+Length of cylindrical section
+Nozzle convergent section angle
+Throat diameter and radius of wall curvature
+Injector face
+Average chamber gas temperature
+Average chamber gas molecular weight
+Specific heat ratio
+0.500 m
+45°
+0.050 m
+Flat
+2800 K
+20 kg/kg-mo!
+1.20
+Assume the gas composition and temperature to be uniform in the cylindrical chamber section. State any other assumptions that may be needed. Determine the approximate resonance frequencies in the first longitudinal mode, radial mode, and
+tangential mode.
+2. In Problem I, explain how these three frequencies will change with combustion
+temperature, chamber pressure, chamber length, chamber diameter, and throat diameter.
+3. Why does heat transfer increase during combustion instability?
+4. Prepare a list of steps for undertaking a series of tests to validate the stability of a
+new pressure-fed liquid bipropellant rocket engine.
+5. Estimate the resonant frequency of a set of each of nine cavities similar to Fig. 9~7.
+Here the chamber diameter D = 0.200 m, the slot width is 1.0 mm, and the width and
+height of the cavity are each 20.0 mm. The walls separating the individual cavities are
+10.0 mm thick. Assume L = 4.00 mm, tJ.L = 3.00 mm, and a= 1050 m/sec.
+Answer: approximately 3138 cycles/sec. 
+*****************************************************************************************************************************************************************************************************************
+FIGURE 10-1. Cut-away view of an experimental turbopump demonstrator with a
+single-stage liquid oxygen pump impeller, an inducer impeller, and a single-stage turbine
+(one row of blades) on the same shaft. (Courtesy of The Boeing Company, Rocketdyne
+Propulsion and Power.)
+single-stage propellant pump (with an inducer impeller ahead of the main
+impeller) is driven by a single-stage axial-flow turbine. The hot combustion
+gases, which drive this turbine, are burned in a separate gas generator (or a
+precombustion chamber or preburner) at a mixture ratio that gives gases
+between 900 and 1200 K; this is sufficiently cool, so that the hot turbine hardware (blades, nozzles, manifolds, or disks) still have sufficient strength without
+needing forced cooling. The gases are expanded (accelerated) in an annular set
+of converging~diverging supersonic turbine nozzles, which are cast into the cast
+turbine inlet housing. The gases then enter a set of rotating blades, which are
+mounted on a rotating wheel or turbine disk. The blades remove the tangential
+energy of the gas flow. The exhaust gas velocity exiting from the blades is
+relatively low and its direction is essentially parallel to the shaft. The pump
+is driven by the turbine through an interconnecting solid shaft. The propellant
+10.1. TURBOPUMPS 365
+enters the pump through an inducer, a special impeller where the pressure of the
+propellant is raised only slightly (perhaps 5 to 10% of the total pressure rise).
+This is just enough pressure so that there will be no cavitation as the flow enters
+the main pump impeller. Most of the kinetic energy given to the flow by the
+pump impeller is converted into hydrostatic pressure in the diffusers (the diffuser vanes are not clearly visible, since they are inclined) and/or volutes of the
+pump. The two hydrostatic bearings support the shaft radially. All bearings
+and shaft seals create heat as they run. They are cooled and lubricated by a
+small flow of propellant, which is supplied from the pump discharge through
+drilled passages. One bearing (near the pump) is very cold and the other is hot,
+since it is close to the hot turbine. The angular ball bearing accepts the axial net
+loads from the unbalanced hydrodynamic pressures around the shrouded
+impeller, the inducer, and also the turbine blades or the turbine disk.
+A novel, high speed, compact, and light weight liquid hydrogen turbopump
+is shown in Fig. 10-2 and in Ref 10.2. It is intended to be used with a new
+upper stage hydrogen/oxygen rocket engine with a thrust of about 50,000 !bf
+(22.4 kN), a delivered engine specific impulse of 450.6 sec at an engine mixture
+ratio of 6.0. This engine will run on an expander cycle, with a chamber pressure
+of 1375 psia (96. 7 kg/m2
+) and a maximum internal fuel pressure of 4500 psi
+(323.4 kg/m2
+) at the fuel pump discharge. The unique single-piece titanium
+rotor turns nominally at 166,700 rpm, has two machined sets of pump
+vanes, a machined inducer impeller, a set of machined radial inflow turbine
+****************************************************************************************************************************************************************************************************************
+The engine requirements give the initial basic design goals for the turbopump, namely propellant flow, the pump outlet or discharge pressure (which
+has to be equal to the chamber pressure plus the pressure drops in the piping,
+valves, cooling jacket, and injector), the desired best engine cycle (gas generator
+or staged combustion, as shown in Fig. 6-9), the start delay, and the need for
+restart or throttling, if any. Also, the propellant properties ( density, vapor
+pressure, viscosity, or boiling point) must be known. Some of the design criteria are explained in Refs. 6-1 and 10-3, and basic texts on turbines and
+pumps are listed as Refs. 10-4 to 10-8. 
+***********************************************************************************************************************************************************************************************
+There are several design variations or geometrical arrangements for transmitting turbine power to one or more propellant pumps; some are shown
+schematically in Fig. 10-4. If the engine has propellants of similar density
+(such as liquid oxygen and RP-1), the fuel and oxidizer pumps will have similar
+shaft speeds and can usually be placed on a common shaft driven by a single
+turbine (F-1, RS-27/Delta Fig. 10-3, Atlas, or Redstone engines). If there is a
+mismatch between the optimum pump speed and the optimum turbine speed
+(which is usually higher), it may save inert mass and turbine drive gas mass to
+interpose a gear reduction between their shafts. See Fig. 6-11. For the last two
+decades designers have preferred to use direct drive, which avoids the complication of a gear case but at a penalty in efficiency and the amount of turbine
+drive propellant gas required. See Figs. 6-12, 10-1, or 10-2.
+If the densities are very different (e.g., liquid hydrogen and liquid oxygen),
+the pump head rise* (head = !1p/ p) is much higher for the lower-density propellant, and the hydrogen pump usually has to have more than one impeller or
+one stage and will typically operate at a higher shaft speed; in this case separate.
+**********************************************************************************************************************************************************************
+Component Test Data Design Conditions
+Component Fluid w t,,.p Fluid w t,,.p
+Fuel injector Fuel 10.2 48.3 Fuel 9.9 45.3
+Oxidizer injector Oxygen 14.0 90.0 Oxygen 12.8 75.0
+Fuel cooling jacket Water 9.61 52.0 Fuel 9.9 64.9
+Fuel valve and line Water 9.63 9.15 Fuel 9.9 11.4
+Oxidizer valve and line Oxygen 12.8 14.2 Oxygen 12.8 14.2
+The total pressure drop in the fuel system is 45.3 + 64.9 + 11.4 = 121.6 psi, and in the
+oxidizer system it is 75.0 + 14.2 = 89.2 psi.
+The tank pressures required to obtain the desired flows are calculated by adding the
+chamber pressure to these pressure drops; that is, (p) 0 = 306 + 89.2 = 395.2 psi and
+(p)1 = 306 + 121.6 = 427.6 psi. To equalize the tank pressures so that a single gas
+pressure regulator can be used, an additional pressure loss must be introduced into the
+oxygen system. The correction to this simple pressurized liquid propellant system is
+accomplished by means of an orifice, which must be placed in the propellant piping
+between the oxidizer tank and the thrust chamber. Allowing IO psi for regulator functioning, the pressure drop in a calibration orifice will be t,,.p = 427.6 - 395.2 + 10 = 42.4
+psi. The regulator setting should be adjusted to give a regulated downstream pressure of
+427.6 psi under flow conditions. The orifice area (assume Cd= 0.60 for a sharp-edged
+orifice) can be obtained from Eq. 8-2, but corrected with a g0 for English units.
+In 12.8 X 144
+A = Cd.j2gp t,,.p = --=---o .-:60--:---.j'2=x==:3=2=.2=x=1.=14=x=6==2=.4=x=4=2=.4=x=1==44
+= 0.581 in. 2 (or 0.738 in. diameter)
+A set of balancing equations can be assembled into a computer program to
+assist in the calibration of engines. It can also include some of the system's
+dynamic analogies that enable proper calibration and adjustment of transient
+performance of the engine as during start. There is a trend to require tighter
+tolerances on rocket engine parameters (such as thrust, mixture ratio, or specific impulse), and therefore the measurements, calibrations, and adjustments
+are also being performed to much tighter tolerances than was customary 25
+years ago. 
+******************************************************************************************************************************************************************************
+otras variables e instrucciones a tener en cuenta para kilo code
+deberias extraer las variables numericas/ecuaciones/clave::valor o lo que son las tablas para el diseño de motor cohete(objetivo) diametro, caudal volumetrico, masa real del motor
+del cohete.
+1. Estimate the mass and volume of nitrogen required to pressurize an N20cMMH
+feed system for a 4500 N thrust chamber of 25 sec duration (I;,, = 0.92, the ideal, / 5 =
+285 sec at 1000 psi or 6894 N/M2 and expansion to I atm). The chamber pressure is
+20 atm (abs.) and the mixture ratio is 1.65. The propellant tank pressure is 30 atm,
+and the initial gas tank pressure is 150 atm. Allow for 3% excess propellant and 50%
+excess gas to allow some nitrogen to dissolve in the propellant. The nitrogen regulator requires that the gas tank pressure does not fall below 29 atm.
+2. What are the specific speeds of the four SSME pumps? (See the data given in Table
+10-1.)
+3. Compute the turbine power output for a gas consisting of 64% by weight of H20 and
+36% by weight of 0 2, if the turbine inlet is at 30 atm and 658 K with the outlet at 1.4
+atm and with 1.23 kg flowing each second. The turbine efficiency is 37%.
+4. Compare the pump discharge gage pressures and the required pump powers for five
+different pumps using water, gasoline, alcohol, liquid oxygen, and diluted nitric acid.
+The respective specific gravities are 1.00, 0.720, 0.810, 1.14, and 1.37. Each pump
+delivers 100 gal/min, a head of 1000 ft, and arbitrarily has a pump efficiency of 84%.
+Answers: 433, 312, 350, 494, and 594 psi; 30.0, 21.6, 24.3, 34.2, and 41.1 hp.
+5. The following data are given on a liquid propellant rocket engine:
+Th~ ~~M
+Thrust chamber specific impulse
+Fuel
+Oxidizer
+Thrust chamber mixture ratio
+Turbine efficiency
+Required pump power
+Power to auxiliaries mounted on turbopump
+gear case
+Gas generator mixture ratio
+Turbine exhaust pressure
+Turbine exhaust nozzle area ratio
+Enthalpy available for conversion in turbine
+per unit of gas
+Specific heat ratio of turbine exhaust gas
+210.2 sec
+Gasoline (sp. gr. 0.74)
+Red fuming nitric acid
+(sp. gr. 1.57)
+3.25
+58%
+580 hp
+50 hp
+0.39
+37 psia
+1.4
+180 Btu/lb
+1.3
+Determine the engine system mixture ratio and the system specific impulse.
+Answers: 3.07 and 208.
+SYMBOLS
+a acceleration, m/sec2 (ft/sec2
+)
+A area, m2 (ft2
+)
+cP specific heat at constant pressure, J/kg-K (Btu/lbm-R)
+
+
+SYMBOLS
+a acceleration, m/sec2 (ft/sec2
+)
+A area, m2 (ft2
+)
+cP specific heat at constant pressure, J/kg-K (Btu/lbm-R)
+414
+(Hs)R
+ls
+k
+L
+111
+N
+NS
+p
+p
+Q
+r
+s
+t
+T
+u
+u
+TURBOPUMPS, ENGINE DESIGN & CONTROLS, CALIBRATION, INTEGRATION
+thrust coefficient (see Eq. 3~30)
+diameter, m (ft)
+thrust, N (!bf)
+sea-level acceleration of gravity, 9.806 m/sec2 (32.17 ft/sec2
+)
+enthalpy change, J/kg (Btu/lb)
+head, m (ft)
+available pump suction head above vapor pressure, often called net
+positive suction head, m (ft)
+required pump suction head above vapor pressure, m (ft)
+specific impulse, sec (lbf-sec/lbf)
+specific heat ratio
+length, m (ft)
+mass flow rate, kg/sec
+shaft speed, rpm (rad/sec)
+specific speed of pump
+pressure, N/m2 (lbf/in.2)
+power, W (hp)
+volume flow rate, m3 /sec (ft3 /sec)
+flow mixture ratio (oxidizer to fuel flow)
+suction specific speed of pump
+time, sec
+absolute temperature, K (R)
+tip speed or mean blade speed, m/sec (ft/sec)
+velocity, m/sec (ft/sec)
+Greek Letters
+t. finite differential
+{d discharge correction factor
+{F thrust correction factor
+rJ efficiency
+A coefficient of thermal expansion, m/m-K (in./in.-R)
+p density, kg/m3 (lb/ft3
+)
+i/J constant
+Subscripts
+C chamber
+e maximum efficiency
+f fuel
+gg gas generator
+0 oxidizer
+oa overall engine system
+p pump
+T turbine
+REFERENCES 415
+0 initial condition
+I inlet
+2 outlet 

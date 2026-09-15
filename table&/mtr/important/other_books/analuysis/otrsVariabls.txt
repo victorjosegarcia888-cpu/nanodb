@@ -1,0 +1,531 @@
+422 SOLID PROPELLANT ROCKET FUNDAMENTALS
+TABLE 11-1. Major Application Categories for Solid Propellant Rocket Motors
+Category
+Large booster
+and secondstage motors
+High-altitude
+motors
+Application
+Space launch vehicles; lower
+stages of long-range ballistic
+missiles
+(see Figs. 11-2 and 14-2)
+Upper stages of multistage
+ballistic missiles, space launch
+vehicles; space maneuvers
+Tactical missiles !. High acceleration: short-range
+bombardment, antitank
+missile
+2. Modest acceleration: air-tosurface, surface-to-air, shortrange guided surface-to-surface,
+and air-to-air missiles
+Ballistic missile Defense against long- and
+defense medium-range ballistic missiles
+Typical Characteristics
+Large diameter (above 48 in.);
+L/ D of case = 2 to 7; burn
+time t = 60 to 120 sec; lowaltitude operations with low
+nozzle area ratios (6 to 16)
+High-performance propellant;
+large nozzle area ratio (20 to
+200); L/ D of case = 1 to 2;
+burn time t = 40 to 120 sec ( see
+Fig. 11-3)
+Tube launched, L/ D = 4 to 13;
+very short burn time (0.25 to 1
+sec); small diameter (2.75 to 18
+in.); some are spin stabilized
+Small diameter (5 to 18 in.); L/D
+of case = 5 to 10; usually has
+fins and/or wings; thrust is high
+at launch and then is reduced
+(boost-sustain); many have
+blast tubes (see Fig. 11-4); wide
+ambient temperature limits:
+sometimes minimum
+temperature -65° F or -53°C,
+maximum temperature + l 60°F
+or + 71 °C; usually high
+acceleration; often low-smoke
+or smokeless propellant
+Booster rocket and a small upper
+maneuverable stage with
+multiple attitude control
+nozzles and one or more side
+or divert nozzles
+Gas generator Pilot emergency escape; push Usually low gas temperature
+missiles from submarine launch ( < l 300°C); many different
+tubes or land mobile cannisters;
+actuators and valves; shortterm power supply; jet engine
+starter; munition dispersion;
+rocket turbine drive starter;
+automotive air bags
+configurations, designs, and
+propellants; purpose is to create
+high-pressure, energetic gas
+rather than thrust
+11.1. PROPELLANT BURNING RATE 423
+TABLE 11-2. Classification of Solid Rocket Motors
+Basis of Classification
+Application
+Diameter/Length
+Propellant
+Case design
+Grain configuration
+Grain installation
+Explosive hazard
+Thrust action
+Toxicity
+Examples of Classification
+See Table 11-1.
+0.005-6.6 m or 0.2-260 in.; 0.025 to 45 m or I to 1800 in.
+Composite: Heterogeneous (physical) mixture of powdered
+metal (fuel), crystalline oxidizer and polymer binder
+Double-base: Homogeneous mixture (colloidal) of two
+explosives (usually nitroglycerin in nitrocellulose)
+Composite-modified double-base: Combines composite and
+double-base ingredients
+Gas generator and others: See Chapter 12
+Steel monolithic: One-piece steel case
+Fiber monolithic: Filament wound (high-strength fibers) with
+a plastic matrix
+Segmented: Case (usually steel) and grain are in segments
+which are transported separately and fastened together at
+launch site
+Cylindrical: Cylindrically shaped, usually hollow
+End-burning: Solid cylinder propellant grain
+Other configurations: See Figs. 11-16 and 11-17
+Case-bonded: Adhesion exists between grain and case or
+between grain and insulation and case; propellant is
+usually cast into the case
+Cartridge-loaded: Grain is formed separately from the motor
+case and then assembled into case
+Class 1.3: Catastrophic failure shows evidence of burning
+and explosion, not detonation
+Class 1.1: Catastrophic failure shows evidence of detonation
+Neutral grain: Thrust remains essentially constant during the
+burn period
+Progressive grain: Thrust increases with time
+Regressive grain: Thrust decreases with time
+Pulse rocket: Two or more independent thrust pulses or
+burning periods
+Step-thrust rocket: Usually, two distinct levels of thrust
+Toxic and nontoxic exhaust gases
+424 SOLID PROPELLANT ROCKET FUNDAMENTALS
+TABLE 11-3. Characteristics of Missile Motor and Space Motor
+First Stage Orbus-6 STAR™ 27
+Minuteman Inertial Upper Apogee
+Characteristic Missile Motor" Stage Motol Motor°
+Motor Performance ( 70° F, sea level)
+Maximum thrust (!bf) 201,500 23,800 6,404 (vacuum)
+Burn time average thrust (!bf) 194,600 17,175 6,010 (vacuum)
+Action time average thrust (lbf)c 176,600 17,180 5,177 (vacuum)
+Maximum chamber pressure (psia) 850 839 569
+Burn time average chamber pressure 780 611 552
+(psia)°
+Action time average chamber pressure 720 604 502
+(psia)°
+Burn time/action time (seer 52.6/61.3 101.0/103.5 34.35/36.93
+Ignition delay time (sec) 0.130 0.076
+Total impulse (!bf-sec) 10,830,000 1,738,000 213,894
+Burn time impulse (]bf-sec) 10,240,000 1,737,000
+Altitude specific impulse (sec) 254 289.6 (vacuum) 290.8 (vacuum)
+Temperature limits (°F) 60 to 80 45 to 82 20 to 100
+Propellant
+Composition:
+NH4CI04 (%) 70 68 72
+Aluminum(%) 16 18 16
+Binder and additives(%) 14 14 12
+Density (lbm/in. 3
+) 0.0636 0.0635 0.0641
+Burning rate at I 000 psia (in./sec) 0.349 0.276 0.280
+Burning rate exponent 0.21 0.3 to 0.45 0.28
+Temperature coeffcient of pressure 0.102 0.09 0.10
+(%OF)
+Adiabatic flame temperature (°F) 5790 6150 5,909
+Characteristic velocity (ft/sec) 5180 5200 5,180
+Propellant Grain
+Type Six-point star Central 8-point star
+Propellant volume (in. 3
+)
+perforation
+709,400 94,490 11,480
+Web (in.) 17.36 24.2 8.17
+Web fraction (%) 53.3 77.7 60
+Sliver fraction(%) 5.9 0 2.6
+Average burning area (in.2
+) 38,500 3905 1,378
+Volumetric loading(%) 88.7 92.4
+Igniter
+Type Pyrogen Pyrogen Pyrogen
+Number of squibs 2 2 through-the 2
+bulkhead
+initiators
+Minimum firing current (A) 4.9 NA 5.0
+Weights (!bf)
+Total 50,550 6515 796.3
+Total inert 4719 513 60.6
+Burnout 4264 478 53.4
+TABLE 11-3. (Continued)
+Characteristic
+Propellant
+Internal insulation
+External insulation
+Liner
+Igniter
+Nozzle
+Thrust vector control device
+Case
+Miscellaneous
+Propellant mass fraction
+Overall length (in.)
+Outside diameter (in.)
+Material
+Nominal thickness (in.)
+Minimum ultimate strength (psi)
+Minimum yield strength (psi)
+Hydrostatic test pressure (psi)
+Hydrostatic yield pressure (psi)
+Minimum burst pressure, psi
+Typical burst pressure, psi
+Material
+Type
+Density (lbm/in. 3
+)
+Number and type
+Expansion area ratio
+Throat area (in. 2
+)
+Expansion cone half angle (deg)
+Throat insert material
+Shell body material
+Exit cone material
+11.1. PROPELLANT BURNING RATE 425
+First Stage
+Minuteman
+Misisle Motor0
+45,831
+634
+309
+150
+26
+887
+Incl. with nozzle
+2557
+156
+0.912
+Dimensions
+294.87
+65.69
+Case
+Orbus-6
+Inertial Upper
+Stage Motol
+6000
+141
+0
+Incl. with
+insulation
+21
+143
+49.4
+200
+4
+0.921
+72.4
+63.3
+STAR™ 27
+Apogee
+Motor0
+735.7
+12.6
+0
+0.4
+2.9 (empty)
+20.4
+0
+23.6
+0.7
+0.924
+48.725
+27.30
+Ladish D6AC Kevlar fibers/epoxy 6 Al-4V titanium
+steel
+0.148
+225,000
+195,000
+940
+985
+Liner
+Polymeric
+Insulation
+0.35
+~ 1030
+NA
+1225
+> 1350
+HTPB system
+0.035
+165,000
+155,000
+725
+76.7
+TL-H-304
+Hydrocarbon- Silica-filled EPDM NA
+asbestos
+0.0394 0.044
+Nozzle
+4, movable
+10:1
+164.2
+11.4
+Single, flexible
+47.3
+4.207
+Initial 27.4,
+final 17.2
+Fixed, contoured
+48.8/45.94
+5.900
+Initial 18.9,
+exit 15.5
+Forged tungsten Three-dimensional 3D carbon-,;arbon
+AISI 4130 steel
+NA
+carbon-,;arbon
+NA NA
+Two-dimensional Carbon phenolic
+carbon-,;arbon
+a courtesy of Thiokol Propulsion, a Division of Cordant Technologies, Inc.
+bCourtesy United Technologies Corp., Chemical Systems; there is also a version Orbus 6-E (see Fig. 11-3) with
+an extendible, sliding nozzle; it has a specific impulse of 303.8 sec, a total weight of 6604 lb and a burnout weight
+of 567 lb.
+'Burn time and action time are defined in Fig. 11-13.
+NA: not applicable or not available.
+426 SOLID PROPELLANT ROCKET FUNDAMENTALS
+FIGURE 11-5. Diagram of successive burning surface contours, each a fixed small time
+apart. It shows the growth of the internal cavity. The lengths of these contour lines are
+roughly the same (within ±15%), which means that the burning area is roughly
+constant.
+motor operating conditions and design limit conditions. Burning rate is a
+function of the propellant composition. For composite propellants it can be
+increased by changing the propellant characteristics:
+1. Add a burning rate catalyst, often called burning rate modifier (0.1 to
+3.0% of propellent) or increase percentage of existing catalyst.
+2. Decrease the oxidizer particle size.
+3. Increase oxidizer percentage.
+4. Increase the heat of combustion of the binder and/or the plasticizer.
+5. Imbed wires or metal staples in the propellant.
+Aside from the propellant formulation and propellant manufacturing process,
+burning rate in a full-scale motor can be increased by the following:
+1. Combustion chamber pressure.
+2. Initial temperature of the solid propellant prior to start.
+3. Combustion gas temperature.
+4. Velocity of the gas flow parallel to the burning surface.
+5. Motor motion (acceleration and spin-induced grain stress).
+Each of these influencing factors will be discussed. The explanation of the
+behavior of the burning rate with various parameters is largely found in the
+combustion mechanism of the solid propellant, which is described in Chapter
+13. Analytical models of the burning rate and the combustion process exist and
+are useful for preliminary designs and for extending actual test data; for detail
+11.1. PROPELLANT BURNING RATE 427
+designs and for evaluation of new or modified propellants, engineers need some
+actual test data. Burning rate data are usually obtained in three ways-namely,
+from testing by:
+1. Standard strand burners, often called Crawford burners.
+2. Small-scale ballistic evaluation motors.
+3. Full-scale motors with good instrumentation.
+A strand burner is a small pressure vessel (usually with windows) in which a
+thin strand or bar of propellant is ignited at one end and burned to the other
+end. The strand can be inhibited with an external coating so that it will burn
+only on the exposed cross-sectional surface; chamber pressure is simulated by
+pressurizing the container with inert gas. The burning rate can be measured by
+electric signals from embedded wires, by ultrasonic waves, or by optical means
+(Ref. 11~2). The burning rate measured on strand burners is usually lower than
+that obtained from motor firing (by 4 to 12%) because it does not truly simulate the hot chamber environment. Also small ballistic evaluation motors
+usually have a slightly lower burning rate than full-scale larger motors, because
+of scaling factors. The relationship between the three measured burning rates is
+determined empirically for each propellant category and grain configuration.
+Strand-burner data are useful in screening propellant formulations and in
+quality control operations. Data from full-scale motors tested under a variety
+of conditions constitute the final proof of burning-rate behavior. Obviously,
+the strand burner and other substitutes for the full-scale motor must be
+exploited to explore as many variables as practicable.
+During development of a new or modified solid propellant, it is tested
+extensively or characterized. This includes the testing of the burn rate (in
+several different ways) under different temperatures, pressures, impurities,
+and conditions. It also requires measurements of physical, chemical, and manufacturing properties, ignitability, aging, sensitivity to various energy inputs or
+stimuli (e.g., shock, friction, fires), moisture absorption, compatibility with
+other materials (liners, insulators, cases), and other characteristics. It is a
+lengthy, expensive, often hazardous program with many tests, samples, and
+analyses.
+The burning rate of propellant in a motor is a function of many parameters,
+and at any instant governs the mass flow rate m of hot gas generated and
+flowing from the motor (stable combustion):
+(11-1)
+Here Ab is the burning area of the propellant grain, r the burning rate, and Pb
+the solid propellant density prior to motor start. The total mass m of effective
+propellant burned can be determined by integrating Eq. 11~1:
+428 SOLID PROPELLANT ROCKET FUNDAMENTALS
+m = Im dt = Pb I Abr dt (11-2)
+where Ab and r vary with time and pressure.
+Burning Rate Relation with Pressure
+Classical equations relating to burning rate are helpful in preliminary design,
+data extrapolation, and understanding the phenomena; however, analytical
+modeling and the supportive research have yet to adequately predict the burning rate of a new propellant in a new motor. Elemental laws and equations on
+burning rate usually deal with the influence of some of the important parameters individually. Unless otherwise stated, burning rate is expressed for 70°F
+or 294 K propellant (prior to ignition) burning at a reference chamber pressure
+of 1000 psia or 6.895 MPa.
+With many propellants it is possible to approximate the burning rates as a
+function of chamber pressure, at least over a limited range of chamber pressures. A log-log plot is shown in Fig. 11-6. For most production-type propellants, this empirical equation is
+n r=ap 1 (11-3)
+where r, the burn rate, is usually in centimeters per second or inches per second,
+and the chamber pressure p1 is in MPa or psia; a is an empirical constant
+influenced by ambient grain temperature. This equation applies to all the commonly used double-base, composite, or composite double-base propellants and
+they are described in the next chapter. Also a is known as the temperature
+coefficient and it is not dimensionless. The burning rate exponent n, sometimes
+called the combustion index, is independent of the initial grain temperature and
+describes the influence of chamber pressure on the burning rate. The change in
+ambient temperature does not change the chemical energy released in combustion; it merely changes the rate of reaction at which energy is released.
+The curves shown in Fig. 11-6 are calculated and are straight lines on a loglog plot; however, many actual burning rate plots deviate somewhat and the
+actual data have some slight bends in parts of the curve, as seen in Fig. 11-7.
+For a particular propellant and for wide temperature and pressure limits, the
+burning rate can vary by a factor of 3 or 4. For all propellants they range from
+about 0.05 to 75 mm/sec or 0.02 to 3 in./sec; the high values are difficult to
+achieve, even with considerable burning rate catalyst additives, embedded
+metal wires, or high pressures (above 14 MPa or 2000 psi). A technology
+that would give a burning rate of more than 250 mm/sec at a chamber pressure
+of 1000 psia is desired by motor designers for several applications. 
+
+
+TABLE 12-1. Characteristics of Some Operational Solid Propellants
+Flame Density or
+1., Temperature' Spec. Gravity' Metal Burning Pressure Stress (psi)/Strain (%)
+Propellant Typea Range Content Rate"·e Exponente Hazard Processing
+(sec)" (OF) (OK) (lb/in3
+) (sp. gr.) (wt%) (in./sec) n Classificationd -60°F + 150°F Method
+DB 220-230 4100 2550 0.058 l.61 0 0.05-1.2 0.30 I.I 4600/2 490/60 Extruded
+DB/AP/Al 260-265 6500 3880 0.065 l.80 20-21 0.2-1.0 0.40 1.3 2750/5 120/50 Extruded
+DB/AP-HMX/Al 265-270 6700 4000 0.065 l.80 20 0.2-1.2 0.49 I.I 2375/3 50/33 Solvent cast
+PVC/AP/Al 260-265 5600 3380 0.064 l.78 21 0.3--0.9 0.35 1.3 369/150 38/220 Cast or
+extruded
+PU/AP/Al 260-265 5700 3440 0.064 l.78 16-20 0.2-0.9 0.15 1.3 1170/6 75/33 Cast
+PBAN/AP/Al 260-263 5800 3500 0.064 l.78 16 0.25-1.0 0.33 1.3 520/16 71/28 Cast
+(at -I0°F)
+CTPB/AP/Al 260-265 5700 3440 0.064 l.78 15-17 0.25-2.0 0.40 1.3 325/26 88/75 Cast
+HTPB/AP/Al 260-265 5700 3440 0.067 l.86 4-17 0.25-3.0 0.40 1.3 910/50 90/33 Cast
+PBAA/AP/Al 260-265 5700 3440 0.064 l.78 14 0.25-1.3 0.35 1.3 500/13 41/31 Cast
+AN/Polymer 180-190 2300 1550 0.053 1.47 0 0.06--0.5 0.60 1.3 200/5 NA Cast
+"Al, aluminum; AN, ammonium nitrate; AP, ammonium perchlorate; CTPB, carboxy-terminated polybutadiene; DB, double-base; HMX, cyclotetramethylene tetranitramine; HTPB, hydroxyl-terminatd polybutadiene; PBAA, polybutadiene-acrylic acid polymer; PBAN, polybutadiene-acrylic acid-acrylonitrile terpolymer; PU, polyurethane; PVC, polyvinyl chloride.
+h At 1000 psia expanding to 14.7 psia, ideal or theoretical value at reference conditions.
+' At 1000 psia.
+,1 See page 491.
+e /_1 flame temperature, density, burn rate and pressure exponent will vary slightly with specific composition. TABL-E 12-2. Characteristics of Selected Propellants CX)
+I\)
+Propellant Type
+Double-base
+(extruded)
+Double-base
+(castable)
+Advantages
+Modest cost; nontoxic clean exhaust, smokeless; good burn rate
+control; wide range of burn rates; simple
+well-known process; good mechanical properties; low
+temperature coefficient; very low pressure exponent; plateau
+burning is possible
+Wide range of burn rates; nontoxic smokeless exhaust; relatively
+safe to handle; simple, well-known process; modest cost; good
+mechanical properties; good burn rate control; low temperature
+coefficient; plateau burning can be achieved
+Disadvantages
+Free-standing grain requires structural support; low
+performance, low density; high to intermediate
+hazard in manufacture; can have storage
+problems with NG bleeding out; diameter limited
+by available extrusion presses; class 1.1
+NG may bleed out or migrate; high to intermediate
+manufacture hazard; low performance; low
+density; higher cost than extruded DB; class I. I
+Composite-modified double-base or Higher performance; good mechanical properties; high density Storage stability can be marginal; complex facilities;
+some smoke in exhaust; high flame temperature;
+moisture sensitive; moderately toxic exhaust;
+hazards in manufacture; modest ambient
+temperature range; the value of n is high (0.8 to
+0.9); moderately high temperature coefficient
+CMDB with some AP and Al (sp. gr. 1.83-1.86); less likely to have combustion stability
+Composite AP, Al, and PBAN or
+PU or CTPB binder
+Composite AP, Al, and HTPB
+binder; most common composite
+propellant today
+Modified composite AP, Al, PB
+binder plus some HMX or RDX
+problems; intermediate cost; good background experience
+Reliable; high density; long experience background; modest cost;
+good aging; long cure time; good performance; usually stable
+combustion; low to medium cost; wide temperature range; high
+density; low to moderate temperature sensitivity; good burn
+rate control; usually good physical properties; class 1.3
+Slightly better solids loading % and performance than PBAN or
+CTPB; widest ambient temperature limits; good burn-rate
+control; usually stable combustion; medium cost; good storage
+stability; widest range of burn rates; good physical properties;
+good experience; class 1.3
+Modest ambient temperature range; high viscosity
+limits at maximum solid loading; high flame
+temperature; toxic, smoky exhaust; some are
+moisture sensitive; some burn-rate modifiers (e.g.
+aziridines) are carcinogens
+Complex facilities; moisture sensitive; fairly high
+flame temperature; toxic, smoky exhaust
+Higher performance; good burn-rate control; usually stable Expensive, complex facilities; hazardous processing;
+combustion; high density; moderate temperature sensitivity; can harder-to-control burn rate; high flame
+have good mechanical properties temperature; toxic, smoky exhaust; can be impact
+sensitive; can be class I. I; high cost; pressure
+exponent 0.5--0. 7
+Composite with energetic binder
+and plasticizer
+such as NG, AP, HMX
+Modified doublebase with HMX
+Modified AN propellant with
+HMX or RDX added
+Ammonium nitrate plus polymer
+binder (gas generator)
+RDX/HMX with polymer
+Highest performance; high density
+(1.8 to 1.86); narrow range of burn rates
+Higher performance; high density
+(I. 78 to 1.88); stable combustion; narrow range of burn rates
+Fair performance; relatively clean; smokeless; nontoxic exhaust
+Clean exhaust; little smoke; essentially nontoxic exhaust; low
+temperature gas; usually stable combustion; modest cost; low
+pressure exponent
+Low smoke; nontoxic exhaust; lower combustion temperature
+Expensive; limited experience; impact sensitive; high
+pressure exponent
+Same as CMDB above; limited experience; most are
+class 1.1; high cost
+Relatively little experience; can be hazardous to
+manufacture; need to stabilize AN to limit grain
+growth; low burn rates; impact sensitive; medium
+density; class 1.1 or 1.3
+Low performance; low density; need to stabilize AN
+to limit grain growth and avoid phase
+transformations; moisture sensitive; low burn
+rates
+Low performance; low density; class I. I 
+
+
+TABLE 12-3. Representative Propellant Formulations
+Double-Base Composite Composite Double-Base
+(JPN Propellant) (PBAN Propellant) (CMDB Propellant)
+Ingredient Wt% Ingredient Wt% Ingredient Wt%
+Nitrocellulose 51.5 Ammonium 70.0 Ammonium 20.4
+perchlorate perchlorate
+Nitroglycerine 43.0 Aluminum powder 16.0 Aluminum powder 21.1
+Diethyl phthalate 3.2 Polybutadiene- 11.78 Nitrocellulose 21.9
+acrylic acidacrylonitrile
+Ethyl centralite 1.0 Epoxy curative 2.22 Nitroglycerine 29.0
+Potassium sulfate 1.2 Triacetin 5.1
+Carbon black <!% Stabilizers 2.5
+Candelilla wax <!%
+Source: Courtesy of Air Force Phillips Laboratory, Edwards, California. 
