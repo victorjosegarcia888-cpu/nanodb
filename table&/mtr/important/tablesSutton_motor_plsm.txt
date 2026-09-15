@@ -1,0 +1,691 @@
+SYMBOLS
+a major axis of ellipse, m, or acceleration, m/sec2 (ft/sec2
+)
+A area, m2
+b minor axis of ellipse, m
+B numerical value of drag integral
+c effective exhaust velocity, m/sec (ft/sec)
+c average effective exhaust velocity, m/sec
+CD drag coefficient
+CL lift coefficient
+d total derivative
+D drag force, N (!bf)
+e eccentricity of ellipse, e = JI - b2 / a2
+e base of natural logarithm (2. 71828)
+E energy, J
+F thrust force, N (!bf)
+Fi final thrust, N
+Fg Gravitational attraction force, N
+F0 initial thrust force, N
+158 FLIGHT PERFORMANCE
+g gravitational acceration, m/sec2
+g0 gravitational acceleration at sea level, 9.8066 m/sec2
+g average gravitational attraction, m/sec2
+G universal or Newton's gravity constant, 6.6700 x 1011 m3 /kg-sec2
+h altitude, m
+hp altitude of rocket at power cutoff, m
+Is specific impulse, sec
+kd diffuse coefficient of reflectivity
+ks specular coefficient of reflectivity
+l distance of moment arm, m
+L lift force, N (!bf)
+m instantaneous mass, kg (lbm)
+m1 final mass after rocket operation, kg
+mp propellant mass, kg
+m0 initial launching mass, kg
+m mass flow rate of propellant, kg/sec
+Ma angular moment of inertia, kg-m2
+l\R mass ratio of vehicle= m1/m0
+n number of stages
+p pressure, N/m2 or Pa (psi)
+r radius, m, or distance between the centers of two attracting masses, m
+R instantaneous radius from vehicle to center of Earth, m
+R0 Effective earth radius, 6.3742 x 106 m
+S range, m
+time, sec
+tP time from launching to power cutoff or time from propulsion start to
+thrust termination, sec
+t1 time to target, sec
+T torque, N-m (ft-lbf)
+u vehicle flight velocity, m/sec (ft/sec)
+ua orbital velocity at apogee, m/sec
+up velocity at power cutoff, m/sec, or orbital velocity at perigee, m/sec
+u0 initial or launching velocity, m/sec
+w weight, N (in some problems, !bf)
+Greek Letters
+a angle of attack, or angular acceleration, angle/sec2
+s propellant mass fraction (s = mp/m0 )
+e angle between flight direction and horizontal, or angle of incident
+radiation, deg or rad
+µ, gravity constant for earth, 3.98600 x I 014 m3 /sec2
+p mass density, kg/m3
+r period of revolution, sec
+REFERENCES 159
+ifr angle of thrust direction with horizontal
+cv angular speed, deg/sec (rad/sec)
+Subscripts
+e escape condition
+f final condition at rocket thrust termination
+max maximum
+p power cutoff or propulsion termination
+s satellite
+z zenith
+0 initial condition or takeoff condition The perfect gas equation p V = RT applies very closely to high temperature
+gases. Here Vis the specific volume or the volume per unit mass of gas mixture,
+and the gas constant R for the mixture is obtained by dividing the universal gas
+constant R' (8314.3J/kg-mol-K) by the average molecular mass 9Jl (often erroneously called the molecular weight) of the gas mixture. Using Dalton's law,
+Eq. 5-1 can be rewritten
+The volumetric proportions of gas species in a gas mixture are determined from
+the molar concentration or molar fractions, n1, expressed as kg-mo! for a particular species j per kg of mixture. If n is the total number of kg-mo! of species j
+per kilogram of uniform gas mixture, then 
+************************************************************************************************************************************************************************************************
+===========================================================
+TABLAS DE VARIABLES Y FUENTES — MOTORES LOX/CH₄ TIPO RAPTOR
+===========================================================
+
+| Variable | Símbolo | Unidad | Ecuación / Valor | Fuente |
+|-----------|----------|--------|------------------|--------|
+| Caudal másico | ṁ | kg/s | ṁ = Pc·At / c* | Sutton / NASA SP‑8120 |
+| Presión cámara | Pc | MPa | Pc = ṁ·c* / At | Sutton / NASA SP‑8120 |
+| Volumen cámara | Vc | m³ | Vc = π·(Dc/2)²·Lc | Sutton / UC3M |
+| Relación expansión | Ae/At | – | 20–120 | NASA SP‑8120 |
+| Temperatura adiabática | Tad | K | 3300–3600 | UC3M / Sutton |
+| Índice de oxidación | Iox | – | Iox = (O/F)/((Tad/1000)·4) | NASA CR / Sutton |
+| Densidad gases | ρg | kg/m³ | ρg = Pc/(R·Tc) | UC3M |
+| Potencia turbina | Wt | MW | Wt = ṁ·Cp·Tpb·(1-(Pout/Pin)^(γ-1)/γ)·ηt | Galmés / NASA TM |
+| Disociación | Deq | – | Deq = 0.15 + 0.0001·(T−1500) | UC3M |
+| OTDF | – | – | (Tmax−Tavg)/(Tavg−Tinlet) | NASA TM |
+| Flujo volumétrico | Q | m³/s | Q = ṁ / ρ | Galmés |
+| Eficiencia térmica | ηth | – | ηth = (0.5·ve²)/LHV | Sutton |
+| Conductividad plasma | σ | S/m | σ = n·e²·τ/m | Chen |
+| Temperatura electrónica | Te | K | 500–4000 | Chen |
+| Energía de ionización | Ei | eV | Ei = 13.6·(Z²/n²) | Chen |
+| Flujo térmico radiativo | q'' | MW/m² | q'' = ε·σSB·T⁴ | NASA SP‑8120 |
+| Material cámara | – | – | Inconel 718 / Cu‑Ni 70/30 | NASA SP‑8120 |
+| Material turbina | – | – | Monel 400 | Galmés |
+| Material tobera | – | – | TZM / Grafito reforzado | NASA SP‑8120 |
+***************************************************************************************************************************************************************************
+
+
+libro Motores de reacción y turbinas de gas (Paraninfo 2024)
+Bloque	Contenido clave	Variables útiles para tus tablas NASA‑SpaceX
+Termodinámica aplicada	Ciclo Brayton, rendimiento térmico, relaciones de presión y temperatura	
+𝜂𝑡=1−(𝑇4/𝑇3), 𝑃2/𝑃1=(𝑇2/𝑇1)𝛾/(𝛾−1)
+Compresores y turbinas	Caudales másicos, pérdidas por fricción, eficiencia volumétrica	
+𝑚˙=𝜌𝐴𝑣, 𝜂𝑣=𝑚˙𝑟𝑒𝑎𝑙𝑚˙𝑖𝑑𝑒𝑎𝑙
+Cámaras de combustión	Mezcla aire‑combustible, presión de cámara, temperatura de llama	
+𝑃𝑐=𝑚˙𝑐∗𝐴𝑡, 𝑇𝑎𝑑=𝑓(𝑂/𝐹)
+Sistemas auxiliares	Refrigeración regenerativa, materiales resistentes	Inconel 718, Monel 400, Cu‑Ni 70/30, acero 316L
+
+Ecuaciones integrables en DatosMotor.txt
+Variable	Ecuación	Aplicación
+Caudal másico 
+𝑚˙𝑚˙=𝑃𝑐𝐴𝑡𝑐∗
+Dimensionar garganta
+Presión cámara 
+𝑃𝑐𝑃𝑐=𝑚˙𝑐∗𝐴𝑡
+Control térmico
+Volumen cámara 
+𝑉𝑐𝑉𝑐=𝜋(𝐷𝑐/2)2𝐿𝑐
+Diseño térmico
+Relación expansión 
+𝐴𝑒/𝐴𝑡
+20–120	Optimización de tobera
+Índice de oxidación 
+𝐼𝑜𝑥𝐼𝑜𝑥=𝑂/𝐹(𝑇𝑎𝑑/1000)⋅
+4
+Control de mezcla
+Potencia turbina 
+𝑊𝑡𝑊𝑡=𝑚˙𝐶𝑝𝑇𝑝𝑏(1−
+(𝑃𝑜𝑢𝑡/𝑃𝑖𝑛)
+(𝛾−1)/𝛾)𝜂𝑡
+Prequemadores
+Disociación 
+𝐷𝑒𝑞𝐷𝑒𝑞=0.15+0.0001
+(𝑇−1500)
+Corrección termoquímica
+
+Tablas de turbobombas LOX/CH₄ (derivadas de NASA SP‑8120 + Galmés)
+Parámetro	Valor típico	Notas
+Caudal LOX	60–70 kg/s	Densidad ≈ 1140 kg/m³
+Caudal CH₄	40–50 kg/s	Densidad ≈ 420 kg/m³
+Presión salida	25–30 MPa	Ciclo FFSCC
+RPM	30 000–36 000	Turbina axial
+Potencia	10–20 MW	Por prequemador
+Eficiencia	0.45–0.65	Realista
+Material	Inconel 718 / Monel 400	Alta resistencia
+
+Borja Galmés Belmonte – Motores y Turbinas de Gas
+Tipo de datos útiles:
+
+Variable	Descripción	Aplicación
+𝑚
+˙
+Caudal másico de aire o gas	Dimensionar turbobombas LOX/CH₄
+𝑃
+2
+/
+𝑃
+1
+Relación de presiones en compresor	Cálculo de eficiencia térmica
+𝜂
+𝑡
+Rendimiento de turbina	Potencia de prequemadores
+𝑇
+3
+/
+𝑇
+2
+Relación de temperaturas	Ciclo Brayton modificado
+𝑄
+=
+𝑚
+˙
+/
+𝜌
+Flujo volumétrico	Diseño de líneas criogénicas
+
+
+Tablas derivables:
+
+Caudales de compresores (kg/s) vs presión de salida (MPa)
+
+Eficiencia volumétrica vs RPM
+
+Pérdidas térmicas por fricción vs longitud de canal
+
+📗 2. George P. Sutton – Rocket Propulsion Elements
+Tipo de datos útiles:
+
+Variable	Descripción	Aplicación
+𝑐
+∗
+Velocidad característica	Empuje y rendimiento
+𝐴
+𝑒
+/
+𝐴
+𝑡
+Relación de expansión	Diseño de tobera
+𝑇
+𝑎
+𝑑
+Temperatura adiabática	Combustión LOX/CH₄
+𝐼
+𝑠
+𝑝
+Impulso específico	Comparación de motores
+𝑃
+𝑐
+Presión de cámara	Dimensionamiento estructural
+
+
+Tablas derivables:
+
+Coeficiente de empuje 
+𝐶
+𝐹
+ vs relación de expansión
+
+Pérdida de rendimiento por viscosidad (NASA SP‑8120)
+
+Materiales y métodos de refrigeración regenerativa
+
+sus tablas de conductividad térmica, ionización y transferencia de energía son muy útiles para modelar la combustión y el flujo de gases calientes en motores de cohete.
+
+Variable	Descripción	Aplicación
+𝜎
+Conductividad eléctrica del plasma	Modelar arco de ignición
+𝜆
+Longitud de Debye	Estabilidad del chorro
+𝑛
+𝑒
+Densidad electrónica	Simulación de igniters
+𝑇
+𝑒
+Temperatura electrónica	Cálculo de energía de ionización
+𝑞
+′
+′
+Flujo térmico radiativo	Diseño de cámara y tobera
+
+
+Tablas derivables:
+
+Conductividad térmica vs temperatura (500–4000 K)
+
+Energía de ionización de gases (O₂, CH₄, H₂O, CO₂)
+
+Coeficientes de transferencia radiativa
+
+🧮 Integración formal en Excel o DatosMotor.txt
+Variable	Unidad	Fuente	Aplicación
+𝑚
+˙
+kg/s	Galmés Belmonte	Turbobombas
+𝑃
+𝑐
+MPa	Sutton / NASA SP‑8120	Cámara
+𝑇
+𝑎
+𝑑
+K	Sutton / UC3M	Combustión
+𝜂
+𝑡
+–	Galmés Belmonte	Turbina
+𝜎
+S/m	Chen	Ignición
+𝑞
+′
+′
+MW/m²	NASA SP‑8120	Refrigeración
+𝐼
+𝑜
+𝑥
+–	Sutton / NASA CR	Índice de oxidación
+**************************************************************************************************************************************************************
+George P. Sutton – Rocket Propulsion Elements
+Tipo de datos útiles:
+
+Variable	Descripción	Aplicación
+𝑐
+∗
+Velocidad característica	Empuje y rendimiento
+𝐴
+𝑒
+/
+𝐴
+𝑡
+Relación de expansión	Diseño de tobera
+𝑇
+𝑎
+𝑑
+Temperatura adiabática	Combustión LOX/CH₄
+𝐼
+𝑠
+𝑝
+Impulso específico	Comparación de motores
+𝑃
+𝑐
+Presión de cámara	Dimensionamiento estructural
+
+===========================================================
+TABLAS DE VARIABLES Y FUENTES — MOTORES LOX/CH₄ TIPO RAPTOR
+===========================================================
+
+| Variable | Símbolo | Unidad | Ecuación / Valor | Fuente |
+|-----------|----------|--------|------------------|--------|
+| Caudal másico | ṁ | kg/s | ṁ = Pc·At / c* | Sutton / NASA SP‑8120 |
+| Presión cámara | Pc | MPa | Pc = ṁ·c* / At | Sutton / NASA SP‑8120 |
+| Volumen cámara | Vc | m³ | Vc = π·(Dc/2)²·Lc | Sutton / UC3M |
+| Relación expansión | Ae/At | – | 20–120 | NASA SP‑8120 |
+| Temperatura adiabática | Tad | K | 3300–3600 | UC3M / Sutton |
+| Índice de oxidación | Iox | – | Iox = (O/F)/((Tad/1000)·4) | NASA CR / Sutton |
+| Densidad gases | ρg | kg/m³ | ρg = Pc/(R·Tc) | UC3M |
+| Potencia turbina | Wt | MW | Wt = ṁ·Cp·Tpb·(1-(Pout/Pin)^(γ-1)/γ)·ηt | Galmés / NASA TM |
+| Disociación | Deq | – | Deq = 0.15 + 0.0001·(T−1500) | UC3M |
+| OTDF | – | – | (Tmax−Tavg)/(Tavg−Tinlet) | NASA TM |
+| Flujo volumétrico | Q | m³/s | Q = ṁ / ρ | Galmés |
+| Eficiencia térmica | ηth | – | ηth = (0.5·ve²)/LHV | Sutton |
+| Conductividad plasma | σ | S/m | σ = n·e²·τ/m | Chen |
+| Temperatura electrónica | Te | K | 500–4000 | Chen |
+| Energía de ionización | Ei | eV | Ei = 13.6·(Z²/n²) | Chen |
+| Flujo térmico radiativo | q'' | MW/m² | q'' = ε·σSB·T⁴ | NASA SP‑8120 |
+| Material cámara | – | – | Inconel 718 / Cu‑Ni 70/30 | NASA SP‑8120 |
+| Material turbina | – | – | Monel 400 | Galmés |
+| Material tobera | – | – | TZM / Grafito reforzado | NASA SP‑8120 |
+
+
+===========================================================
+TASKS RAPTOR — EXTENDIDO NASA / SPACEX / UC3M / CHEN
+===========================================================
+
+1. CÁLCULO DE FLUJO VOLUMÉTRICO
+   Q = ṁ / ρ
+   Donde:
+     ṁ = Caudal másico (kg/s)
+     ρ = Densidad del gas (kg/m³)
+   Aplicación: dimensionamiento de líneas criogénicas LOX/CH₄.
+
+2. ÍNDICE DE OXIDACIÓN
+   Iox = (O/F) / ((Tad/1000)·4)
+   Aplicación: control de mezcla y estabilidad de combustión.
+
+3. DISOCIACIÓN TERMODINÁMICA
+   Deq = 0.15 + 0.0001·(T−1500)
+   Aplicación: corrección de temperatura efectiva en cámara.
+
+4. PERFIL TÉRMICO OTDF
+   OTDF = (Tmax−Tavg)/(Tavg−Tinlet)
+   Aplicación: análisis de distorsión térmica en turbina.
+
+5. CONDUCTIVIDAD PLASMÁTICA
+   σ = n·e²·τ/m
+   Aplicación: ignición por arco eléctrico y estabilidad del chorro.
+
+6. ENERGÍA DE IONIZACIÓN
+   Ei = 13.6·(Z²/n²)
+   Aplicación: modelado de igniters y descarga de plasma.
+
+7. FLUJO TÉRMICO RADIATIVO
+   q'' = ε·σSB·T⁴
+   Aplicación: diseño de refrigeración regenerativa.
+
+8. POTENCIA DE TURBINA
+   Wt = ṁ·Cp·Tpb·(1−(Pout/Pin)^(γ−1)/γ)·ηt
+   Aplicación: prequemadores FFSCC.
+
+9. EFICIENCIA TÉRMICA GLOBAL
+   ηth = (0.5·ve²)/LHV
+   Aplicación: rendimiento del motor completo.
+
+10. RELACIÓN DE EXPANSIÓN
+    Ae/At = (De/Dt)²
+    Aplicación: optimización de tobera.
+
+
+===========================================================
+DATOS MOTOR — NASA / SPACEX / GALMÉS / SUTTON / CHEN
+===========================================================
+
+Motor: Raptor 3 (LOX/CH₄)
+Ciclo: Full‑Flow Staged Combustion (FFSCC)
+Presión cámara Pc: 28 MPa
+Temperatura cámara Tc: 3500 K
+O/F global: 3.6
+Empuje: 2.0 MN
+Isp: 380 s
+c*: 1800 m/s
+CF: 1.5
+Heat flux q'': 15 MW/m²
+Material cámara: Inconel 718
+Material tobera: TZM / Grafito reforzado
+Material turbina: Monel 400
+Refrigeración: Metano regenerativo
+
+Ecuaciones:
+  ṁ = Pc·At / c*
+  Pc = ṁ·c* / At
+  Vc = π·(Dc/2)²·Lc
+  Ae/At = (De/Dt)²
+  Iox = (O/F)/((Tad/1000)·4)
+  Deq = 0.15 + 0.0001·(T−1500)
+  OTDF = (Tmax−Tavg)/(Tavg−Tinlet)
+  σ = n·e²·τ/m
+  q'' = ε·σSB·T⁴
+  ηth = (0.5·ve²)/LHV
+
+
+===========================================================
+TABLAS DE TURBOBOMBAS LOX/CH₄ — NASA / GALMÉS
+===========================================================
+
+| Parámetro | Valor típico | Unidad | Fuente |
+|------------|--------------|--------|--------|
+| Caudal LOX | 60–70 | kg/s | NASA SP‑8120 |
+| Caudal CH₄ | 40–50 | kg/s | NASA SP‑8120 |
+| Presión salida | 25–30 | MPa | NASA SP‑8120 |
+| RPM | 30 000–36 000 | rpm | Galmés |
+| Potencia | 10–20 | MW | NASA TM |
+| Eficiencia térmica | 0.45–0.65 | – | Galmés |
+| Material | Inconel 718 / Monel 400 | – | NASA SP‑8120 |
+| Tipo de turbina | Axial / centrípeta | – | Galmés |
+| Refrigeración | Regenerativa / gas caliente | – | NASA TM |
+| NPSH | 3–10 | m | Galmés |
+| Cavitación | Cc = k·(NPSH)^−2.5 | – | NASA TM |
+
+***************************************************************************************************************************
+a tank, the ullage volume (and, if it is sealed, also its pressure) will change as
+the bulk temperature of the propellant varies.
+The expulsion efficiency of a tank and/or propellant piping system is the
+amount of propellant expelled or available divided by the total amount of
+propellant initially present. Typical values are 97 to 99.7%. The losses are
+unavailable propellants that are trapped in grooves or corners of pipes, fittings,
+and valves, are wetting the walls, retained by surface tension, or caught in
+instrument taps. This residual propellant is not available for combustion and
+must be treated as inert mass, causing the vehicle mass ratio to decrease
+slightly. In the design of tanks and piping systems, an effort is made to minimize the residual propellant.
+The optimum shape of a propellant tank (and also a gas pressurizing tank) is
+spherical, because for a given volume it results in a tank with the least weight.
+Small spherical tanks are often used with reaction control engine systems,
+where they can be packaged with other vehicle equipment. Unfortunately,
+the larger spheres, which are needed for the principal propulsion systems, 
+******************************************************************************************************************************************
+Tabla 1 — Propiedades de Materiales (Inconel, Monel, Cu‑Ni, Acero Austenítico)
+Material	T_max (°C)	Conductividad (W/m·K)	Límite fluencia (MPa)	Densidad (kg/m³)	Compatibilidad LOX	Compatibilidad CH₄
+Inconel 718	700–980	11.4	1030	8190	Excelente	Excelente
+Monel 400	600	21.8	275	8800	Excelente	Buena
+Cu‑Ni 70/30	450	50	150	8900	Buena	Excelente
+Acero 316L	550	16	290	8000	Buena	Excelente
+
+***********************************************************************************************************************************************************
+I\)
+...... TABLE 8-1. Thrust Chamber Characteristics I\)
+Engine Designation
+RL IOB-2 LE-7 (Japan) RCS RS-27 AJ-10-118I
+Application Delta-III and IV Booster stage for Attitude Delta II Space Delta II Second stage
+upper stage H-II launcher control Launch booster
+Manufacturer Pratt & Whitney, Mitsubishi Heavy Kaiser The Boeing Co., Aerojet Propulsion
+United Technologies Industries Marquardt Rocketdyne Company
+Corporation Company Propulsion &
+Power
+Thrust Chamber
+Fuel Liquid H2 Liquid H2 MMH RP-I (kerosene) 50% N2H4/50%
+UDMH
+Oxidizer Liquid 02 Liquid 0 2 N204 Liquid oxygen N204
+Thrust chamber thrust (lbf)
+at sea level (lbf) No sea level firing I 90,400 12 164,700 NA
+in vacuum (I bf) 24,750 242,500 18 207,000 9850
+Thrust chamber mixture ratio 5.88 6.0 2.0 2.35 1.90
+Thrust chamber specific impulse
+at sea level (sec) NA 349.9 200 257
+in vacuum (sec) 462 445.6 290 294 320
+Characteristic exhaust velocity, c* (ft/sec) 7578 5594.8 5180 5540 5606
+Thrust chamber propellant flow (lb/sec) 53.2 346.9 0.062 640 30.63
+Injector end chamber pressure (psia) 640 70 576 125
+Nozzle end stagnation pressure (psia) NA 1917 68 534
+Thrust chamber sea level weight (!bf) < 150 1560 7 730 137
+Gimbal mount sea level weight (lbf) <IO 57.3 NA 70 23
+Chamber diameter (in.) 15.75 1.09 21 I 1.7
+Nozzle throat diameter (in.) 5.2 9.25 0.427 16.2 7.5
+Nozzle exit diameter (in.) 88 68.28 3.018 45.8 60
+Nozzle exit area ratio 285 54:I 50:1 8:1 65:1
+Chamber contraction area ratio 2.87 6:1 l.67: I 2.54:l
+Characteristic chamber length L* (in.) 30.7 18 38.7 30.5
+Thrust chamber overall length (in.) 90 14.8 l l.O 86.15 18.7
+Fuel jacket and manifold volume (ft3) 3.5 2.5
+Nozzle extension Carbon-carbon None None None None
+Cumul. firing duration (sec) > 360* > 150
+Restart capability Yes No Yes No Yes
+Cooling system Stainless steel Regenerative (fuel) Radiation Stainless steel tubes, Ablative layer
+tubes, lf passes cooled, stainless cooled, single pass, is partly consumed
+regenerative cooled steel tubes niobium regenerative cooling
+Tube diameter/channel width (in.) NA 0.05 (channel) NA 0.45 Ablative material:
+Silica phenolic
+Number of tubes NA 288 0 292
+Jacket pressure drop (psi) 253 540 NA lOO NA
+Injector type Concentric annular Hollow post/sleeve Drilled Flat plate, drilled Outer row: shower head;
+swirl and resonator elements; baffle and holes rings and baffle triplets & doublets,
+cavities acoustic cavities with dual tuned
+resonator
+Injector pressure drop-oxidizer (psi) 100 704 50 156 40
+Injector pressure drop-fuel (psi) 54 154 50 140 40
+Number of oxidizer injector orifices 216 452 (coaxial) 1 1145 1050
+Number of fuel injector orifices 216 452 ( coaxial) 1530 1230
+Engine Characteristics
+Feed system Turbopump with Turbopump Pressure Turbopump with Pressure
+expander cycle fed tanks gas generator fed tanks
+Engine thrust ( at sea level) (lb) NA 190,400 12 165,000 NA
+Engine thrust (altitude) (lb) 24,750 242,500 18 207,700 9850
+Engine specific impulse at sea level NA 349.9 200 253 320
+Engine specific impulse at altitude 462 445.6 290 288 320
+Engine mixture ratio (oxidizer/fuel) 5.88 6.0 2.0 2.27 1.90
+*limited only by available propellant.
+~ Sources: Companies listed above and NASA.
+c.> The thrust for the thrust chamber is usually slightly less than the thrust of the engine for open cycles, such as a gas generator cycle; the thrust chamber specific
+impulse is actually slightly higher (about I%) than the engine specific impulse. For closed cycles such as the staged combustion cycle, the F and I, values of the
+engine and thrust chamber are the same.
+**********************************************************************************************************************************************************************************
+Tabla 2 — Parámetros de Prequemadores FFSCC (NASA TM)
+Parámetro	ORPB (Ox‑Rich)	FRPB (Fuel‑Rich)
+O/F típico	20–40	0.2–0.4
+T_salida (K)	750–1000	700–950
+Riesgo coking	0	Alto (0.85)
+Fase	O₂ + trazas	CH₄ → H₂ + CO
+Material turbina	Inconel / Monel	Acero / Cu‑Ni
+
+
+Tabla 3 — Turbobombas LOX/CH₄ (NASA + Galmés)
+Parámetro	LOX Pump	CH₄ Pump
+Caudal típico (kg/s)	500–800	300–600
+Presión salida (MPa)	20–30	12–18
+RPM	25,000–35,000	20,000–30,000
+Potencia turbina (MW)	8–12	4–7
+Tipo de preburner	ORPB	FRPB
+
+
+Tabla 4 — Geometría de Cámara y Tobera (NASA SP‑8120)
+Parámetro	Valor típico Raptor	Rango NASA
+Pc (MPa)	30 MPa	10–35 MPa
+Área garganta At (m²)	0.0072	0.005–0.010
+Área salida Ae (m²)	0.65	0.4–0.8
+Ratio Ae/At	90	40–120
+Longitud cámara Lc (m)	0.45	0.3–0.6
+Diámetro cámara Dc (m)	0.28	0.2–0.4
+
+
+✅ 2. DatosMotor.txt EXTENDIDO (LISTO PARA TU PROYECTO)
+Código
+# DatosMotor.txt — Versión Extendida (NASA + SpaceX + Galmés + Plasma)
+
+[Propelentes]
+LOX:
+  Tc_crit = 154.6 K
+  Pc_crit = 5.04 MPa
+  rho = 1141 kg/m3
+CH4:
+  Tc_crit = 190.6 K
+  Pc_crit = 4.59 MPa
+  rho = 422 kg/m3
+
+[Motor]
+Pc = 30e6 Pa
+At = 0.0072 m2
+Ae = 0.65 m2
+OF_global = 3.6
+mdot_total = 1100 kg/s
+
+[Preburners]
+ORPB:
+  OF = 25
+  T_out = 950 K
+  mdot = mdot_LOX + mdot_fuel_small
+FRPB:
+  OF = 0.32
+  T_out = 900 K
+  coking_risk = 0.85
+
+[Turbobombas]
+LOX_pump:
+  RPM = 32000
+  P_out = 28e6 Pa
+  Power = 10 MW
+CH4_pump:
+  RPM = 27000
+  P_out = 15e6 Pa
+  Power = 6 MW
+
+[Nozzle]
+Ae_At = 90
+gamma = 1.22
+Isp_vac = 356 s
+
+[Plasma]
+Te = 8000 K
+ne = 1e18 m^-3
+Debye_length = sqrt(epsilon0*k*Te/(ne*e^2))
+
+[Disociación]
+CO2 <-> CO + O
+H2O <-> OH + H
+CH4 <-> C + 2H2
+
+[OTDF]
+OTDF = (Tmax - Tavg) / (Tavg - Tinlet)
+✅ 3. TasksRaptor.txt EXTENDIDO (SIMULACIÓN AVANZADA)
+Código
+# TasksRaptor.txt — Versión Extendida
+
+Task: Calcular disociación química en cámara
+  Input: Pc, Tc, composición
+  Output: fracciones CO, CO2, OH, H2, O
+
+Task: Simular perfil térmico OTDF
+  Input: mapa térmico radial
+  Output: OTDF, alertas de hot-spots
+
+Task: Evaluar riesgo de coking FRPB
+  Input: T_preburner, OF
+  Output: índice 0–1
+
+Task: Simular turbobomba LOX/CH4
+  Input: mdot, RPM, presión requerida
+  Output: potencia turbina, eficiencia
+
+Task: Simulación de plasma (Chen)
+  Input: Te, ne
+  Output: λ_Debye, frecuencia plasma, conductividad
+
+Task: Geometría de tobera (NASA SP‑8120)
+  Input: Ae/At, Pc
+  Output: longitud, ángulo divergente, eficiencia
+
+Task: Flujo volumétrico
+  Q = mdot / rho
+
+Task: Oxidación
+  Índice_oxidación = O/F_local / O/F_esteq
+✅ 4. Program.cs — COMPARATIVO NASA–SPACEX (LISTO PARA USAR)
+csharp
+using System;
+
+namespace RocketComparative
+{
+    class Program
+    {
+        static void Main()
+        {
+            var raptor = new Engine("Raptor", 30e6, 356, 1100);
+            var rs25  = new Engine("RS-25", 20e6, 452, 450);
+
+            Compare(raptor, rs25);
+        }
+
+        static void Compare(Engine a, Engine b)
+        {
+            Console.WriteLine($"Comparativa NASA–SpaceX\n");
+            Console.WriteLine($"{a.Name} Pc={a.Pc/1e6} MPa Isp={a.Isp} mdot={a.Mdot}");
+            Console.WriteLine($"{b.Name} Pc={b.Pc/1e6} MPa Isp={b.Isp} mdot={b.Mdot}");
+
+            double thrustA = a.Mdot * a.Isp * 9.81;
+            double thrustB = b.Mdot * b.Isp * 9.81;
+
+            Console.WriteLine($"Thrust A={thrustA/1000} kN");
+            Console.WriteLine($"Thrust B={thrustB/1000} kN");
+        }
+    }
+
+    class Engine
+    {
+        public string Name;
+        public double Pc;
+        public double Isp;
+        public double Mdot;
+
+        public Engine(string n, double pc, double isp, double md)
+        {
+            Name = n; Pc = pc; Isp = isp; Mdot = md;
+        }
+    }
+}
+
