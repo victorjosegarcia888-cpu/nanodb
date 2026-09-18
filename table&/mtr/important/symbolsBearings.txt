@@ -26,6 +26,40 @@ w axial length of pocket, mm (in.)
 a attitude angle, deg
 ~ inlet fluid viscosity, N sec/mm2 (lbf sec/in.2)
 v inlet fluid kinematic viscosity, mm2/sec (in.2/sec)
+
+TABLE I. - CRITICAL HYDROSTATIC DIMENSIONS
+[Number of pockets per row, 10; number
+of rows, 2.]
+(a) Common dimensions for configurations
+1 and 2
+Description Nominal dimensions
+mm
+Journal axial length, L 23.5
+Pocket axial length, w 2.3
+Pocket circumferential length, i. 5.9
+Axial land length, X 6.0
+Pocket depth (max.), d .56
+Orifice diameter, do .66
+Orifice length, Y 1.1
+(b) Dimensional differences between
+configurations 1 and 2
+in.
+0.926
+.091
+.232
+.236
+.022
+.026
+.045
+Descriptiona Configuration 1 Configuration
+mm in. mm in.
+Journal diameter, OJ 41. 76 1.6440 43.83 1.7255
+Hydrostatic-bearing surface 41.90 1.6497 43.96 1.7306
+diameter. Os
+Diametrical clearance, .14 .0051 .13 .0051
+OJ - Os
+aAt ambient conditions and 0 rpm. 
+
 APPARATUS
 Test Bearing
 A schematic of the hybrid-hydrostatic-bearing assembly and its design
@@ -105,4 +139,37 @@ recorded when the sump pressure was less than 1.03 MPa (1~0 psia) and the
 188 psia), the increase in stiffness may be caused by fluid cavitation.
 Reduced flow rates for the two-phase-flow conditions were also observed.
 The phenomenon of increased stiffness and decreased flow has also been observed
-in face seals (ref. 4). 
+in face seals (ref. 4). 1. Report No. 2. Government Accession No.
+NASI\ TM-87255
+4. Title and Subtitle
+Evaluation of a Hybrid Hydrostatic Bearing for
+Cryogenic Turbopump Application
+7. Author(s)
+Paul W. Spica, Ned P. Hannum, and Scott D. Meyer
+9. Performing Organization Name and Address
+National Aeronautics and Space Administration
+Lewis Research Center
+Cleveland, Ohio 44135
+12. Sponsoring Agency Name and Address
+National Aeronautics and Space Administration
+Washington, D.C. 20546
+15. Supplementary Notes
+16. Abstract
+3. Recipient's Catalog No.
+5. Report Date
+April 1986
+6. Performing Organization Code
+506-60··42
+8. Performing Organization Report No.
+E-2945
+10. Work Unit No.
+11. Contract or Grant No.
+13. Type of Report and Period Covered
+lechnical Memorandum
+14. Sponsoring Agency Code
+A 20-mm hybrid hydrostatic bearing was evaluated in liquid hydrogen at speeds to
+80 000 rpm and radial loads to 440 N (100 lbf). The size and operating conditions of the bearing were selected to be compatible with the operating requirements of an advanced technology turbopump. Measured bearing stiffness was 1.5
+times greater than predicted, while the fluid flow rate through the bearing was
+35 to 65 percent less than predicted. lhe optimal pressure ratio for the bearing
+should be between 0.2 and 0.55 depending on the balance of bearing efficiency
+and stiffness. The bearing operated for 337 start-stop cycles without failure. 
