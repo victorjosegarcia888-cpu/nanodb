@@ -1,0 +1,528 @@
+TABLE5-3. ATOMIZATONTESTCONDITIONS- GAS/LIQUIDIN3ECTORS
+I
+...a
+lEST INJECTOR MASS MIXIURE RATIO FLOW RATE INJECTION VELOCITY (M/SEC) &AS
+ELEMEN1 (OXIDIZER/FUEL) GAS (KG/MIN) LIQUID CR3/MIN) GAS LIOUID MACH NUMBER
+BASELINE TESTS
+1 PENTAD 3 0.49 0.123 60.0 242 0.40 0.70
+2 COAXIAL 5 0.49 0.113 55.0 259 0.21 0.75
+3 COAXIAL 7 3.50 0.116 408 152 0.40 0.44
+4 COAXIAL 9 3.00 0.171 5ll 183 0.43 0.53
+FLOW RATE EFFECTS TEST (MIXTURE RATIO = CONSTANT)
+(Percentage of baseline flow rates in parenthesis after element)
+5 PENTAD 3 (120) 0.49 0.147 72.0 291 0.49 0.84
+7 COAXIAL 5 (120) 0.49 0.135 66.0 311 0.24 0.90
+9 COAXIAL 7 (80) 3.50 0.093 326 122 0.30 0.35
+ll COAXIAL g (80) 3.00 0.137 409 146 0.34 0.42
+6 PENTAD 3 (130) 0.49 0.159 78,0 315 0.52 O.gl
+B COAXIAL 5 (130) 0.49 0.147 71.S 337 0.27 0.98
+l0 COAXIAL 7 (130) 3.50 0.151 530 198 0.52 0.57
+12 COAXIAL g (130) 3.00 0.222 664 238 0.55 0.69
+LIQUID PROPERTIES EFFECTS TESTS (VOLUME FLOW RATE OF LIQUID AND GAS REMAINS THE SAME AS BASELINE.
+BECAUSE OF LIQUID DENSIIY CHANGES.)
+• VISCOSITY EFFECTS (16% GLYCEROL SOLUTION))
+13 PENIAD 3 O.Sl 0.123 60 795 0,40
+14 COAXIAL 7 3.64 O.ll& 408 500 0.40
+DENSITY EFFECTS (17.4% NaCI SOLUTION)
+15 PENTAD 3 0.56 0.123 60 795 0.40
+16 COAXIAL 7 3.97 0.I16 408 500 0.40
+SURFACE TENSION EFFECTS (l,lol TRICHLOROETHANE)
+17 PENTAD 3 0.64 0.123 60 795 0.40
+18 COAXIAL 7 4.61 0.116 408 500 0,40
+(TESTS Ig AND 20 ARE PRESENTED IN TABLE 5-4)
+MIXTURE RATIO EFFECTS TESTS
+(Percentage of baseline liquid flow rates In parenthesls after liquid flow rate)
+21 COAXIAL 7 2.63 0.116 306 (75%) 152 0.30
+22 COAXIAL 7 5.25 O.116 612 (150%) 152 0.59
+ITIXTURE RATIO CHANGES
+0.7
+0.44
+0.7
+0.44
+0.7
+0.44
+0.44
+0.44 TABLE 5-4. LIKE DOUBLET (WAX DATA COMPARISON) TEST CONDITIONS
+I
+TEST
+.w
+Ig
+20
+INJECTOR
+ELEMEN1
+TRIPLET 4
+(OUTER ORIFICES ONLY)
+TRIPLET 4
+(OUTER ORIFICES ONLY)
+LIQUID
+TRICHLOROETHANE
+FLOW RATE
+(LITERS/MIN)
+1.46
+H20 2.75
+INJECTION VELOCIIY
+(M/SEC)
+34
+62
+TEST RESULTS AND FINDINGS
+The results of these atomization characterization tests are presented in this
+section. Twenty-two complete spray mappings are presented. Several mappings of
+the triplet elements were also performed prior to the discovery of the flow
+irregularities previously discussed. These results have been discarded. The
+intended flow rates and mixture ratios for all of these tests (as shown in
+Tables 5-3 and 5-4) were very closely obtained in the testing. Spray mappings
+were obtained along several rays extending radially outward in the measurement
+plane from the (0, O, 23.5) point. Initially measurements were made along two to
+four such rays in 0.508 cm (0.2 inch) increments. As will be shown, subsequent
+testing established that very little accuracy was lost if measurements were made
+along only two rays in l.Ol6 cm (0.4 inch) increments.
+Each test consists of many (sometimes in excess of I00) droplet-slze distribution
+and corresponding velocity distribution data sets. Various combinations of these
+have been used to construct droplet-slze distribution plots for (1) selected
+points within the spray, (2) along particular rays, (3) inner and outer regions
+of the spray, and (4) the overall spray. In addition, velocity distribution data
+and plots of droplet size vs. velocity are available. This vast quantity of data
+is too extensive to be included in this final report. Accordingly, the results
+of each test are discussed, observations based upon these data are presented, and
+specific plots of data are presented either as examples or to support a discussion.
+
+
+CONDITIONS
+= 180 °
+Vg = O
+d. = .04 - .I cm
+J
+VL = 1,0 - 5.0 m/s
+o = .029 - .075 Nt/m
+PL = .005 - 3.5 POISE
+RESULTS INDEPENDENT OF VISCOSITY
+= II0 o
+d. = .053 cm
+J
+AP = 25 - 100 psi
+PL = 800-1000 kg/cm 3
+o = .024 - .073 Nt/m
+PL : i - 5 cP
+vg--o
+NOTED TFLAT RAPID DROP DECELERATION CAUSED DROP CONCENTRATION
+TO INCREASE
+VL = 7.3 - 19.5 m/s
+= 50 - 140 "_
+TURBULENT FLOW 9NLY LAMINAR
+DATA DID NOT FIT
+d. = .074 - .226 cm
+J
+VL = 9.]5 - 30.5 m/s
+Vg = 19.8 - 91.4 m/s
+= 90°
+_'L: "366 cP
+= 680 kg/m 3 PL
+o = .020 Nt/m
+L_V t VL
+D30 = \p-_--/
+(INGEBO 1957)
+d. = .066 - .206 cm
+J
+VL = 15.5 - 45.3 m/s
+a = 60 ° V = 0
+g
+WAX PROPERTIES (?)
+PL = 3.0 cP
+PL = 764 kg/m3
+o = .017 Nt/m
+ADJACENT FANS (WATER) HAD NO
+EFFECT ON _, BUT DID AFFECT
+DISTRIBUTION
+d. = .152 - .206 cm
+J
+VL = 9.14 - 67.0 m/s
+= 45-90 ° Vg = 0
+P RATIO OF CENTERLINE TO
+c = AVERAGE DYNAMIC PRESSURE
+Pj (A MEASURE OF VELOCITY
+PROFILE)
+WAX PROPERTIES ORIFICE ENTRANCE CONDITIONS,
+MISIMPINGEMENT, JET DISINTEGRATION, TURBULENT VS LAMINAR,
+VELOCITY PROFILE, L/d (ORIFICE),
+L/D (FREE STREAM), ET. AL.,
+INVESTIGATED.
+
+REFERENCE MEASUREMENT TECHNIQUE CORRELAT ION
+GEORGE (1973) HOLOGRAPHY
+N2H 4 DROPS BURNING IN
+N204
+H20 DROPS IN N2
+i" TO 4" FROM INJECTOR
+D30 = Ao+AIVL+A21nPL*A3 12o
+COLD FLOW
+d .
+J HOT FLOW
+D30 BI + B2dj + B3W L
+dj - .15 - .244
+VL = 18.6 - 38.7_
+N_
+= 60 ° _
+L_
+Vg = 75.6 - 114
+7_AJAC (1973) HOT WAX INJECTED INTO
+WARM, FLOWING N2
+IN A VARIABLE AREA DUCT
+FOR-i< -_gm-VL < 1.25
+- VL
+: T IDc (1-1.52x10-3Dc)
+FOR _ > 1.25
+VL
+WHERE bc = 2.01X105dj'375/VL "75
+"r = 1 + 5.8 x 10-6 t
+---10.9 DO'66/VL "09
+41
+L>5cm
+ALL D VALUES IN MICRONS, ALL OTHER VALUES IN THE EQUATION SHOULD BE INPUT IN CGS UNITS.
+
+CONDITIONS
+cm
+m/s
+_Is
+pg = 24, - 36. kg/m3 (HOT)
+pg = 1.1 kg/m 3 (COLD)
+PL = 1001 - 1017 kg/m3 (HOT)
+PL = 103 kg/m3 (COLD)
+HOT AND COLD FLOW DID NOT
+CORRELATE
+DROP SIZE DISTRIBUTION WAS
+SPATIALLY UNIFORM
+D30 INCREASES WITH AXIAL
+DISTANCE
+VL = 23.2 - 76.2 m/s
+= 60 °
+WAX PROPERTIES
+I kg/m 3
+Pg
+Dc = DROP SIZE WHEN Vgm = VL (140 < Dc < 360)
+= DROP SIZE WHEN V = 0
+o gm
+Vgm= MAX GAS VELOCITY (Vg m < 305 m/s)
+L = LENGTH OVER WHICH GAS IS ACCELERATED
+
+NASA-Lewis (Ref. 12, 13, 15, 21, 25, 26, 39, 49). lhese
+include studies of the effects of various parameters on_Implnglng stream fans,
+single stream crosscurrent injection, and photographic measurements of droplet
+sizes produced by impinging streams. One of the most often quoted references of
+these is the work of Ingebo (Ref. 15). He performed experiments utilizing llke
+doublets injecting heptane into a Iow-veloclty gas stream. The heptane was
+injected in the direction of the gas flow (concurrently) and the droplets were
+photographed and counted throughout the spray at a distance of 8 inches from the
+injector. The heptane streams were flowing _n the turbulent regime. One of the
+most unique and important features of this work was the use of the flowing gas
+stream to simulate the combustion gas motion in a rocket combustor. Unfortunately, one of the greatest problems then (and now) is that we are unable to adequately define the actual combustion gas velocity field _n a rocket combustor.
+And Ingebo's work demonstrates the great importance of this effect. The droplet
+size correlating equation developed from this data (Table l) contains a term
+(VL - Vg), which accounts for this gas ve]oclty effect on droplet s_ze.
+Ingebo also utilized the data to evaluate the constants in a Nuklyama Tanasawa
+general droplet size distribution equation to obtain:
+dR _3.915_ 6 D 5
+exp I-3"915 D/D30)
+RI/RD85-312
+A-23
+Furthermore, In an earlier Investigation (Ref. 13), Ingebo established a relationship for the effect of Injected liquid properties on droplet size as:
+.25
+D30 (_LLa)
+However, this relationship was determined in experiments Involving crosscurrent
+Injection of slngle streams lnto flowing gases. Its applicability to cocurrent
+Injection may be questionable, yet, it ls often utilized.
+In a subsequent study (Ref. 26), Ingebo utilized a moving camera to photograph
+burning ethanol droplets and measured their velocities. At a distance of 0.1 m
+from the Injector, the drops were observed to be traveling at a higher velocity
+than their injection velocity. Most Importantly, the small droplets were
+observed to have been accelerated much more than the larger droplets. 35 mlcron
+droplets had undergone a velocity increase g times as great as 344 micron droplets. Again, this would REFERENCE
+I
+MEASUREMENT TECHNIQUE i
+DICKERSON (1969) WAX AND WATER
+ZAJAC (1971) WAX AND WATER
+CORRELATION
+= 8.26 x 105 dc'ld°'12
+c V "086V .89
+c o
+d .68
+= 5.66 x 106 o
+o Vo-56 Vc .57 dc "35
+= 30
+pg = I.
+do AND dc = .01WAX AND H20 PR_IAGREES WITH DICKERSON EXCEPT AT
+LOW VL
+(SEPARATE EQUATIONS SHOULD BE DERIVED
+FOR LAMINAR)
+= i.
+Pg
+d AND d =
+o c
+VL = 9
+MEHEGAN, ET. AL.
+(1970)
+WAX AND N2 (OR He )
+CENTRAL ORIFICE GAS
+GAS HEATED >140 F
+D_d
+°/d c
+-D _ FOR > .8, OTHERWISE
+c INDEPENDENT
+MR NOT IMPORTANT
+LARGER DROPLETS FOR PENTADS THAN
+TRIPLETS
+= 45!.dc = .6rd = .I
+0
+Vc (GAS) = 18
+WAX PROPERTIES
+SUBSCRIPT:
+c = CENTER STREAM
+o = OUTER STREAM
+ALL d VALUES IN cm
+ALL v VALUES IN cm/s
+
+ATIONS FOR PENTADS
+CONDITIONS
+(ANGLE BETWEEN CENTER & OUTER STRE#MS)
+kg/m 3
+35 - .218 cm
+_PERTIES
+VL = 16.8 - 77.7 m/s _
+DIFFERENT DISTRIBUTIONS FOR
+INNER AND OUTER STREAMS
+POORER QUALITY WAX SPHERES
+kg/m 3 _ = 30 °
+- .218 cm
+4 - 18.3 m/s
+VELOCITY PROFILE EFFECTS MAY
+BE IMPORTANT
+RELATIVELY FEW TESTS
+2.1 cm
+.52 cm
+-914 m/s
+pg = 1.1 kg/m 3
+d
+o .161 - .317
+d
+c
+X FmLVL
+d_cc: .293-]. 14 : 2.5 L gVc
+(PENETRATION PARAMETER)DROPLET SIZE CORRELATI[ ..CORRELATION
+MEHEGAN, ET. AL.
+(1970)
+BURICK (1972)
+McHALE AND
+NURICK (1974)
+WAX AND HOT N2
+SPRAYED INTO ATMOSPHERE
+WAX AND HOT N2
+SPRAYED INTO PRESSURIZED
+TANK
+WAX AND HOT N2
+SPRAYED :NTO PRESSURIZED
+TANK
+WL
+g
+R = RECESS iN UNITS OF dL
+INCREASE Va (BY DECREASING Y AT
+CONSTANT WG) DECREASES D GREATLY
+FOR SMALLER Y
+INCREASE VL (BY DECREASING dL AT
+CONSTANT WL) DECREASES
+i
+D/Y DECREASES AS pqVg 2 INCREASES
+BUT THE EFFECT IS EESS AT
+HIGHER VL
+dL = CENTER TUi
+Y = ANNULUS G_
+WL
+-- : 5.7 - 13.[ ....= 12.'_
+VL 1.6 -
+dL .177, .27
+Y .013, .04
+LVL- 3 - 7.5 _iw9
+VL = 12.2 - 42
+!pq = .9 - 4.3 1 VL = 1.2- 16.[_;V = 91.4 - 301
+g
+WL _ 6
+g
+FALK (1975) WAX AND HOT N2
+SPRAYED INTO FLOWING GAS
+(f VL (CONSTANT d L) SMALL EFFECT
+: 1/Vg (ESPECIALLY WHEN VCG = O)
+_ WL/_g (ESPECIALLY AHEN VCG = D)
+_ I/L (NEGLIGIBLE EFFECT EXCEPT AT
+LARGE Do
+Do = DROP SIZE WHEN VCG = 0
+d L = .14 - .41
+V = .25- 1.4i
+V9 = ANNULUS Gi
+= 61-305 m/ii
+VL = 23 - 76 m;
+Vcg = SIMULATEDi"
+VELOCITY !.i
+L : LENGTH OV[
+ACCELERAT!
+
+However, the proporttonallty relationships shown In Table 3 were observed.
+Higher gas dynamic forces (pg V_) tended to reduce drop size, and the
+degree of penetration of the outer liquid streams into the central gas stream
+also affected atomization. Thts degree of penetration Is quantified In a mixing
+assessment parameter, the pentratlon parameter, which is defined as shown in
+Table 3. The droplet size was observed to increase with the penetration factor
+at higher values.Coaxial Correlations
+The standard coaxial injector (gas flowing through the annulus about a central
+liquid stream) has been studied more extensively than gas/liquid triplets and
+pentads. Again, all of this work was performed at Rocketdyne utilizing the hotwax technique. These efforts are synopsized In Table 4.
+As a part of the investigation of gas/liquid injectors by Nehegan, et. al. (Ref.
+55), a number of tests of the effects of inner tube recess, gas and liquid velocities, and mixture ratio on mass median droplet size were performed. These tests
+were performed with a large coaxial element. The results of these tests are presented graphically In Flg. 7. Since it is generally believed that the liquid
+stream breakup Is dependent strongly on aerodynamic forces, the velocity difference between the gas and liquid Is often of great concern. The effect of inner
+tube recess also Is shown to be of great importance In Flg. 7. A smaller element also was tested, which indicated little effect of recess, but this data was
+considered questionable. Also, the sizes of the droplets produced by this large
+injector were quite large.
+NS FOR COAXIAL IN3ECTORS
+_E ID = .704 cm
+_P = .259 cm
+.345 cm
+.104 cm
+m/s
+7 m/s
+g/m 3
+m/s
+m/s
+VELOCITY
+COMBUSTION GAS MAX
+61-244 m/s
+R WHICH GAS WAS
+ID = 5-20 cm
+V = 112 - 339 m/s
+g
+b
+CONDITIONS I
+R = 0 - 2dL
+GENERALLY THESE LARGE
+COAXIAL ELEMENTS PRODUCED
+LARGE DROPS
+A SMALLER ELEMENT WAS
+TESTED AND SHOWEDDIFFERENT
+EFFECT OF R. THIS DATA WAS
+CONSIDERED QUESTIONABLE
+R : 0 - 4 dL
+pg = 3.1 - 22.7 kg/m 3
+POST REcEss HAD NO EFFECT
+DIFFERENT RESULTS FOR
+DIFFERENT SIZE ELEMENTS
+PLOTS OF DISTRIBUTION DATA
+R = 0 - Id L
+dL = .41 cm
+Y = .13 cm
+SLIGHT D DECREASE AS R
+INCREASES
+_VL
+-- = .1, .5, 2.0
+g
+SAME DROP SIZE DISTRIBUTION
+AS ZAJAC LIKE DOUBLETS
+Gas/Llautd Coaxtal Element
+Vg - 30S m/see (1000 ft/sec)
+VL - 22.9 m/see (75 ft/sec)
+_/L _gl0." 2.0 L 16 cm (4.0 Inch]
+A dL• .411 c.m(0.162 ]nch)
+dL• .239 an (0.094 Inch]
+• d L = .140 cm (0.055 Inch)
+
+COAXIALELEHENT
+L - 10.16 cm (4-tnch)
+110_ _ 1_o _ 310.
+AV - (Vcg VL) - -15 to 200 m/sec
+(-50 to 650 ft/ser)1 •
+2.
+•
+Experiments to investigate gas veloclty effects on droplet sizes
+Additional tests to better define Do for the injectors of greatest
+Interest, especially gas/liquid injectors. Most of the geometric and
+operational variables have not been tested
+Experiments to establish fluid properties effects for all types of
+injectors, like and unlike liquid and gas/liquid Injectors, and separate
+effects for primary and secondary atomization
+NOMENCLATURE
+Someatomization nomenclature is defined in text.
+A
+d
+D
+D
+D0
+D
+C
+f
+nt
+N
+area (cm 2)
+injector orifice diameter (cm)
+droplet diameter (microns)
+mass median diameter
+droplet mass median diameter observed when Vg = 0
+droplet mass median diameter observed when Vg = VL
+droplet distribution function, (drops/mlcron)
+f = llm 9_
+AD_o AD
+length over which gas is accelerated in
+accelerating gas flows (cm)
+number of droplets counted in a given slze range
+total number of droplets counted
+cumulative number distribution,
+D
+N(D) =_n
+0
+atomization studies in
+v
+V
+AP
+R
+V
+V
+gm
+V
+V
+Vtot
+VI
+flowrate of droplets of size group I
+injector orifice pressure drop (Pascals)
+normalized cumulative volume distribution, R = V/Vto t
+mass rate of flow (kg/s)
+velocity (m/s)
+maxlmum gas velocity
+cumulative volume distribution,
+D
+v (o) = X v
+0
+volume of all drops In a given size range (cm3)
+total volume of all droplets counted
+velocity of drops of size group I
+Vcg
+Y
+Z
+P
+oi
+simulated combustion gas maximum velocity (gas/liquid injectors only)
+annulus gap for coaxial injectors (cm)
+axial spatlal coordinate
+Impingement angle
+viscosity (cP)
+density
+concentration of drops of slze group I (drops/cm 3)
+surface tension (dynes/cm)
+Subscripts
+g
+I
+J
+L
+L
+S
+gas (either local chamber gas or injected gas)
+slze group of droplets
+Jet or orifice
+large drops
+liquid
+small drops
+
