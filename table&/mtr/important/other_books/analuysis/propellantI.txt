@@ -1,0 +1,357 @@
+Some Liquid Propellants
+• B2H6
+- Diborane
+• B5H9
+- Pentaborane
+• BrF5 – Bromine Pentafluoride
+• C2H6 – Ethane
+• NH3 – Ammonia
+• N2F4
+- Tetrafluorohydrazine
+• HAN – Hydroxylammonium Nitrate
+• HTP – High Test Peroxide (H2O2
+)
+• IRFNA – Inhibited Red Fuming
+Nitric Acid
+• MMH – Monomethyl Hydrazine
+• N2H4 - Hydrazine
+• N2O4
+- Nitrogen Tetroxide (NTO)
+• RJ-1 – Ramjet Propellant 1
+• RP-1 – Rocket Propellant 1
+• TEA – Triethyl Aluminum
+• TEB – Triethyl Boron
+• UDMH – Unsymmetrical
+Dimethylhydrazine
+• CH4 – Methane
+• FLOX – Mixture of LF2 and LO2
+• LF2 – Liquid Fluorine
+• LH2 – Liquid Hydrogen
+• LO2 – Liquid Oxygen
+• OF2 – Oxygen Difluoride
+
+Propellants
+• Propellants are the materials that are combusted by the engine
+to produce thrust.
+• Bipropellant liquid rocket systems consist of a fuel and an
+oxidizer. They are the most common due to their high
+performance, but are more complex.
+• Several propellants can be used singularly as monopropellants
+(i.e. HTP, N2H4
+, UDMH), which release energy when they
+decompose either when heated or catalyzed.
+• The mission / requirements of the vehicle will directly effect the
+selection of propellants and configuration (power cycle) of the
+propulsion system(s).
+• The primary propellant types to be discussed are:
+– Storable
+– Space Storable
+– Cryogenic
+
+Monopropellants are storable liquid propellants that can be induced
+to decompose to a gaseous state in the presence of a catalyst (or
+contamination) and release heat that can be converted to thrust.
+– Catalysts – Shell 405, silver/cobalt plated wire gauze, sodium or potassium
+permanganate, etc.
+– Some monopropellants can be used in bipropellant systems as either a fuel
+(N2H4
+, UDMH) or an oxidizer (HTP), which can enable more operational
+flexibility
+• The performance (i.e., Isp) is lower than that of bipropellant systems,
+but the systems are more simple (higher reliability).
+• One drawback of monopropellant systems is that the reactive
+nature of the propellant requires high standards of cleanliness to
+prevent uncontrolled decomposition from contaminants.
+• Examples
+– Hydrogen Peroxide (H2O2
+, HTP) up to 90-98% concentration
+– Hydrazine (N2H4
+) most commonly used
+– UDMH (used in GG in RD-119)
+– HAN (experimental)
+
+Propellant Types – Cryogenic
+• Cryogenic propellants are liquefied gases at extremely low
+temperatures (approx. 30R to 230R) and are typically the most
+energetic types of propellants.
+• However, they are more difficult to store for any length of time
+(vaporization losses) and require provisions for venting the
+propellant tank.
+• LO2 and LH2 are the most commonly used liquid cryogenic
+propellants, and will be used in the J-2X.
+– LH2
+• Advantages – High performance, excellent coolant
+• Disadvantage – Low density (~4.5 lb/ft3 vs. 72 lb/ft3 for LO2
+, resulting in a
+disproportionate size in propellant tanks)
+– LO2
+• Advantages – Non-toxic, high reactivity to fuel (high performance). Only
+fluorine is a better oxidizer.
+• Disadvantage – Not selective about what it uses as fuel. It prefers
+hydrogen or hydrocarbons, but will consume almost anything with an
+oxidation potential.
+
+RE Power Cycle Review
+• Pressure-Fed
+• GG, Monopropellant
+• GG, Bipropellant, Single TPA
+• GG, Bipropellant, Dual TPA, Series Turbines
+• GG, Bipropellant, Dual TPA, Parallel Turbines
+• Tap-Off
+• Expander, Single TPA
+• Expander, Dual TPA
+• Fuel-Rich Staged Combustion, Dual Preburners
+• Fuel-Rich Staged Combustion, Single Preburner
+• Oxidizer-Rich Staged Combustion
+• Full-Flow Staged Combustion
+
+Terms & Acronyms
+• FTP (Fuel Turbopump)
+• GG (Gas Generator)
+• GGFV (Gas Generator Fuel Valve)
+• GGOV (Gas Generator Oxidizer Valve)
+• HEX (Heat Exchanger)
+• MCC (Main Combustion Assembly)
+• MFV (Main Fuel Valve)
+• MOV (Main Oxidizer Valve)
+• Nozzle
+• NE (Nozzle Extension)
+• OTBV (Oxidizer Turbopump Bypass Valve)
+• OTP (Oxidizer Turbopump)
+• TCA (Thrust Chamber Assembly)
+• TPA (Turbopump Assembly)
+
+ged Combustion,
+Single Chamber
+Tripropellant
+Staged Combustion,
+Dual Preburner
+Staged Combustion,
+Single Preburner
+Gas Generator Expander Tap-off
+Advantages
+Highest integrated
+performance available
+(closed cycle).
+Maximizes propellant
+bulk density and Isp.
+High performance
+(closed cycle). Very
+attractive for reusable
+applications. Easlier MR
+and thrust level throttling
+characteristics.
+High performance
+(closed cycle). Simplier
+than multi preburner
+options to left. Very
+attractive for reusable
+applications
+Simple cycle, low
+production costs, easlier
+to develop
+High reliability, benign
+failure modes
+(containted), simple
+cycle
+Simple cycle with fewer
+parts, lower production
+costs, easier
+maintainability
+Disadvantages
+Most difficult to develop.
+Will be very expensive.
+Production cost makes
+reusable applications
+mandatory. Vehicle must
+be very performance
+driven such as SSTO.
+More difficult to develop
+than single PB. Tends to
+be very expensive.
+Failure modes tend to be
+more involved.
+Production cost makes
+reusable applications
+almost mandatory.
+More difficult to develop.
+Tends to be more
+expensive. Failure
+modes tend to be more
+involved.
+Lower performance
+because of open cycle.
+Performance level makes
+this unattactive for most
+reusable applications.
+Limited to LOX/LH2
+propellants only. Limited
+performance because of
+heat transfer limitations.
+Hot gas duct that taps off
+from the MCC and mixes
+dilluent fuel to regulate
+gas temperature. Lower
+performance (Open
+cycle).
+Potential
+Applications
+Reusable SSTO.
+Booster or upperstage,
+reusable rockets
+Booster or upperstage,
+reusable or expendible
+rockets (May depend on
+propellant choices)
+Booster or upper stage,
+expendible rockets
+Booster or upperstage,
+reusable or expendible
+rockets
+Booster or upper stage,
+expendible rockets
+
+Pressure-Fed “Cycle”
+Not really a cycle, since it does not power
+turbomachinery, but serves as a basis of
+comparison. While this is the simplest system,
+it is also the most performance-limited in
+comparison to pump-fed systems.
+• Excellent reliability
+• Robust start/shutdown*
+– “Thrust on demand”
+• Good storability*
+• Good throttleability
+• Acceptable performance
+– Trade thrust vs. tank weight
+• Examples
+– Aerojet AJ10-190 (STS)
+– Aerojet AJ10-118 (Delta II)
+– Most RCS/ACS systems
+* Assumes use of hypergolic propellants
+
+Gas Generator (GG) Cycle
+• One of the first power cycles
+developed for rocket propulsion
+• Uses either dedicated or common
+propellants in gas generator (GG) to
+produce turbine drive gas
+• Turbine exhaust dumped, resulting in
+degraded Isp performance
+• Good reliability
+• Robust start/shutdown
+• Lower operating pressures mitigate
+the need for boost pumps
+• Can utilize almost any viable
+bipropellant combination
+GG Cycle Variations
+• Monopropellant GG
+• Bipropellant GG
+– Common-shaft main TPA
+– Separate fuel and oxidizer
+TPAs
+o Series turbines
+o Parallel turbines
+
+Gas Generator (GG) Cycle
+Monopropellant GG
+• Early/original power cycle
+• Acceptable performance
+– Independent monopropellant
+control provides more reliable
+system, but at the cost of
+increased weight of third
+propellant
+• Examples
+– A-4 (V-2)
+– A-6 (Navaho-I)
+– A-7 (Redstone)
+– RD-107/108 (R-7 family)
+– XLR99-RM-1 (X-15)
+– AR2-3A (F-104)
+
+Gas Generator (GG) Cycle
+Bipropellant, Single TPA
+• Improved performance over
+monopropellant GG
+– Bootstrap start
+– T/W improved by elimination of 3rd
+propellant
+• This cycle works well for propellants
+with similar fluid properties (i.e.,
+density, viscosity = LO2
+/RP-1) to allow a
+common shaft RPM.
+• Examples
+– F-1
+– Atlas MA-2, -3, -5, -5A
+– Navaho-II, -III
+– MC-1 / Fastrac
+– S-3D → H-1 → RS-27
+
+Gas Generator (GG) Cycle
+Bipropellant GG, Dual TPA, Series Turbines
+• Allows independent thrust and MR
+control
+• This cycle works well for propellants
+with different fluid properties
+(LO2
+/LH2
+) that require different
+pump speeds.
+• Examples
+– J-2 → J-2X
+
+Gas Generator (GG) Cycle
+Bipropellant GG, Dual TPA, Parallel Turbines
+• Allows independent thrust and MR
+control
+• This cycle works well for propellants
+with different fluid properties
+(LO2
+/LH2
+) that require different
+pump speeds.
+• Examples
+– Vulcain
+– RS-68
+
+• Turbopumps driven by hot gas
+tapped from main chamber
+• Good throttleability
+• Low operational experience
+• Simplicity offers potential high
+reliability
+• Examples
+– J-2S
+
+Staged Combustion (SC) Cycle
+• Utilizes all propellants to generate
+thrust
+• High performance (thrust, Isp, T/W)
+• High Isp requires high operating
+pressures
+• Good reliability, but high operating
+conditions demand vigilance
+• The high operating pressures usually
+requires the use of boost pumps to
+increase propellant pressure entering
+main pumps.
+SC Cycle Variations
+Modelar geometria de turbobombas o simular con c# pikogk o c++ para diseño de sistemas de propulsion
+variables para pikogk y cuda o amREX grids, voxeles-analisis pruebas-tests
+
+• Fuel-Rich (FRSC)
+– Often used with LO2
+/LH2
+propellants
+• Oxidizer-Rich (ORSC)
+– Often used with LO2
+/Kerosene
+propellants
+– NTO/UDMH also used
+• Full-Flow (FFSC)
+– One experimental system
+developed (IPD) using LO2
+/LH2
+propellants
