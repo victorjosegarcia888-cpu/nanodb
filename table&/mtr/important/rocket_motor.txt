@@ -1,0 +1,14 @@
+RD-180 RS-84 (*) F-1
+Cycle ORSC ORSC GG
+T (sl/vac, Klbf) 860 / 934 1050 / 1168 1522 / 1748
+I
+sp (sl/vac, secs) 311.9 / 338.4 301.5 / 335.4 265.4 / 304.1
+Pc
+(psia) 3722 2800 982
+ 36.4 36 16
+W (lbm) 12225 15985 18616
+T/W (sl/vac) 70.3 / 76.4 65.7 / 73.1 82 / 94
+MR 2.72 2.70 2.27
+Envelope (L/OD, inches) 146 / 124 181 / 108 220 / 143
+Life (starts) 10 (20 w refurb at 10) 40 (100 goal) 20
+Reliability 0.998 @ 95% confidence >0.99990 0.990 @ 96.6 confidence
