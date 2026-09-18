@@ -1,0 +1,108 @@
+SYMBOLS
+BN bearing number, Re/GRAOP
+C hydrostatic-bearing radial clearance, mm (in.)
+Os hydrostatic-bearing surface diameter, mm (in.)
+E eccentricity ratio, e/C
+e eccentricity or journal deflection, mm (in.)
+GRAOP modified Reynolds number based on axial pressure flow,
+(GRAOPS)(PR)OS/(L - w)
+GRAOPS Reynolds number based on axial pressure flow, (Ps - Pa)C3/R(p)v
+K statlc stlffness, N/cm (lbf/in.)
+K dlmenslonless stiffness, K(e)/(Ps - Pa)L(Ds)
+L journal axial length, mm (in.)
+LOFlO load-to-flow ratio, W(C 4)/e(m)v(L)Os
+m mass flow rate through the hydrostatic bearing, g/sec (lbm/sec)
+PR pocket pressure ratio, (Pr - Pa)/Ps - Pa)
+Pa sump pressure, MPa (psia)
+Pr pocket pressure, MPa (psia)
+Ps bearing inlet pressure, MPa (psia)
+R radius of the hydrostatic bearing, mm (in.)
+Re Reynolds number, U(C)/2
+U journal surface velocity, mm/sec (in./sec)
+W load applled to the bearlng, N (lbf)
+2
+W dimensionless load, W/(Ps - Pa)L(Ds)
+w axial length of pocket, mm (in.)
+a attitude angle, deg
+~ inlet fluid viscosity, N sec/mm2 (lbf sec/in.2)
+v inlet fluid kinematic viscosity, mm2/sec (in.2/sec)
+APPARATUS
+Test Bearing
+A schematic of the hybrid-hydrostatic-bearing assembly and its design
+details are shown in figure 1. Design details of the hybrid hydrostatic bearing were reported in reference 3. Table I contains critical dimensions of the
+two hydrostatic-bearing configurations tested. Fabrication of two sets of
+hardware resulted in some dimensional differences, mainly affecting the clearance between the journal and the hydrostatic bearing surface. Liquid hydrogen
+was supplied to the hydrostatic bearing through twenty orifice-compensated
+pockets that were arranged in two staggered rows of ten equally spaced pockets.
+The rolling element of the hybrid bearing consisted of two angular-contact,
+20-mm-bore ball bearings. The ball bearings, which were preloaded by a spring
+washer, act at system startup and shutdown to prevent wear of the hydrostatic
+bearing and at system startup to prevent high-friction torque.
+The clearance between the journal and the hydrostatic bearing surface is
+a critical design parameter for determining the stiffness of and the fluid flow
+through a hydrostatic bearing. The value of the fluid-film clearance at room
+temperature and zero rotational speed changes when the hybrid bearing is operating at liquid-hydrogen temperatures and high speed depending on the materials
+involved. Inconel 718 with a thin, dense chrome plating was used for the journal material, and 316 stainless steel with an electro-deposited silver plating
+was used for the hydrostatic bearing. When thermal-expansion coefficients were
+used for these materials, calculations indicated that a temperature decrease
+from ambient to 21 K (37 OR) resulted in a O.Ol-mm (0.0004-in.) decrease in
+the radial clearance. A finite-element analysis was used to calculate the
+growth of the journal due to fluid pressure and centrifugal forces. The 0.066
+mm (0.0026 in.) radial clearance of the hydrostatic bearing at ambient
+conditions was reduced to 0.035 mm (0.0014 in.) at an operating temperature of
+21 K (37 OR), a speed of 90 000 rpm, and a pressure of 1.7 MPa (250 psia). The radial-loading piston consisted of a hydrostatic bearing acting over
+a partial arc of the shaft. Radial loads were developed by the hydrostatic
+pressure acting over the area of the bearing foot. Up to 880 N (200 lbf) could
+be applied to the tester shaft center (440 N (100 lbf) per hybrid hydrostatic
+bearing).
+Strain-gauge pressure transducers were used to measure fluid pressures in
+the tester and in the fluid lines leading to the tester. Temperatures were
+measured using platinum resistance thermometers. Flow rates through the hydrostatic elements were measured by venturi flowmeters. Other flow rates were
+measured by turbine flowmeters. Rotating speeds of the shaft and the journal
+were measured using eddy-current and optical displacement probes that detected
+the passage of notches or flats on the rotating parts. Data from the various
+transducers were recorded by a minicomputer-controlled, digital dataacquisition system. The hybrid hydrostatic bearing on the free end of the test
+rig was instrumented to monitor its motion with two orthogonally mounted eddycurrent displacement probes that penetrated the test rig and viewed the journal. PROClDURE
+Assembly and Pretest
+The shaft assembly was balanced in three steps. First, the hydrostaticbearing journals were balanced individually. Next, the shaft was completely
+assembled and then balanced while rotating on the ball bearings. Finally, the
+balance of the shaft assembly was checked by allowing the journals to rotate
+on rollers in the balancing machine. Because the position of the journal is
+not constant with respect to the shaft, there is a range of values for balancing the shaft assembly. The residual unbalance for all assemblies of the shaft
+was less than 0.36 g/cm (0.005 ozfin.). The balance was checked each time new
+parts were added to the shaft assembly. ultrasonically cleaned in alcohol prior to assembly, and they were assembled
+in a clean-room environment to minimize particulate contamination. Once assembled, the tester was sealed to prevent damage due to condensation until it
+could be installed in the test facility. Each test day the installed tester
+and all of the associated liquid-hydrogen systems were evacuated and then
+purged with gaseous helium to prevent any contamination. 
+
+Hydrostatic-bearing stiffness can be defined as the static radial load
+applied to the hybrid bearing divided by the journal deflection. This value
+is plotted against radial clearance in figure 5. Configuration and speed do
+not effect stiffness except in relation to their effect on radial clearance.
+The vertical lines indicate the uncertainty in the stiffness calculation due
+to the accuracy limitations of the journal deflection measurements. The boundaries of the vertical lines represent ±0.0013 mm (iO.00005 in.) of measured
+journal movement. These data indicate that, for the hydrostatic bearing
+investigated,
+Stiffness (in N/cm) = B.9lxl05 - 1.07xlOB C
+Stiffness (in lbf/in.) = 5.05xl05 - 1.544x10B C
+(C in cm)
+(C in in.)
+Figure 6 illustrates how the hydrostatic-bearing stiffness increases when
+the radial clearance is coupled to the journal's rotational speed through the COMPARISON OF PREDICTED AND EXPERIMENTAL OPERATING CHARACTERISTlCS
+The eccentricity e of a hybrid hydrostatic bearing can be defined as the
+distance between the journal's center of rotation and the center of the hydrostatic bearing. Eccentricity ratio E is defined as the ratio of eccentricity
+to radial clearance C:
+e E = C
+When the eccentricity ratio is equal to 1, contact between journal and
+hydrostatic-bearing surfaces will occur. The relation between eccentricity
+ratio and the load and speed of the bearing is shown in figure 7.
+Figure 8 shows the bearing's dimensionless stiffness as a function of its
+pressure ratio. The experimental values were approximately l.~ times the predicted values. This would result in a different rotor-dynamic performance
+because the critical speeds would be higher than those calculated from the predicted bearing stiffness. The two-phase-flow data points in figure 8 were
+recorded when the sump pressure was less than 1.03 MPa (1~0 psia) and the
+.fluid-inlet temperature was less than 33 K (60 OR). Since the critical temperature and pressure for liquid hydrogen are 32.7 K and 1.30 MPa (58.9 oR and
+188 psia), the increase in stiffness may be caused by fluid cavitation.
+Reduced flow rates for the two-phase-flow conditions were also observed.
+The phenomenon of increased stiffness and decreased flow has also been observed
+in face seals (ref. 4). 
