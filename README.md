@@ -6,7 +6,7 @@ variables book: https://books.google.es/books?id=XMpyDwAAQBAJ&pg=PA2&hl=es&sourc
 
 UHTC Aperiodic Cooling Engine is a computational design and acceleration hardware framework for generating monolithic Ultra-High Temperature Ceramic (UHTC) structures.
 
-The system combines 6D quasicrystalline aperiodic geometries to block atomic oxygen (O₂) diffusional percolation, TPMS/Gyroid networks for regenerative active cooling, and a native implicit voxelization engine (0% chordal error) parallelized through the Xilinx XRT runtime and Vitis AI Engines (AIE).
+The system combines 6D quasicrystalline aperiodic geometries to block atomic oxygen (O₂) diffusional percolation, TPMS/Gyroid networks for regenerative active cooling, and a native implicit voxelization engine (0% chordal error) parallelized through the Xilinx XRT runtime and Vitis AI Engines (AIE). other architecture-file base system:https://github.com/victorjosegarcia888-cpu/amrex/tree/development/Src/Base
 
 ## 3D Printing Engine 🖨️
 
