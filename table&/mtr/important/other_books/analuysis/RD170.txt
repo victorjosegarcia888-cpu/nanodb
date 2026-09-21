@@ -1,0 +1,5 @@
+ 7,887 kN (1,773,000 lbf)Thrust (Sea Level): ~7,255 kN (740 metric tons)Specific Impulse (\(I_{sp}\) Vacuum): 
+338 secondsSpecific Impulse (\(I_{sp}\) Sea Level): 309 secondsPropellants: Liquid Oxygen (LOX) and 
+Kerosene (RG-1 / T-6 / RP-1)Dry Weight: 9,750 kg (21,500 lbs)Power Cycle: Staged combustion (oxidizer-rich)
+Design Features: 4 combustion chambers, 4 nozzles, and 1 central turbopump assembly driven by 2 preburnersTurbine Power: ~257,000 hp (192 MW)
+
