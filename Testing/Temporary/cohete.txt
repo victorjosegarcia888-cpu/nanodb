@@ -1,0 +1,21 @@
+Cohete de combustible líquido
+Propergol	RP-1 (Soviet/Russian equivalent) / LOX
+Proporción	36.87[1]
+Ciclo	combustión escalonada
+Rendimiento
+Empuje (vacío)	7.887 MN
+Empuje (nivel del mar)	7.550 MN[1]
+Empuje (por peso)	82
+Presión de la cámara	245 bar[1]
+Impulso (vacío)	338 s (3,315 N·s/kg)
+Impulso (nivel del mar)	309 s (3,030 N·s/kg)
+Tiempo de quemado	150 s[1]
+
+ Esta es la cantidad total de oxidante y una pequeña parte de la del combustible suministrado a 
+dicha combustión de baja temperatura y unidades de la turbina. 
+El gas de escape de la cámara de pre-combustión se pasa entonces a las cámaras de combustión principal, en que se alimenta la parte principal del combustible y se quema. Esta forma de implementación recibe el nombre de motor de flujo principal con precombustión o ciclo de combustión con etapa rica en oxidante. El motor tiene una presión de la cámara de combustión alta de 25 MPa, y no se pierde combustible para accionar las bombas, que de otro modo habría conducido a pérdidas sustanciales. Al mismo tiempo, el precalentamiento antes de la combustión mejora la eficiencia de la misma del oxígeno criogénico y reduce el riesgo de inestabilidad, que de otra manera podría conducir a inestabilidades de la combustión. Sin embargo, el motor tuvo que enfrentarse inicialmente a pruebas con problemas, ya que a una presión de 25 MPa y 400 °C la temperatura de entrada en la cámara de combustión principal, una atmósfera rica en oxígeno es difícil de controlar. Pero los tres motores SSME del transbordador espacial de EE. UU. trabajar a 22 MPa, con un precombustión rica en 
+mientras que el RD-253 funciona a solo 15 MPa. Otra característica 
+del motor es que gran parte del impulso (dependiendo de la fuente el 40 % o 56 % del valor nominal) se pueden regular a disminuir poco antes del fin de disparar la carga en la estructura del cohete.
+
+RD-171
+Una variante RD-170, el RD-171, se utiliza actualmente en el cohete Zenit. Mientras que el RD-170 tenía boquillas que giró sobre un solo eje, el RD-171 gira sobre dos ejes. Los modelos llamados el RD-172 y RD 173-se propusieron mejoras que proporcionan un empuje adicional, pero nunca fueron construidos. Algunas fuentes afirman que el motor del Zenit-3SL como RD-173[3][4] con un empuje kN mayor kN/8.338 a 7695, el fabricante de este como RD-171M conocido.[
