@@ -289,3 +289,5 @@ ctest --output-on-failure
 - CUDA 12.0 toolkit installed; kernels compile successfully.
 - Setup script ready for WSL2 or cloud NVIDIA GPU environments.
 - PicoGK Runtime exposes a C API; call from C# via P/Invoke.
+
+- https://www.russianspaceweb.com/rd170.html
