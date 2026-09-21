@@ -51,6 +51,7 @@ The 3D printing module is the heart of the manufacturing system. It defines how 
 
 ### 3. Aerospike Nozzle + SWBLI
 `nanodb/nanovdb/tools/AerospikeNozzle.h`
+https://es.scribd.com/document/7362263/Russian-Liquid-Propellant-Engines
 
 - Prandtl-Meyer expansion and inversion for spike profile.
 - `AerospikePlugSDF` with regenerative gyroid channels.
