@@ -1,0 +1,115 @@
+directorios:
+https://github.com/victorjosegarcia888-cpu/nanodb/tree/main/table%26/mtr/important
+
+https://github.com/victorjosegarcia888-cpu/nanodb/tree/main/table%26/mtr/important/otherRocketMt
+https://es.scribd.com/document/7362263/Russian-Liquid-Propellant-Engines
+
+https://github.com/victorjosegarcia888-cpu/nanodb/blob/main/table%26/mtr/important/otherRocketMt/RD170.txt
+
+https://github.com/victorjosegarcia888-cpu/nanodb/tree/main/table%26/mtr/important/other_books/analuysis
+AIAA-2006-4363.pdf
+Add files via upload
+16 minutes ago
+Captura.PNG
+Add files via upload
+last week
+Fundamentals of Rocket Propulsion.pdf
+Add files via upload
+3 days ago
+RD-170 - Wikipedia.pdf
+Add files via upload
+16 minutes ago
+RD170.txt
+Add files via upload
+16 minutes ago
+cohete.txt
+Add files via upload
+36 minutes ago
+other.txt
+Create other.txt
+last week
+otrsVariabls.txt
+Add files via upload
+last week
+pdf.txt
+Create pdf.txt
+last week
+propellant.txt
+Add files via upload
+last week
+propellantI.txt
+Add files via upload
+3 days ago
+soviet.pdf
+Add files via upload
+16 minutes ago
+tabl_analysis.txt
+Create tabl_analysis.txt
+last week
+tablesSutton_motor_plsm.txt
+Add files via upload
+last week
+thermo.txt
+
+vienen datos para el diseño del motor en tablas.variables/parametros importantes:
+
+-.o
+AIAA-1991-2510.pdf
+AIAA-2006-4363.pdf
+CMakeLists.txt
+Cavity Radiation and Lattice Geometry.pdf
+LICENSE
+RD-170 - Wikipedia.pdf
+README.md
+Sintesis_High_Pressure_Preburner_TIT_Characterization_NASA_TM.pdf
+Sintesis_Inyectores_Pintle_NASA_TM.pdf
+Sintesis_Modelado_LOX_CH4_Preburner_NASA_CR.pdf
+Sintesis_Prequemadores_FFSCC_NASA_TM (1).pdf
+Sintesis_Prequemadores_FFSCC_NASA_TM.pdf
+cap2_termoquimica.pdf
+motor.pdf
+null.o
+parts.PNG
+setup_cuda_env.sh
+soviet.pdf
+
+otros archivs:
+5.PNG
+6.PNG
+7.PNG
+8.PNG
+8768.PNG
+9.PNG
+AIAA-2006-4363.pdf
+Captura.PNG
+Fundamentals of Rocket Propulsion.pdf
+RD-170 - Wikipedia.pdf
+RD170.txt
+cohete.txt
+other.txt
+otrsVariabls.txt
+pdf.txt
+propellant.txt
+propellantI.txt
+soviet.pdf
+tabl_analysis.txt
+tablesSutton_motor_plsm.txt
+thermo.txt
+19790025064.pdf
+19860014169.pdf
+19860022177.pdf
+20140002716.pdf
+Captura.PNG
+Copilot_20260914_172756.png
+DatosMotor.cs
+George P. Sutton, Oscar Biblarz - Rocket Propulsion Elements-Wiley (2016).pdf
+LOX_rp.txt
+TasksRaptor.cs
+cap4_fundamentos_turbinas (1).pdf
+cheng.txt
+cohetes.txt
+comparativa.txt
+engine2.txt
+engines.txt
+
+https://github.com/victorjosegarcia888-cpu/nanodb/blob/main/table%26/mtr/important/cheng.txt
