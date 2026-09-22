@@ -296,4 +296,6 @@ ctest --output-on-failure
 - Setup script ready for WSL2 or cloud NVIDIA GPU environments.
 - PicoGK Runtime exposes a C API; call from C# via P/Invoke.
 
-- https://www.russianspaceweb.com/rd170.html
+c++ algorithm:https://cplusplus.com/reference/algorithm/find/
+2.https://www.hackerrank.com/challenges/cpp-exception-handling/problem?isFullScreen=true
+other link;- https://www.russianspaceweb.com/rd170.html
