@@ -4,6 +4,9 @@ parameters/tables/pikogk or c++ 26-nvidia:https://ntrs.nasa.gov/api/citations/19
 Russian-Liquid-Propellant-Engines pdf
 Design of Liquid Propellant Rocket Engines Second Edition
 
+# AmRex integration-arrays for motor rocket design and voxelization(nanodb) of the turbopumps in c++
+https://github.com/victorjosegarcia888-cpu/amrex/blob/development/Src/EB/AMReX_EB2_3D_C.cpp
+
 # Other fluid dynamics non-english thermodynamic subject books
 
 Computational thermal/fluid/structural analysis + voxel engine for 3D printing of monolithic UHTC structures and aerospike nozzles. The programming language rust for systems:https://github.com/Traverse-Research/vdb-rs/tree/main/src
