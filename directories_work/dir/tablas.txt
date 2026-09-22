@@ -142,3 +142,67 @@ https://www.spacex.com/vehicles/starship/
 
 📘 NASA LOX/CH₄ preburners
 https://ntrs.nasa.gov
+
+TABLAS TERMODINÁMICAS — RD‑170 vs Raptor 3
+🔥 1. Variables termodinámicas principales
+Variable	RD‑170	Raptor 3	Termodinámica
+Presión cámara 
+𝑃
+𝑐
+24.5 MPa	30 MPa	
+Temp. combustión 
+𝑇
+𝑐
+~3500 K	~3600–3800 K	
+Mezcla O/F	36.87 (muy rica en oxidante)	3.6 (metano)	
+Caudal másico total 
+𝑚
+˙
+~1250 kg/s	~1100 kg/s	
+Velocidad característica 
+𝑐
+∗
+~1800 m/s	1850–1900 m/s	
+Coeficiente de empuje 
+𝐶
+𝐹
+1.6–1.7	1.5–1.55	
+Relación de expansión 
+𝐴
+𝑒
+/
+𝐴
+𝑡
+37–40	90–120	
+
+
+📐 TABLAS GEOMÉTRICAS — RD‑170 vs Raptor 3
+🔧 2. Geometría de cámaras y toberas
+Parámetro	RD‑170	Raptor 3	Geometría PicoGK
+Cámaras	4	1	
+Diámetro cámara	~0.45 m	~0.28 m	
+Longitud cámara	~1.5 m	~0.45 m	
+Diámetro garganta	~0.18 m	~0.09 m	
+Diámetro salida	~0.75 m	~1.2 m	
+Longitud tobera	~2.5 m	~3.0 m	
+Material	Inconel + C/C	Inconel + UHTC	
+
+
+🔩 TABLAS DE TURBOBOMBAS — RD‑170 vs Raptor 3
+⚙️ 3. Turbopumpas LOX/RP‑1 vs LOX/CH₄
+Parámetro	RD‑170	Raptor 3	AMReX turbobombas
+Potencia turbina	170–190 MW	~70 MW	
+RPM	12,000–15,000	30,000–36,000	
+Caudal LOX	~1000 kg/s	~700 kg/s	
+Caudal combustible	~250 kg/s	~400 kg/s	
+NPSH	6–8 m	3–5 m	
+Material	Ni‑Cr superalloys	Monel / Inconel / UHTC	
+
+
+🧱 TABLAS DE MATERIALES — RD‑170 vs Raptor 3
+🧪 4. Materiales de cámara, tobera y prequemadores
+Material	RD‑170	Raptor 3	Materiales UHTC
+Cámara	Inconel	Inconel 718	
+Tobera	Inconel + C/C	UHTC (ZrB₂–SiC)	
+Prequemador	Aleaciones Ni‑Cr	UHTC + Monel	
+Sellos	Cerámicos	Cerámicos
