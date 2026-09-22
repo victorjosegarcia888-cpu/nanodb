@@ -1,0 +1,16 @@
+Parámetros para PicoGK
+Código
+chamber_count = 4
+chamber_diameter = 0.38
+chamber_length = 1.1
+throat_diameter = 0.13
+exit_diameter = 1.1
+nozzle_length = 3.0
+expansion_ratio = 90
+turbopump_power = 140e6
+turbopump_rpm = 28000
+propellant_LOX_flow = 900
+propellant_CH4_flow = 380
+material_chamber = "Inconel718"
+material_nozzle = "UHTC_ZrB2_SiC"
+material_preburner = "UHTC_Monel"
