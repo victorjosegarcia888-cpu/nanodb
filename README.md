@@ -298,5 +298,6 @@ ctest --output-on-failure
   
 ## Algorithm language reference
 c++ algorithm:https://cplusplus.com/reference/algorithm/find/
-2.https://www.hackerrank.com/challenges/cpp-exception-handling/problem?isFullScreen=true
+2. https://www.hackerrank.com/challenges/cpp-exception-handling/problem?isFullScreen=true
+3. https://cplusplus.com/reference/algorithm/search/
 other link;- https://www.russianspaceweb.com/rd170.html
