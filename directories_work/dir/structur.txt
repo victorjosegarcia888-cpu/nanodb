@@ -1,0 +1,272 @@
+
+Tema	Qué obtienes
+Estructura final del repositorio	Árbol de carpetas limpio, modular, “ingenieros” separados
+Pipeline completo LOX/CH₄	Flujo paso a paso: geometría → CFD → estructuras → manufactura → visualización
+Organización de PDFs y TXT	Clasificación por dominio (termo, geometría, turbobombas, materiales, etc.)
+Integración PicoGK + AMReX + nanodb	Arquitectura de acoplamiento entre motor geométrico, CFD y voxel engine
+
+
+1. Estructura final del repositorio
+text
+nanodb/
+│
+├── docs/                        # PDFs, tablas, notas de ingeniería
+│   ├── thermodynamics/
+│   ├── geometry/
+│   ├── turbopumps/
+│   ├── cryogenics/
+│   ├── materials/
+│   └── manufacturing/
+│
+├── data/                        # Tablas procesadas (CSV/JSON)
+│   ├── thermo_tables/
+│   ├── geometry_tables/
+│   ├── turbopump_tables/
+│   └── material_tables/
+│
+├── picoGK_runtime/              # Upstream PicoGKRuntime + viewer
+│   ├── src/
+│   ├── include/
+│   └── glfw_backend/            # cocoa_window.m y demás
+│
+├── geometry_engine/             # Motor geométrico (C++/C#/PicoGK/OpenVDB)
+│   ├── sdf/
+│   ├── voxel/
+│   ├── openvdb/
+│   └── generators/              # cámaras, toberas, aerospike, canales
+│
+├── cfd_engine/                  # AMReX + CUDA (PeleC/PeleLM)
+│   ├── peleC/
+│   ├── peleLM/
+│   ├── cuda_kernels/
+│   └── combustion_internals/
+│
+├── turbopump_engine/            # AMReX multifase + turbobombas
+│   ├── inducer/
+│   ├── cavitation/
+│   ├── cryo_fluid/
+│   └── rpm_flow_models/
+│
+├── uhtc_engine/                 # UHTC + quasicristales + Rust
+│   ├── rust/
+│   ├── thermal_shock/
+│   ├── quasicrystals_6D/
+│   └── lattice_geometry/
+│
+├── manufacturing_engine/        # LPBF/EBM/DED toolpaths
+│   ├── slicer/
+│   ├── toolpaths/
+│   └── printer_profiles/
+│
+├── visualization/               # GLTF viewer + PicoGK viewer
+│   ├── gltf/
+│   ├── opengl/
+│   └── pipelines/
+│
+├── tests/                       # CUDA + geom + CFD + UHTC
+├── scripts/                     # setup_cuda_env.sh, build, helpers
+└── CMakeLists.txt
+2. Pipeline completo LOX/CH₄
+Paso 1: Geometría (PicoGK + geometry_engine)
+Entrada:  
+Variables geométricas: diámetro cámara, longitud, garganta, expansión, ángulos, radios.
+
+Acción:  
+Generadores en geometry_engine/generators/ crean SDF de cámara + tobera + canales.
+
+Salida:  
+SDF + voxel grid (OpenVDB/NanoVDB).
+
+Paso 2: CFD de combustión (cfd_engine)
+Entrada:  
+Desde data/thermo_tables/ y docs/thermodynamics/:
+
+presión de cámara
+
+temperatura de combustión
+
+mezcla O/F
+
+densidades, Cp, Cv, velocidad de sonido
+
+Acción:  
+AMReX (PeleC/PeleLM) + cuda_kernels/ en cfd_engine simulan:
+
+combustión interna
+
+ondas de choque
+
+distribución de presión y temperatura
+
+Salida:  
+Campos 3D (p, T, u, etc.) sobre el mismo grid que la geometría.
+
+Paso 3: Turbobombas y criogenia (turbopump_engine)
+Entrada:  
+Desde docs/turbopumps/ y docs/cryogenics/:
+
+RPM, caudal, NPSH
+
+densidad LOX/LCH₄, viscosidad, tensión superficial
+
+Acción:  
+AMReX multifase simula inducer, cavitación, flujo criogénico.
+
+Salida:  
+Condiciones de entrada a cámara (mass flow, presión, temperatura).
+
+Paso 4: Estructuras UHTC (uhtc_engine)
+Entrada:  
+Campos térmicos del CFD + geometría voxelizada.
+
+Acción:  
+thermal_shock/ + quasicrystals_6D/ evalúan:
+
+choque térmico
+
+difusión de O₂
+
+integridad estructural UHTC.
+
+Salida:  
+mapas de seguridad, zonas críticas, diseño de lattice.
+
+Paso 5: Manufactura (manufacturing_engine)
+Entrada:  
+Geometría final + materiales (Inconel, UHTC, etc.) desde docs/materials/.
+
+Acción:  
+toolpaths/ + printer_profiles/ generan:
+
+G-code
+
+CLI slices
+
+estrategias stripe/island/chessboard.
+
+Salida:  
+archivos listos para EOS, SLM, Renishaw, Arcam, etc.
+
+Paso 6: Visualización (visualization + PicoGK)
+Entrada:  
+Geometría, campos CFD, mapas estructurales, toolpaths.
+
+Acción:  
+GLTF viewer + PicoGK viewer muestran:
+
+motor completo
+
+flujos internos
+
+campos térmicos
+
+trayectorias de impresión.
+
+3. Organización de PDFs y TXT
+docs/thermodynamics/
+Archivos:  
+thermo.txt, propellant.txt, propellantI.txt, LOX_rp.txt, tabl_analysis.txt, cap2_termoquimica.pdf.
+
+Uso:
+
+tablas de Cp, Cv, entalpía
+
+propiedades LOX/LCH₄
+
+ecuaciones de combustión.
+
+docs/geometry/
+Archivos:  
+cohete.txt, engine2.txt, engines.txt, RD170.txt, RD-170 - Wikipedia.pdf, Fundamentals of Rocket Propulsion.pdf, tablesSutton_motor_plsm.txt.
+
+Uso:
+
+dimensiones de cámara/tobera
+
+perfiles de motores reales (RD-170, Raptor-like)
+
+tablas Sutton para diseño geométrico.
+
+docs/turbopumps/
+Archivos:  
+cheng.txt, otrsVariabls.txt, other.txt, cohetes.txt, comparativa.txt.
+
+Uso:
+
+diseño de inducer
+
+cavitación
+
+comparativas de turbobombas.
+
+docs/cryogenics/
+Archivos:  
+LOX/LCH₄ propiedades específicas, notas de densidad, viscosidad, tensión superficial (pueden estar mezcladas en otros txt; se separan aquí).
+
+docs/materials/
+Archivos:  
+Cavity Radiation and Lattice Geometry.pdf, UHTC PDFs, soviet.pdf, NASA TM de prequemadores, etc.
+
+Uso:
+
+propiedades UHTC
+
+modelos de radiación
+
+análisis de preburners FFSC.
+
+docs/manufacturing/
+Archivos:  
+parts.PNG, Captura.PNG, notas de impresoras, parámetros LPBF/EBM/DED.
+
+4. Integración PicoGK + AMReX + nanodb
+Capas principales
+Capa geométrica:  
+geometry_engine/ + picoGK_runtime/
+
+genera SDF y mallas
+
+exporta a OpenVDB/NanoVDB.
+
+Capa CFD:  
+cfd_engine/ (AMReX + CUDA)
+
+consume geometría voxelizada
+
+simula combustión y flujo.
+
+Capa voxel/estructura:  
+nanodb/nanovdb + uhtc_engine/
+
+usa los campos CFD
+
+evalúa integridad UHTC y lattice.
+
+Flujo de integración
+PicoGK
+
+C# o C++ define parámetros geométricos.
+
+Se genera SDF de motor (cámara + tobera + canales).
+
+nanodb/OpenVDB
+
+Convierte SDF en voxel grid.
+
+Exporta a formato compatible con AMReX (malla estructurada).
+
+AMReX (cfd_engine)
+
+Carga la malla y condiciones de contorno.
+
+Ejecuta kernels CUDA de combustión interna.
+
+nanodb/UHTC (uhtc_engine)
+
+Recibe campos de temperatura/estrés.
+
+Evalúa choque térmico y diseño de lattice.
+
+PicoGK viewer + visualization/
+
+Renderiza geometría + campos CFD + mapas UHTC.
