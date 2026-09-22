@@ -300,4 +300,7 @@ ctest --output-on-failure
 c++ algorithm:https://cplusplus.com/reference/algorithm/find/
 2. https://www.hackerrank.com/challenges/cpp-exception-handling/problem?isFullScreen=true
 3. https://cplusplus.com/reference/algorithm/search/
+4. https://cplusplus.com/reference/cstdint/
+
+# others
 other link;- https://www.russianspaceweb.com/rd170.html
