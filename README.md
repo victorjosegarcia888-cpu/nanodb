@@ -1,4 +1,5 @@
 # UHTC-NanoDB tests/motor
+parameters/tables/pikogk or c++ 26-nvidia:https://ntrs.nasa.gov/api/citations/19710019929/downloads/19710019929.pdf
 nasa:https://ntrs.nasa.gov/api/citations/19710019929/downloads/19710019929.pdf
 Russian-Liquid-Propellant-Engines pdf
 Design of Liquid Propellant Rocket Engines Second Edition
