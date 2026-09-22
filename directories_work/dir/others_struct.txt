@@ -1,0 +1,326 @@
+Tabla rápida
+Tema	Qué te doy
+Motor tipo Raptor 3	Especificación conceptual basada en tus TXT/PDF
+Uso de tus notas como “spec oficial”	Mapeo de archivos → parámetros del motor
+Flujo de diseño	Paso a paso desde datos hasta geometría/CFD/UHTC
+CMake	Estructura de proyecto y ejemplo de CMakeLists.txt modular
+
+
+1. Especificación conceptual de un “Raptor 3” con tus notas
+Vamos a asumir que tu spec oficial está repartida así:
+
+docs/geometry/
+
+RD170.txt, engine2.txt, engines.txt, tablesSutton_motor_plsm.txt, Fundamentals of Rocket Propulsion.pdf  
+→ dimensiones de cámara, garganta, expansión, perfiles de tobera, ejemplos de motores de alta presión.
+
+docs/thermodynamics/
+
+thermo.txt, propellant.txt, propellantI.txt, LOX_rp.txt, cap2_termoquimica.pdf  
+→ mezcla O/F, presión de cámara, temperatura de combustión, Cp, Cv, densidades, velocidad de sonido.
+
+docs/turbopumps/
+
+cheng.txt, otrsVariabls.txt, other.txt, cohetes.txt, comparativa.txt  
+→ RPM, caudal, NPSH, geometría de inducer, curvas de rendimiento.
+
+docs/materials/
+
+Cavity Radiation and Lattice Geometry.pdf, soviet.pdf, NASA TM de prequemadores, UHTC PDFs
+→ propiedades UHTC, Inconel, C/C, ablativos, modelos de radiación.
+
+Con eso, el “Raptor 3” conceptual sería:
+
+Propelentes: LOX/LCH₄
+
+Ciclo: FFSC (full-flow staged combustion)
+
+Presión de cámara: alta (ej. 300+ bar, tomada de tablas Sutton + tus notas)
+
+Mezcla O/F: optimizada para Isp y márgenes térmicos (de propellant.txt + propellantI.txt)
+
+Geometría:
+
+cámara corta de alta presión
+
+tobera de expansión alta (vacío) o media (mar)
+
+canales de regeneración en TPMS/gyroid (UHTC engine)
+
+Turbobombas:
+
+LOX y CH₄ con inducer optimizado (de cheng.txt y comparativas)
+
+cavitación controlada vía NPSH y criogenia.
+
+2. Flujo de diseño usando tus TXT/PDF como spec
+Paso 1: Extraer parámetros a data/
+Label: Termodinámica
+
+De thermo.txt, propellant.txt, LOX_rp.txt, cap2_termoquimica.pdf
+
+Generas data/thermo_tables/raptor3_thermo.csv con:
+
+𝑝
+𝑐
+, 
+𝑇
+𝑐
+, O/F, densidades, Cp, Cv, velocidad de sonido.
+
+Label: Geometría
+
+De RD170.txt, engine2.txt, tablesSutton_motor_plsm.txt
+
+Generas data/geometry_tables/raptor3_geom.csv con:
+
+diámetro cámara, longitud, garganta, expansión, ángulos, radios.
+
+Label: Turbobombas
+
+De cheng.txt, otrsVariabls.txt, comparativa.txt
+
+Generas data/turbopump_tables/raptor3_pumps.csv con:
+
+RPM, caudal, NPSH, geometría inducer.
+
+Label: Materiales
+
+De UHTC PDFs, Cavity Radiation and Lattice Geometry.pdf, soviet.pdf
+
+Generas data/material_tables/raptor3_materials.csv con:
+
+𝑘
+, 
+𝜌
+, 
+𝑐
+𝑝
+, 
+𝐸
+, 
+𝛼
+𝑡
+𝑒
+, límites de tensión.
+
+Paso 2: Geometría (geometry_engine + PicoGK)
+Label: Generadores
+
+En geometry_engine/generators/ defines clases/funciones:
+
+Raptor3ChamberGenerator
+
+Raptor3NozzleGenerator
+
+Raptor3ChannelGenerator
+
+Label: Entrada
+
+Leen raptor3_geom.csv y parámetros de raptor3_thermo.csv (para ajustar longitudes, expansión, etc.).
+
+Label: Salida
+
+SDF de cámara + tobera + canales regenerativos.
+
+Voxel grid (OpenVDB/NanoVDB) para CFD y UHTC.
+
+Paso 3: CFD (cfd_engine + AMReX + CUDA)
+Label: Setup
+
+cfd_engine/peleC/raptor3_case/
+
+Usa:
+
+geometría voxelizada
+
+raptor3_thermo.csv para condiciones de contorno.
+
+Label: Simulación
+
+Combustión LOX/CH₄
+
+distribución de presión, temperatura, velocidad.
+
+Label: Salida
+
+Campos 3D 
+𝑝
+(
+𝑥
+,
+𝑦
+,
+𝑧
+)
+,
+𝑇
+(
+𝑥
+,
+𝑦
+,
+𝑧
+)
+,
+𝑢
+⃗
+(
+𝑥
+,
+𝑦
+,
+𝑧
+)
+.
+
+Paso 4: Turbobombas (turbopump_engine)
+Label: Setup
+
+turbopump_engine/raptor3_pumps/
+
+Usa raptor3_pumps.csv + raptor3_thermo.csv.
+
+Label: Simulación
+
+inducer, cavitación, criogenia LOX/LCH₄.
+
+genera condiciones de entrada a cámara.
+
+Paso 5: UHTC (uhtc_engine)
+Label: Setup
+
+uhtc_engine/raptor3_uhtc/
+
+Usa:
+
+campos térmicos del CFD
+
+raptor3_materials.csv.
+
+Label: Simulación
+
+choque térmico
+
+difusión de O₂
+
+diseño de lattice/quasicristales.
+
+Paso 6: Manufactura (manufacturing_engine)
+Label: Setup
+
+manufacturing_engine/raptor3_toolpaths/
+
+Usa geometría final + materiales.
+
+Label: Salida
+
+G-code, CLI, perfiles de impresión.
+
+3. Integración con CMake (estructura modular)
+Árbol de proyecto CMake
+text
+nanodb/
+├── CMakeLists.txt
+├── geometry_engine/
+│   └── CMakeLists.txt
+├── cfd_engine/
+│   └── CMakeLists.txt
+├── turbopump_engine/
+│   └── CMakeLists.txt
+├── uhtc_engine/
+│   └── CMakeLists.txt
+├── manufacturing_engine/
+│   └── CMakeLists.txt
+├── picoGK_runtime/
+│   └── CMakeLists.txt
+├── visualization/
+│   └── CMakeLists.txt
+└── tests/
+    └── CMakeLists.txt
+CMakeLists.txt raíz (ejemplo)
+cmake
+cmake_minimum_required(VERSION 3.24)
+project(nanodb_raptor3 LANGUAGES C CXX)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+option(BUILD_PICOGK_VIEWER "Build PicoGK GL viewer" ON)
+option(BUILD_CFD_ENGINE    "Build CFD engine (AMReX)" ON)
+option(BUILD_UHTC_ENGINE   "Build UHTC engine" ON)
+
+add_subdirectory(picoGK_runtime)
+add_subdirectory(geometry_engine)
+add_subdirectory(cfd_engine)
+add_subdirectory(turbopump_engine)
+add_subdirectory(uhtc_engine)
+add_subdirectory(manufacturing_engine)
+add_subdirectory(visualization)
+add_subdirectory(tests)
+geometry_engine/CMakeLists.txt (ejemplo)
+cmake
+add_library(geometry_engine
+    src/Raptor3ChamberGenerator.cpp
+    src/Raptor3NozzleGenerator.cpp
+    src/Raptor3ChannelGenerator.cpp
+)
+
+target_include_directories(geometry_engine
+    PUBLIC include
+)
+
+target_link_libraries(geometry_engine
+    PUBLIC picoGK_runtime
+    PUBLIC openvdb
+)
+cfd_engine/CMakeLists.txt (ejemplo)
+cmake
+add_library(cfd_engine
+    src/Raptor3CFDSetup.cpp
+    src/Raptor3CFDKernels.cu
+)
+
+target_include_directories(cfd_engine
+    PUBLIC include
+)
+
+find_package(AMReX REQUIRED)
+find_package(CUDA REQUIRED)
+
+target_link_libraries(cfd_engine
+    PUBLIC AMReX::amrex
+    PUBLIC CUDA::cudart
+    PUBLIC geometry_engine
+)
+uhtc_engine/CMakeLists.txt (ejemplo)
+cmake
+add_library(uhtc_engine
+    src/Raptor3UHTCAnalysis.cpp
+    src/Raptor3QuasicrystalLattice.cpp
+)
+
+target_include_directories(uhtc_engine
+    PUBLIC include
+)
+
+target_link_libraries(uhtc_engine
+    PUBLIC nanovdb
+    PUBLIC geometry_engine
+    PUBLIC cfd_engine
+)
+manufacturing_engine/CMakeLists.txt (ejemplo)
+cmake
+add_library(manufacturing_engine
+    src/Raptor3Toolpaths.cpp
+)
+
+target_include_directories(manufacturing_engine
+    PUBLIC include
+)
+
+target_link_libraries(manufacturing_engine
+    PUBLIC geometry_engine
+    PUBLIC uhtc_engine
+)
+Si quieres, el siguiente paso puede ser bajar esto a nombres de archivos concretos de tu repo (por ejemplo, qué .cpp y .cu serían Raptor3CFDKernels.cu, etc.) y definir un caso de prueba completo: raptor3_full_test que recorra todo el pipeline.
