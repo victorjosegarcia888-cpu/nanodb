@@ -295,7 +295,8 @@ ctest --output-on-failure
 - CUDA 12.0 toolkit installed; kernels compile successfully.
 - Setup script ready for WSL2 or cloud NVIDIA GPU environments.
 - PicoGK Runtime exposes a C API; call from C# via P/Invoke.
-
+  
+## Algorithm language reference
 c++ algorithm:https://cplusplus.com/reference/algorithm/find/
 2.https://www.hackerrank.com/challenges/cpp-exception-handling/problem?isFullScreen=true
 other link;- https://www.russianspaceweb.com/rd170.html
