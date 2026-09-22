@@ -4,7 +4,7 @@ parameters/tables/pikogk or c++ 26-nvidia:https://ntrs.nasa.gov/api/citations/19
 Russian-Liquid-Propellant-Engines pdf
 Design of Liquid Propellant Rocket Engines Second Edition
 
-# Other fluid dynamics non english books
+# Other fluid dynamics non-english thermodynamic subject books
 
 Computational thermal/fluid/structural analysis + voxel engine for 3D printing of monolithic UHTC structures and aerospike nozzles. The programming language rust for systems:https://github.com/Traverse-Research/vdb-rs/tree/main/src
 variables book: https://books.google.es/books?id=XMpyDwAAQBAJ&pg=PA2&hl=es&source=gbs_toc_r&cad=2#v=onepage&q&f=false
@@ -16,6 +16,7 @@ The book was written "on the job" for use by those active in all phases of engin
 The book presents sufficient detail to familiarize and educate thoroughly those responsible for various aspects of liquid propellant rocketry, including engine systems design, engine development, and flight vehicle application. It should enable the rocket engineer to conduct, independently, complete or partial engine systems preliminary detail designs and to understand and judge the activities in, and the problems, limitations, and "facts of life~ of the various subsystems making up a complete engine system. It also attempts to educate those ultimately interested in specialized subsystems and component design (thrust chamber, turbopump, control valves, etc.) about their own as well as neighboring subsystems and about the complete engine system. This should enable the student to prepare realistic analytical calculations and design layouts with a long headstart toward the final specialized designs for subsystem production release. Special emphasis has been placed on engine flight application to stimulate engine systems and subsystem designers to think in these terms from the outset. The book is intended as a textbook, with specific consideration of the teacher without industry experience. We hope it will stimulate those desiring to specialize in the area of a rocket engine subsystem by supplying adequate information to enable them to benefit fully from the specialized literature. Thus, it provides a realistic expert introduction for those joining the liquid propellant rocket engine field.
 
 ## The Quasycrystals computational geometry as carbon C, niquel, boron sylicates, tantalum in the pikogk geometric motor
+important:https://github.com/victorjosegarcia888-cpu/LEAP71_QuasiCrystals
 The system combines 6D quasicrystalline aperiodic geometries to block atomic oxygen (O₂) diffusional percolation, TPMS/Gyroid networks for regenerative active cooling, and a native implicit voxelization engine (0% chordal error) parallelized through the Xilinx XRT runtime and Vitis AI Engines (AIE). other architecture-file base system 1.  https://github.com/victorjosegarcia888-cpu/examples
 CFD across arm architecture amREX integration: https://github.com/victorjosegarcia888-cpu/amrex/tree/development/Src/Base
 
