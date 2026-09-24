@@ -1,0 +1,70 @@
+DESIGN OF THRUST CHAMBERS AND OTHER COMBUSTION DEVICES 89
+The total surface area of the combustion
+chamber walls excluding injector face can be
+approximated by the following expression:
+Total area = 2LcY TTfcAt + csc e«(c - l)Ae (4-6)
+Nozzle Expansion Area Ratio
+It was learned earlier that with all other
+parameters fixed, in particular chamber pressure,
+there is only one optimum nozzle expansion area
+ratio for a given altitude or, more specifically,
+ambient pressure. Except for those systems
+which start in vacuum, ambient pressure will
+have to be considered. This is especially true
+for boosters which start at or near sea-level
+conditions.
+It is the ultimate purpose of a rocket engine
+to lift vehicles to altitudes. Inherently, then,
+ambient pressure will not be a constant (except
+for high-altitude starts, as mentioned). It is,
+therefore, extremely important for the designer to
+know the trajectory of the vehicle to be propelled
+or, more specifically, its altitude-versus-time
+characteristics. With this information, the designer is in a position to make a first, optimizing
+selection of a nozzle expansion area ratio, for
+best results throughout the entire trajectory. As
+shown earlier, area ratio will be truly optimum
+for only one speCific altitude. The optimization
+for ambient pressure then is essentially an
+averaging process.
+Other considerations usually cause the designer to deviate from the "paper optimum" for
+the nozzle expansion area ratio. Some of the
+most common are: weight, size, ease of manufacturing, handling, and cooling (heat transfer)
+considerations.
+Nozzle Shape
+Most rocket nozzles are of the convergingdiverging De Laval type. Since the flow velocity
+of the gases in the converging section of rocket
+nozzle is relatively low, any smooth and wellrounded convergent nozzle section will have
+very low energy losses. By contrast, the contour
+of the diverging nozzle section is very important
+to performance, because of the very high flow
+velocities involved.
+The selection of an optimum nozzle shape for
+a given expansion area ratio is generally influenced by the following design considerations
+and goals:
+(1) Uniform parallel axial gas flow at the
+nozzle exit for maximum momentum
+vector
+(2) Minimum separation and turbulence losses
+within the nozzle
+(3) Shortest possible nozzle length for minimum space envelope, weight, wall friction losses, and cooling requirements
+(4) Ease of manufacturing
+In actual design practice, any abrupt change or
+discontinuity in the nozzle wall contour should
+be avoided to eliminate the possibility of shock
+waves or turbulence losses. Theoretically, the
+nozzle throat is simply the unique plane of minimum cross-section area. In practice, a wellrounded throat section is employed. Only at the
+nozzle exit plane is a sharp edge used because
+a rounded one would permit overexpansion and
+flow separation.
+1. Conical Nozzle
+In early rocket engine applications, the conical nozzle, which had proved satisfactory in
+most respects, was used almost exclusively.
+The advantages of a conical nozzle are ease of
+manufacturing and flexibility of converting an
+existing design to higher or lower expansion area
+ratios without major redesign of the nozzle contour.
+The configuration of a typical conical nozzle
+is shown in figure 4-10. The nozzle throat section has the contour of a circular arc with a
+radius R ranging from 0.5 to 1.5 times the throat
+radius Re. The half angle of the nozzle convergent cone section can range from 20° to 45°. Th
