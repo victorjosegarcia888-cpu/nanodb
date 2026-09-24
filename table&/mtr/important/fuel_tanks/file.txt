@@ -1,1 +1,155 @@
-
+TABLE 3-4.-16K A-3 Stage Engine Operating Parameters
+[Vacuum conditions]
+EngIne (pressurized gas-feed):
+Thrust ..
+Nominal total muViple-firing
+duration ...
+Specific impulse.
+OxidIzer LF 2:
+Density ...
+Flow rate.
+Fuel LH2:
+Density
+Flow rate.
+MIxture ratio.
+· .lb ... 16000
+· . sec. . . .. 300
+· . sec. . .. 446
+· lb 'ftl. 9416
+· . lb.' sec. . 30.78
+· .lb /ft3.. 4.42
+.lb/sec. 5.13
+· .O/F ........... 6
+Thrust chamber (solid wall film cooled by fuel and radiation cooled on nozzle extension):
+Thrust.
+Specific impulse ..
+Injector end pressure.
+Nozzle stagnation pressure ..
+OXIdizer now rate.
+· .lb ..
+· sec
+psia.
+· . PSla
+.. lb/sec.
+. 16000
+.. .. 446
+. .. 110
+100
+30.78
+Fuel now rate. ...... . lb/sec.. 5.13
+Mixture ratio. . . . . .. .'
+c* efficiency.
+c* .
+C, efficiency ..
+C, ...
+Contraction ratio
+Expansion ratio ..
+Throat area At ..
+L*.
+Nozzle contour ...
+Thrust vector control:
+Minimum acceleration ..
+Maximum velocity .....
+Displacement.
+· O/F ........... 6
+· Percent. 98
+· . ftlsec 7910
+... Percent. . 102
+.. Ac/A [ .. '
+.. Ae/At
+1.817
+... 2
+.... 35
+..... 88
+..... 28
+in 2
+· in.
+.. 70 percent
+bell
+· radl sec 2 ....... 2
+· . deg/sec ....... 15
+· . deg .......... ' ±7
+OXIdizer side (pressurized by heated helium):
+Injector pressure drop ....
+Oxidizer dome pressure drop
+Main valve pressure drop
+Line pressure drop ..
+.. psi
+· pSI.
+· psi.
+pSI ..
+approximately 5130 pounds dry, 37900 pounds
+wet, and 5530 pounds at burnout.
+System Operation
+25
+.5
+8
+5
+The A-3 propulsion system is designed for
+automatic start, on receipt of a signal from the
+guidance system. A similar signal effects automatic engine shutdown. One or more restarts can
+be made by merely sending additional start and
+shutdown signals to the propulsion system.
+CalibratIOn orifice pressure drop. .. psi ..
+Oxidizer tank pressure. . psia.
+Total oxidizer weight (300 sec
+duratIOn for 3 engines. plus
+1 percent reSidual) . .lb.
+Oxidizer tank volume (including
+3 percent ullage volume) . · . ft3.
+Pressurant (helium) now rate
+(assuming tank gas temperature
+400 0 R)
+Total pressurant weight (including
+other reqUlrements in the system)
+(assume storage bottle final pressure 350 psi. plus 2 percent
+reserve).
+Pressurant storage tank. volume
+(assume 200 0 R storage temperature, including 3 percent
+· . lb/sec .
+· .lb ..
+. 17
+170
+.. 27950
+. .... 305
+.. 0.1555
+. ..... 60
+ullage volume). . ............ ft3. . .. . . . .. 7.35
+Pressurant storage tank. initial
+pressure . · . psia ........ 4500
+Fuel side (pressurized by heated hydrogen):
+Injector pressure drop. . . psi.
+Inlet manifold pressure drop.. . .... psi ..
+Main valve pressure drop ..... psi .
+Line pressure drop. . ...... psi .
+Fuel tank pressure. . . . psia .
+Total fuel weight (300 sec duration
+for 3 engines. plus 1 percent
+residual) . . . .... lb ..
+Fuel tank volume (mcluding 3 per-
+.. 25
+. .. 10
+.. 10
+.. 5
+160
+. ... 4660
+cent ullage volume). . . . . . f[3 .......... 1087
+Pressurarit (hydrogen) now rate
+(assuming tank vapor temperature
+300° R) . .lb/sec. . .. 0.346
+Total pressurant weight (assuming
+storage bottle fmal pressure 350
+pSla. plus 4 percent reserve) " .lb. . . 108
+Pressurant storage tank. volume
+(liqUId hydrogen including 3
+percent ullage volume) .. . ft 3 .... 25.2
+Pressurant storage tank, pressure ... psi a . " 350
+Figure 3-8 shows the operational sequence of the
+A-3 stage engine. In conjunction with figure 3-6,
+this illustrates the system starting and shutdown
+operations.
+3.5 A-4 STAGE ENGINE
+For the A-4 stage, two engines of 7500-
+pound thrust each were selected, for a combined
+thrust of 15 000 pounds. It is assumed that the
+mission assigned to this fourth and last stage of 
