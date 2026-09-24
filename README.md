@@ -313,4 +313,5 @@ c++ algorithm:https://cplusplus.com/reference/algorithm/find/
 4. https://cplusplus.com/reference/cstdint/
 
 # others
+fuel_regression:https://en.wikipedia.org/wiki/Hybrid_rocket_fuel_regression
 other link;- https://www.russianspaceweb.com/rd170.html
