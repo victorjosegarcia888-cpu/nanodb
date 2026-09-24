@@ -286,3 +286,21 @@ In fact, the process is even slightly more complicated because corners protrudin
 Unfortunately, most models still require an empirical factor that depends on variations in fuel and oxidizer flow paths for different port geometries. In the case of the image blurring model, predictions of regression are also dependent on the settings used in the image processing program.
 
 Models of burn area based on 2D cross sections lose another component of accuracy because they assume regression in the radial direction. For a helical grain, for example, the burn area predicted by Bath's model would be incorrect.
+Regression testing
+Because of the lack of accurate prediction methods, each system should generally be tested in full configuration to accurately determine the regression rate before flight. Typically, data points for several identical grains tested under different flux conditions are fitted to the space-time averaged power function. Initially, methods for fitting the power function were often left ambiguous in publications due to variation in the possible calculations for average mass flux, making it difficult to compare findings. A now commonly-referenced study by Karabeyoglu indicates that the easiest measurement, the port diameter average, also provides the most accurate results.[12]
+
+Space-Time Averaged Regression Coefficients
+Ox	Fuel	
+a
+{\displaystyle a}	
+n
+{\displaystyle n}	Source
+LOX	HTPB	0.03043	0.681	[13]
+LOX	HDPE	0.0234	0.620	[13]
+GOX	HDPE	0.042	0.498	[3]
+GOX	ABS	0.0128	0.524	[14]
+GOX	ABS	0.166	0.46	[15]
+GOX	PMMA	0.0211	0.615	[3]
+N2O	HTPB	0.0255	0.679	[16]
+N2O	HTPB	0.1876	0.347	[17]
+N2O	ABS	0.038	0.5	[18]
