@@ -1,1 +1,65 @@
-
+Sea level C [ can also be calculated using equation (1-33a), with the aid of equation (1-20),
+With effective nozzle contour design, an overall C[ correction factor of 0.98 for L02 /RP-1
+frozen composition can be used.
+Design sea level C[= 1.562 x 0.98 = 1.531
+From equation (1-31c):
+D · 11(1) 5660 x 1.531_ eSlgn sea eve s 270 tc 32.2 - sec
+(b) A-2 Stage Engine:
+From figure 4-4 for LOz/LHz at (Pchs = 800
+psia and a O/F mixture ratio of 5.22, the following values are derived for the chamber product
+gases:
+(T c)n s = 5580° F or 6040° R,
+m = 12 lb/mole, y= 1.213
+Substitute into equation (1-32a):
+Th t
+· 1 * -\132.2 x 1.213 x 6040 x 1544/12
+eore lCa c - 0.717
+= 7670 ft/sec
+Based on experimental data, a c* correction
+factor can be assumed for the L0 2 /LH2 frozencomposition data of about 0.975.
+Design c* = 7670 x 0.975 = 7480 ft/sec
+For y=1.213, E=40, a theoretical vacuum C[
+value of 1.876 can be derived from figure 1-11.
+C f can also be calculated using equations (1-33a)
+and (1-20). With effective nozzle contour design,
+an overall C f correction factor value of 1. 01 can
+be used for LOz!LHz frozen-composition data:
+Design vacuum C[= 1.876 x 1.01 = 1.895
+From equation (l-31c):
+. 7480x1.895
+Deslgn vacuum Ushc 32.2 440 sec
+The reader should perform his own calculations for the A-3 and the A-4 engines, with the
+aid of tables 3-4 and 3-5, and figures 4-5 and 4-6.
+4.3 THRUST CHAMBER CONFiGURATION
+LAYOUT
+After major thrust chamber operating parameters such as type of propellants, thrust level.
+chamber pressure, C[, c*, and Is have been established from engine system requirements and
+performance calculations, one of the fundamental
+dimensions of the thrust chamber, the throat
+area At, can be readily derived (eq. (1-33)). The
+throat area At or throat diameter Dt usually is
+the starting point of a thrust chamber configuration layout. The combustion chamber and nozzle
+section are commonly designed as an integral
+thrust chamber body. For light weight and ease
+of manufacture, thrust chambers will have the
+general shape of a pressure vessel with wall
+surfaces of rotation and smooth contours.
+Combustion Chamber Volume
+The combustion chamber serves as an envelope to retain the propellants for a sufficient
+period (stay time) to assure complete mixing and
+combustion before entering the nozzle. The volume of the combustion chamber thus has a definite effect on combustion efficiency. The theoretical required chamber volume is a function of
+the mass flow rate of the propellants and their
+average density, and of the stay time needed for
+efficient combustion. The relationship can be
+expressed by the following equation:
+where:
+V c = chamber volume, ft 3
+IV tc = propellant mass flow rate, lb/ sec
+V = average specific volume, ft 3 lIb
+ts = propellant stay time, sec
+(4-3)
+A useful parameter, the characteristic length L*
+(commonly pronounced "L-star"), can be used to
+specify the propellant stay time in the combustion chamber. L* is defined as the ratio of
+chamber volume to nozzle throat area, and can be
+expressed by the following equation:
