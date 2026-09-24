@@ -153,3 +153,104 @@ For the A-4 stage, two engines of 7500-
 pound thrust each were selected, for a combined
 thrust of 15 000 pounds. It is assumed that the
 mission assigned to this fourth and last stage of 
+
+Regression rate
+In contrast to solid rocket motors, hybrids exhibit significant dependence on the size of the port and low dependence on chamber pressure under normal conditions.[2] Because they are dominated by thermodynamic forces, models typically emerge via a heat transfer calculation. Marxman provided the first attempt at an a priori model of hybrid regression, basing the rate on a heat transfer equilibrium calculation and assuming unity for the Prandtl and Lewis numbers.[3] He eventually developed the below equation, using 
+G
+{\displaystyle G} for instantaneous local mass flux, 
+x
+{\displaystyle x} as distance along the port, 
+ρ
+f
+{\displaystyle \rho _{f}} for density of the fuel, 
+μ
+{\displaystyle \mu } for viscosity of the main-stream gas flow, 
+u
+e
+/
+u
+c
+{\displaystyle u_{e}/u_{c}} for the velocity ratio between gas in the main stream and gas at the flame, and 
+Δ
+h
+/
+h
+v
+{\displaystyle \Delta h/{h_{v}}} for the ratio considering the enthalpy difference from flame to fuel surface (
+Δ
+h
+{\displaystyle \Delta h}) in comparison to the effective heat of vaporization (
+h
+v
+{\displaystyle h_{v}}) for the fuel.
+r
+˙
+=
+0.036
+G
+ρ
+f
+(
+G
+x
+μ
+)
+−
+0.2
+(
+u
+e
+u
+c
+Δ
+h
+h
+v
+)
+0.23
+{\displaystyle {\dot {r}}={\frac {0.036G}{\rho _{f}}}{({\frac {Gx}{\mu }})}^{-0.2}{({\frac {u_{e}}{u_{c}}}{\frac {\Delta h}{h_{v}}})}^{0.23}}Though the model showed large errors when used to predict regression rate for an annular port,[3] the strong dependence on flux was a key finding. Unfortunately, many components of the equation are extremely difficult to determine, so most engineers focused on developing models based on testing, fitting the regression rate to a power function by effectively combining most of the terms into one coefficient that is assumed constant throughout the burn. It was typically simplified into a basic equation by considering the average regression over time for a test, fitting coefficients 
+a
+{\displaystyle a}, 
+n
+{\displaystyle n} and 
+m
+{\displaystyle m} based on regression testing.
+r
+˙
+=
+a
+G
+n
+x
+m
+{\displaystyle {\dot {r}}=a{G}^{n}x^{m}}Where G is the mass flux of propellant and x is the distance along the fuel grain. Though Marxman's initial math indicates that 
+n
+=
+0.8
+{\displaystyle n=0.8} and 
+m
+=
+−
+0.2
+{\displaystyle m=-0.2}, data typically ranges from 0.5 to 0.8 for 
+n
+{\displaystyle n} and usually shows less dependence than predicted on 
+x
+{\displaystyle x}. By averaging the regression out over the length of the fuel grain, the commonly used space-time average regression equation is created (also typically using 
+G
+o
+{\displaystyle G_{o}}, the flux of oxidizer, for the flux term instead of 
+G
+{\displaystyle G} for flux of oxidizer and fuel).
+r
+˙
+=
+a
+G
+o
+n
+{\displaystyle {\dot {r}}=a{G_{o}}^{n}}Many alternative equations for regression rate have been derived, usually constructed by reconsidering the assumptions made by Marxman but using the same diffusion-limited calculation approach. A model published by Karabeyoglu, for example, provides a more accurate approach by considering variation in the Prandtl number, accounting for entrance effects in the Reynolds number, and moving the flame sheet location to the stoichiometric location.[3]
+
+Similar concepts can be seen in an extension by Whitmore, where the Prandtl number is approximated as 0.8 and the skin friction coefficient is recalculated to consider blowing and the flow development along the grain length.[4]
+
+Both improved formulas appear to show a better relationship with tested data.
