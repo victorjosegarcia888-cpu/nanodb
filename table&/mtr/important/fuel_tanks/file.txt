@@ -253,4 +253,36 @@ n
 
 Similar concepts can be seen in an extension by Whitmore, where the Prandtl number is approximated as 0.8 and the skin friction coefficient is recalculated to consider blowing and the flow development along the grain length.[4]
 
-Both improved formulas appear to show a better relationship with tested data.
+Both improved formulas appear to show a better relationship with tested data.Regression enhancements
+Liquifying fuels
+The simplest technique for increasing the regression rate is to use a different fuel. Solids with lower molecular masses tend to have lower viscosities, a quality which generally correlates with a decrease in the required energy for gasification. Taken to the extreme, a new phenomenon actually emerges, where a melt layer at the surface of the fuel allows droplets to be entrained as oxidizer flows past. At the flux levels commonly seen in hybrid rocketry, this entrainment actually accounts for the largest portion of regression (dominating vaporization).[5]
+
+The concept was originally discovered during a brief research period in which AFRL and Orbital Technologies Corporation (ORBITEC) tested several cryogenic fuels in an effort to increase specific impulse. Using solidified pentane, they found regression rates vastly increased over traditional hybrid fuels.[5] Several tests with paraffin also foreshadowed modern liquifying rocket technology, with the Peregrine rocket among others leading the way for further development.[6][7][8]
+
+The alternative regression method does supply some other issues, mainly a reduction in combustion efficiency. Because of the large particle size, the entrained droplets may not be fully consumed before flowing out of the nozzle and leaving the engine. Indeed, paraffin has a tendency to even slough off large fragments, greatly reduces combustion efficiency and potentially contributing to combustion instability.[9]
+
+Complex geometry
+Although it is much harder to predict, complex grain geometries offer another technique for increasing regression rate and burn area in order to greatly increase fuel flow.
+
+Using non-circular port cross sections increases the area exposed to the oxidizer to be gasified, especially at the start of the burn. However, as the fuel continues to regress it will begin to round out the shape because regression generally occurs normal to the fuel’s surface, and corners tend to regress faster. Generally, this will cause the O/F ratio to shift away from stoichiometric.
+
+Some of the first attempts at complex geometries were wagon wheel designs developed by the United Technology Center.[10] Though they massively increase fuel flow, wagon wheels require that a significant portion of fuel is left behind, or the structure could break apart.
+
+More recently, helical designs have been used to create a centripetal component of flow, reducing blowing and providing greater friction between the oxidizer and fuel in order to increase convection. Analysis at the University of Utah concluded that regression rates generally increased by at least a factor of two, up to even a factor of four.[11] In general, helical regression rate is modeled by several multiplicative adjustments to the skin friction coefficient and to the blowing coefficient.[10]
+
+Burn area
+The burn area refers to the surface exposed to the heat of the combustion chamber, and it is just as pivotal to the regression of the rocket as the regression rate itself, since the volume flow rate of fuel is usually given by the regression rate multiplied by the burn area. Depending on the complexity of the grain geometry, it can also be quite difficult to calculate. At its simplest form, a tube-shaped fuel grain has a burn area of 
+π
+∗
+D
+∗
+l
+{\displaystyle \pi *D*l} added to the area on both ends. However, a star-shaped fuel grain could require the use of CAD or other geometric software to determine the surface area, particularly as the surface area regresses along the normals, often creating highly irregular geometry.
+
+
+Bath's regression algorithm begins with a cross section of the port, blurs it, then converts back to black and white based on a threshold.
+In fact, the process is even slightly more complicated because corners protruding into the combustion chamber will regress more quickly than their circular counterparts, since they are exposed to heat on both sides. To model the problem, Bath developed a technique of iteratively blurring pixels and removing those that fall below a certain threshold of brightness.[10] Using the image processing to generate a table of surface area outputs for a given volume, it can easily be implemented into a model for regression of the fuel grain over time.
+
+Unfortunately, most models still require an empirical factor that depends on variations in fuel and oxidizer flow paths for different port geometries. In the case of the image blurring model, predictions of regression are also dependent on the settings used in the image processing program.
+
+Models of burn area based on 2D cross sections lose another component of accuracy because they assume regression in the radial direction. For a helical grain, for example, the burn area predicted by Bath's model would be incorrect.
