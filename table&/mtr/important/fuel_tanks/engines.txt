@@ -1220,4 +1220,118 @@ propellants. These are fed directly from pressurized propellant tanks, through m
 valves. to the thrust chamber inlets. The propellant tanks and their gas pressurization system are considered part of the engine propellant
 feed system. Gaseous helium supplied from a
 high-pressure helium bottle located inside the
-main fuel tank is used for main oxidizer tank 
+main fuel tank is used for main oxidizer tank.
+
+others
+TABLE 3-5.-7.5K A-4 Stage Engine Operating Parameters
+[Vacuum conditions]
+Engine (pressurized gas-feed and throttlable):
+Thrust .......................... lb .......... 7500
+Nominal total multiple-firing
+duration at full thrust ............ sec .......... 410
+Specific impulse .................. sec .......... 320
+Oxidizer Np.:
+Density ....................... 1b/ftJ ...... 90.88
+Flow rate ..................... lb/sec ... " 12.78
+Fuel N{I.:
+Density ....................... Ib/ftl ...... 63.25
+Flow rate ..................... lb/sec ..... 10.65
+Mixture ratio ..................... O/F ......... 1.2
+Thrust chamber (ablatively cooled and radiation cooled on
+nozzle extension):
+Thrust .......................... lb .......... 7500
+Specific impulse .................. sec .......... 320
+Injector end pressure .............. psia ......... 110
+Nozzle stagnation pressure ........ psia ......... 100
+Oxidizer now ..... " ............. lb/sec ..... 12.78
+Fuel now ........................ lb/sec ..... 10.65
+Mixture ratio ..................... OIF . . . . . . . .. 1.2
+c* efficiency ..................... Percent ....... 98
+c* .............................. ftlsee ...... 5540
+C t efficiency ..................... Percent ...... 101
+Ct ......................................... 1.858
+Contraction ratio ................. Acl At ......... 2
+Expansion ratio .................. Ael At ........ 35
+Throat area. At . .................. in 2 : ........ 40.4
+L* .............................. in ............ 32
+Nozzle contour .......................... 70 percent
+bell
+Thrust vector control:
+Minimum acceleration ............. rad/sec2 ....... 2
+Maximum velocity. . .... deg/sec ....... 15
+Displacement. . . . . . ........ deg ........... ±7
+Oxidizer side (pressurized by heated helium):
+Injector pressure drop ............. psi ........... 25
+Oxidizer dome pressure drop ....... psi ............ 3
+Line pressure drop ................ psi ............ 5
+thrust level and mixture ratio are controlled continuously through the engine control package by
+the guidance and propellant utilization systems.
+Upon a shutdown signal. engine shutdown is
+effected. The propulsion system is capable of
+Main valve pressure drop. . . psi.
+Calibration orifice pressure drop. . psi
+Mixture ratio control reserve.. . .. psi.
+Oxidizer tank pressure . psia
+Total OXidizer weight (410 sec full
+thrust duration for 2 en!!:ines. plus
+0.8 percent residual). . . . . Ib .
+OXldizer tank volume (including
+2.5 percent ullage volume) . ftl.
+Nominal pressurant (helium) now
+rate (assuming tank ullage
+temperature 700° R). .lbisec.
+Total pressurant weight (assuming
+storage bottle final temperature
+1910 R. pressure 400 psia. plus
+2 percent reserve) . . lb ...
+Pressurant storage tank:
+Volume. . . ftl ..
+Pressure.
+Temperature.
+Fuel Side (pressurized by heated helium):
+Injector pressure drop. . ....... psi.
+Inlet manifold pressure drop . psi.
+Line pressure drop ................ psi ... .
+Main valve pressure drop. . . . . . psi.
+Calibration orifice pressure drop .... psi.
+Fuel tank pressure. . . pSI.
+Total fuel weight (410 sec full
+thrust duration for 2 engines.
+plus 1.2 percent residual)
+Fuel tank volume (including
+2.5 ullage volume) ...
+Nominal pressurant (helium) now
+.. lb ...
+... 4
+.. 8
+10
+.. 165
+. 10560
+... 120
+. 0.0225
+12.95
+4.3
+.. 4500
+560 max.
+. ... 25
+.. ..... 4
+.4
+. ..... 4
+. .. 8
+. 155
+. .... 8840
+. .. 143.5
+rate (assuming tank ullage
+temperature 700° R) ... .lbisec .. 0.025
+Total pressurant weight (assuming
+storage bottle final temperature
+1910 R. pressure 400 pSia. plus
+2 percent reserve) ....... .
+Pressurant storage tank:
+.lb 144
+Volume. . . . . . . . . . . . . . . . . . .. .. ftl. . 4. i7
+Pressure. . . . ............... psia . 4500
+Temperature ................... OR ..... 560 max.
+restart an indefinite number of times. It can be
+operated at any thrust level between 10 percent
+and full thrust. Figure 3-11 shows the operational sequence of the A-4 stage engine. 
