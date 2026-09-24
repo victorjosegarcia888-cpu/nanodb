@@ -1,0 +1,1223 @@
+(3) Wet weight.-The engine dry weight plus
+all propellant within it, during main
+stage. In a typical design, engine wet
+weight may be 6 percent higher than dry
+weight. Wet weight is significant for
+vehicle in-night center-of-gravity location and moments of inertia.
+(4) Wet gimbaled weight. - That portion of wet
+weight representing engine mass which
+is gimbaled for steering purposes. In
+earlier designs this meant essentially
+the thrust chamber and injector wet
+weight. In later designs it often refers
+to the entire engine less a relatively
+small amount of stationary parts. This
+weight is significant for gimbal actuator
+loads and guidance control loop response characteristics.
+Ideally, dry weight and burnout weight should be
+equal; that is, no propellants should be trapped
+in the engine at shutdown. In practice, this will
+not always be possible. However, the engine
+designer can do much through proper design, sizENGINE
+ACCESS
+BURNOUT
+ENGINE
+ACCESS
+DRY
+2 600
+2 450
+2 300
+2150
+000
+/ 1850
+1700
+V tI
+V
+i5W -----
+- ---
+1400 I
+GO
+AHEAD ,
+---
+---
+/ ~
+- -~
+~ --
+ORIGINAL --.. - ----I SPEC i------ --- ORIGINAL
+--- ---=rSPEC T ------
+2 3 4 5 6
+MONTH
+ing and routing of lines, avoidance of traps, and
+location of valves.
+Because of the importance of weight control,
+rocket engine manufacturers employ engineers
+specifically in charge of this area. Table 2-1
+shows a typical weight progress form, as it is
+used by the Rocketdyne Division of North Amercan Aviation. It is revised and reissued periodically. Thus it becomes a useful tool to raise
+early danger warnings. In our arbitrary example
+a slight underweight is shown. However, the
+table also shows that the data are based almost
+entirely on estimated and calculated figures,
+rather than on actual weighing results. This is
+characteristic for the earlier phases of design
+and development of a rocket engine. More often
+than not, the weight advantage will disappear
+gradually as the design firms up; then the
+squeeze will be on. For convenient display of
+the weight tendencies over time, a graph such as
+shown in figure 2-5 will be useful.
+The weight changes of the various components as well as of the entire engine affect centers of gravity and moments of inertia. Through 
+
+Model: A-2 sta~e
+Coutra~t:
+Issl"':
+[lat,,: 1"('1) ~H. 1964
+~)]('I()sure:
+Pal'e: 1
+R,,[x)rt No. 12
+., , ___ ~ ___ ~_ .. , .. _._ - ___ .. _. ·0-
+~-~---------------------~----.-
+Rucket en~ln .. and accessories (al burnuut) (A+D IE)
+Rock!'t "n~llH' and accp.sSOrIes (dry) (BID)
+A Rocket !'n~lIle (at llllfIlOUt) (Ule)
+B Rocket en~lIIp. (dry) .........
+Thrust chamber.
+Gimbal bearin~ . . . . . . . . . . . . . . . . . . . .
+TurhopUIllP, fuel ...........
+MOllllt, fuel pump.
+Tnrhopump, oxidizer .........
+Mount. OXidizer pump.
+Ftwl fpp.d syslp.1lI
+Oxilhzpr feed system
+Coutrols (i~nit. elec!. pIIPU.)
+Exhaust. syst.em
+Propellant utilization Systflill.
+St.art. syst.l~m
+C F'll\ld at hurnout. (rockp.t en~lIle) .
+o A('c!'ss()rtl's
+Inl!'t lin", fuel pump.
+Inlet lillf~, oxidizer pump_
+lIeli\tl\l hottle ........
+lIeat exdtall~er, oxy~ell _
+F'lowmeters .
+Instrumentation.
+Vehtde connection provision.
+E fluid at burnout (accessories)
+TABLE 2-1.-A-2 Stage Engine Weight Report
+Chanl'''''
+Spec Con- last to
+weil'ht
+t.ractor Last Basis for current dat.a
+chaul'es Current current status
+per stalus
+orr I'lfl al (rev. status (Report (col 4 Percent, Percent,
+desil'n spec. No. 11) mltlus est i- ealeu- Percent,
+wCl~ht) cuL 5) mated lated actual
+2 3 4 5 6 7 8 9
+(15RO) (2:1RO) (2292) (2112) (+180)
+(148,,) (2280) (2181 ) (2011) (+170) (30) U;2) (18)
+(136;» (2000) (1 !l2:l) (1763) (H60)
+(1300) (1930) (IR"O) (1700) (+IS0) (24) (59) (17)
+500 750 730 640 +90 7 62 31
+40 55 S2 . .. . ....... 6 94 0
+200 260 250 217 +33 1 97 2
+25 30 27 1 R7 12
+190 230 224 202 +22 0 33 67
+2" ,J 30 28 26 +2 3 82 IS
+70 100 95 96 +1 72 28 0
+60 90 87 87 0 75 2fi 0
+100 130 111 114 0 65 3:3 2
+70 100 96 96 0 60 :39 1
+10 15 12 10 +2 4 96 0
+0 140 135 135 0 100 0 0
+(65) (70) (7:3) (6:3) (110)
+(185) (350) (:331) (311 ) (+20) (57) (41) (2)
+50 85 79 74 +5 :33 65 2
+SO 85 81 75 +6 30 61 6
+0 24 21 21 0 100 0 0
+30 34 31 27 +4 12 82 6
+5 6 5 fi 0 100 0 0
+50 80 78 n +5 100 0 0
+0 36 36 :36 0 100 0 0
+(30) (30) (:l8) (38) (0) 
+
+NOTE: Items (I) thru (3) rePfue:nt the moment of inertia
+about specified C.G.' •. Items (4) and (S) represent
+the moment of inertia about the referenced ilmbal alliS.
+WEIGHT CENTER OF GRAVITY - INCHES MOMENT OF INERTIA _ SLUG FT2
+DESCRI PTiON LBS. Y - ARM X - ARM Z - ARM Y - Y X - X
+(I) Rocke~ Enllnlll! ... Ace. Dry 2181 .21.3 .IS 07 176 )91
+(1) Rocket Enllne + Ace. Wet 2l 17 .22 5 • I 5 .. 0 I 185 41 I
+(3) Rocket Eneine • Ace. - Burnout 2292 .22 7 ·1 6 02 184 408
+(4) Gimballed Mass - Dry 2061 ·25.2 ·1 S 0.2 "1 672
+(5) Gimballed Mass - Wet 2086 .24 6 • I 5 -02 177 6SS
+Figure 2-6.-TypicaJ data sheet for center of gravity and moment of inertia.
+issue of a data sheet as shown in figure 2-6, all
+parties concerned can be kept informed on
+changes as they occur.
+propellant + payload + inert
+Z - Z
+362
+379
+375
+649
+662
+
+issue of a data sheet as shown in figure 2-6, all
+parties concerned can be kept informed on
+changes as they occur.
+propellant + payload + inert
+Z - Z
+362
+379
+375
+649
+662
+39
+Note that the data presented in table 2-1 and
+figures 2-5 and 2-6 are for the 150K A-2 stage
+engine system which is a part of an assumed
+multistage space vehicle configuration treated in
+later chapters.
+(
+Stage usable Stage Stage)
+weight weight weight ---"-----'---. -- (2-1) Stage payload Stage mert
+Let us now explore the influence structural
+weight has on the performance and gross takeoff
+weight of a rocket vehicle system, and how its
+magnitude varies with the design parameters of
+different vehicle systems. The quantitative
+relationships will be evaluated individually for
+each case.
+Equation (1-30) can be rewritten for the stage
+burnout velocity of a single-stage vehicle, or the
+stage velocity increment, of any individual stage
+of a multistage vehicle system as:
+weight + weight
+where
+Stage inert _ Stage residual propellant
+weight - weight at burnout
+Stage structure,
+Stage engine guidance and other (2-2) + . h + . h h' h system welg t weIg ts, w IC are
+not payload 
+
+Sample Calculation (2-1)
+A three-stage rocket vehicle system has the
+following weight data: Total vehicle system
+weight at takeoff, 40000 pounds. Vehicle system weight at second-stage ignition, 7500
+pounds; vehicle system at third-stage ignition,
+2200 pounds; payload weight, 700 pounds. For
+each pound increase of engine system weight of
+first, second, and third stages, respectively,
+determine (at a constant vehicle performance):
+~ increases of total vehicle system weight at
+takeoff; QV increases of vehicle system weight
+at second- and third-stage ignition.
+Solution
+(a) Payload weight of first stage::: vehicle
+system weight at second-stage ignition =
+7500 pounds
+Payload weight of second stage::: vehicle
+system weight at third stage ignition:::
+2200 pounds
+Payload weight of third stage = actual
+system payload weight::: 700 pounds
+From equation (2-6):
+(1) Growth factor of first stage against vehicle system takeoff weight:::
+Vehicle system takeoff weight ::: 44 000 ::: 5.86
+First-stage payload weight 7500
+(2) Growth factor of second stage against
+vehicle system takeoff weight =
+Vehicle system takeoff weight ::: 44 000::: 20
+Second-stage payload weight 2200
+(3) Growth factor of third stage against
+vehicle system takeoff weight =
+Vehicle system takeoff weight = 44 000 = 62.9
+Third-stage payload weight 700
+Therefore:
+For each pound increase of first-stage enginesystem weight, the increase on vehicle system takeoff weight::: 5.86 pounds
+For each pound increase of second-stage
+engine-system weight, the increase on vehicle
+system takeoff weight::: 20 pounds
+For each pound increase of third-stage enginesystem weight, the increase on vehicle system takeoff weight::: 62.9 pounds
+(b) Note that the weight growth of lower
+stages will not affect the upper stage weight
+growth. For an increase of first-stage vehicle
+system weight, there will be no weight changes
+on second and third stages, and for an increase
+on second-stage vehicle system weight. no
+weight change is required for third stage.
+From equation (2-7):
+(1) Growth factor of second stage against
+vehicle system weight at second-stage
+ignition :::
+Vehicle system weight
+at second-stage ignition ::: 7500::: 3.41
+Second-stage payload weight 2200
+(2) Growth factor of third stage against
+vehicle system weight at second-stage
+ignition :::
+Vehicle system weight
+at second-stage ignition = 7500::: 10.72
+Third-stage payload weight 700
+(3) Growth factor of third stage against
+vehicle system weight at third-stage
+ignition :::
+Vehicle system weight
+at third-stage ignition ::: 2200::: 3.14
+Third-stage payload weight 700
+Therefore:
+For each pound increase of second-stage engine system weight, the increase on vehicle
+system weight at second-stage ignition::: 3.41
+pounds
+For each pound increase of third-stage engine
+system weight, the increase on vehicle system weight at second-stage ignition::: 10.72
+pounds, and the increase on vehicle system
+weight at third-stage ignition::: 3.14 pounds
+The correctness of results can be checked by
+recombining the individual stage growth factors
+to oMain the growth factor for the entire vehicle
+system:
+3.14 x 3.41 x 5.86::: 62.9 
+
+Envelope (Size)
+The linear dimensions of liquid propellant
+rocket engines require relatively elaborate description and frequently cannot be made clear
+without a drawing. In those cases where only
+approximate values are required for comparison
+or for overall estimates, the term "envelope" is
+preferred. For instance, definition of a hypothetical smallest cylinder, cube, or sphere into
+\vhich the engme would fit conveys a good feeling of engine size or bulkiness.
+Obviously, engine size directly affects engine
+w'eight, the importance of which was emphasized
+above (fig. 2-4). Aside from the engine itself,
+numerous other areas are directly affected by
+increasmg engine size:
+(1) The vehicle structure, which becomes
+heavier, especially with upper stages.
+Engine size directly affects the size and
+thus weight of the aft end and/or interstage structure.
+(2) Handling equipment and procedures become more costly
+(3) Servicing becomes more difficult
+(4) Manufacturing machinery becomes larger
+(5) Storage and transportation means become
+more bulky
+In several of these areas, there is a defmite
+upper limit, such as railroad tunnel sizes, clearances on bridges and underpasses, and available
+machine tools.
+The selection of the thrust-chamber expansionarea ratio has a very pronounced effect on engine
+envelope. When optimizing the thrust chamber
+expansion area ratio, which is also influenced by
+performance, weight, pressure drop, heat transfer, and other considerations, its effect on envelope, and thus on other vehicle systems, must
+be considered (section 10.9).
+Reliability
+The subject of reliability has become almost
+a branch of science by itself. In addition to the
+designer, to the development engineer, and to
+the user, mathematicians, statisticians, and
+"human factor" and "man rating" specialists are
+involved. Numerous books have been written on
+the subject and manufacturers maintain entire
+groups to predict, monitor, tabulate, and evaluate
+the reliability of their products. This emphasis
+on reliability is well justified and is of particular significance to rocket engines. The advent
+of manned space flight has placed even greater
+emphaSis on rocket-engine reliability.
+Reliability may be defined as the capability
+of the engine to perform according to specifications, whenever "the button is pushed." The
+degree to which this is met can be expressed in
+figures and graphs. If the evaluation is made
+following a test series, reliability can be simply
+expressed as the ratio of success to failure, say
+98 percent (2 failures and 98 successes in 100
+runs). As there is no guarantee, however, that
+the system under test will perform identically in
+subsequent tests, reliability predictions are
+made, the accuracy ("confidence level") of which
+increases with the amounr of previous information available. The interrelation of reliability
+and its confidence level is something the statisticians have much to say and write about.
+What can the rocket engine designer do to
+achieve the highest possible reliability, as early
+as possible? Below are compiled a few pointers
+and thoughts which have proven valuable, not
+only in rocket engine design. They will be followed by specific details for the implementation
+of a reliability-assurance program.
+First of all, painstaking execution of all calculations and drawings that are part of a given
+design is an obvious requirement. This includes
+the thorough study of previous experience, one's
+own as well as that of others; familiarity with
+and correct application of accepted and proven
+design standards and procedures; clearly written
+statements and instructions; clear line drawings. It cannot be overemphasized: it pays to
+spend that extra hour in carefully checking repeatedly every detail of a design and its contemplated mode of operation, before its commitment
+to manufacture and subsequent use. 
+
+olution
+(a) Payload weight of first stage::: vehicle
+system weight at second-stage ignition =
+7500 pounds
+Payload weight of second stage::: vehicle
+system weight at third stage ignition:::
+2200 pounds
+Payload weight of third stage = actual
+system payload weight::: 700 pounds
+From equation (2-6):
+(1) Growth factor of first stage against vehicle system takeoff weight:::
+Vehicle system takeoff weight ::: 44 000 ::: 5.86
+First-stage payload weight 7500
+(2) Growth factor of second stage against
+vehicle system takeoff weight =
+Vehicle system takeoff weight ::: 44 000::: 20
+Second-stage payload weight 2200
+(3) Growth factor of third stage against
+vehicle system takeoff weight =
+Vehicle system takeoff weight = 44 000 = 62.9
+Third-stage payload weight 700 
+
+TABLE 2-2.-Relationship of Vehicle Reliability
+to Flight Safety
+Reliability
+Spacecraft and
+launch vehicle
+0.50
+0.90
+0.999
+Engine Out
+Escape system
+0.998
+0.99
+000
+Flight safety
+Probability of
+crew survival
+0.999 
+
+Failure Modes of Engine Components
+The failures of rocket engine components may
+be attributed to one or a combination of several
+of the following principal modes:
+(1) Functional failures
+(2) Fatigue failures
+(3) Over-stress and over-strain
+(4) Failures pertaining to combustion devices
+(5) Failures pertaining to electrical devices
+(6) Manufacturing and material defects
+(7) Unexplained failures
+(8) Human errors
+
+importante par el vehiculo o motor.
+Noncomplex Redundancy
+The simultaneous function of identical equipment. Application depends upon the particular
+failure mode wh 'is to be eliminated. For a
+typical example, 0de figures 2-7 and 2-8. Other
+examples are: dual (series) seals, parallel
+valves.
+I I
+I PRESSURE
+SWITCH# I I SOLENOID
+ER VALVE
+I POW
+I PRESSURE
+SWITCH# 2 J
+Figure 2-7.-Noncomplex parallel redundancy.
+(This type of redundancy guards against failure to close when called upon to close.)
+POWER
+PRESSURE
+SWITCH'*t I
+SOLENOID
+VALVE
+Figure 2-8.-Noncomplex series redundancy.
+(This type of redundancy guards against inadvertent closing, i.e., closing when not called
+upon to close.) 
+
+(2) Traceability. By the time a materials
+defect is detected, many more parts may
+have been made from the same lot or
+batch of raw material. If accurate records have been kept, for what parts
+which numbered material lots have been
+used, it will be possible, without a
+"panic, ,. to withdraw and replace all
+parts made from the faulty lot. The importance of accurate and complete records is obvious.
+(3) Process inspection. This refers to all
+shop inspections made of the parts as
+they are being processed. Its purpose
+is to check the performance of the operators and tools or eqUipment, and to sort
+out faulty parts as soon as errors are
+detected.
+(4) Salvage. This includes the decision
+whether defective materials or parts can
+be corrected or will be scrapped.
+(5) Final inspection. This is the inspection
+of the completed component parts to insure they are within the limits required
+by the design.
+(6) Checking of actual service performance.
+This includes investigation of complaints and studies of actual service
+performance of the part in the engine
+system (see "Failure Reporting System"). 
+
+process of design:
+1. Have designs for similar earlier projects been
+thoroughly reviewed and understood?
+2. Have principal participants In those projects been
+contacted? Has their advice been solicited?
+3 .. Has a list been prepared of all problems which
+were encountered in previous, related proJects,
+including their solutions?
+4. Has the new engine system schematic diagram
+been reviewed for hidden "won't works?"
+5. Has the number of components and the I[ complexity
+been reduced to a mmimum, without loss in nexibility and serviceability, for maximum reliability?
+(In part.iC'ular: has minimum of moving parts been
+achieved?)
+6 lias a thorough malfunction analYSIS been made?
+(Assessment of malfunetion effects of each component on all other parts and on the complete
+system. Include external systems, such as the
+vehicle and GSE.)
+/. Have all existing detail desll'ns been reViewed for
+possible inclusion and or adaptatIOn to the new
+design?
+8. Have standard parts been used wherever possible;
+permissible; or as preSCribed by sustomer
+specifications?
+9. Has the number of external connectIOns ("customer
+connections") been held to a minimum?
+10. Has the locatIOn and type of customer connections
+been chosen In the best interest of the customer?
+Has he been consulted?
+11. Has the need for ground support eqUipment (GSE)
+been reduced to a minimum. by number as well as
+by complexity?
+12 Are there good reasons II support eqUipment used
+during R&D is different fwm the one supplied to
+the field?
+13. Have all environmental conditions been considered. includin!-! those not likely but pOSSible to
+occur? (Salt spray, sand. funf!us, humidity.
+temperature. etc.)
+14 Has resistance to vibration and shock effects been
+considered? In all planes? Includln~ improper
+handling?
+15. Have acceleration effects been conSidered? In all
+planes? 
+
+2.4 STRESS ANALYSIS Analysis of Working Loads and Environmental
+Effects
+Stringent reliability and weight requirements
+call for rigorous and complete stress analyses
+during the mechanical design of engine components. Stress analyses predict the manner in
+which a mechanical part is likely to fail under
+anticipated working conditions. They also generate means to prevent failure. The goal is to
+design a part with sufficient, but not excessive,
+strength in every detail.
+In conjunction with the engine design layouts,
+the approximate shape of the parts will be established, based on functional requirements and on
+similar satisfactory designs of the past. First, a
+preliminary design sketch is made. Subsequently,
+the determination of probable working loads,
+environmental effects, deflections, stresses, and
+determination of the final dimensions is made
+step by step, together with the selection of materials. The following steps are typical for
+stress analyses:
+(1) Analyze and determine the loads and environmental effects to be expected during the useful life of the part.
+(2) Evaluate the various possible modes of
+part failure from stress and strain induced within the part by the working
+loads and from other effects.
+(3) Select the materials and establish their
+mechanical properties under anticipated
+working conditions. Applying a likely
+theory of failure, arrive at the final
+dimensions of the part.
+(4) Apply experimental stress analyses to
+refine the above procedure. Redesign
+the part if necessary, depending on the
+results.
+In certain cases, such as with highly stressed
+lightweight members, further stress analysis refinement must be obtained. 
+1) Design limit load: Select the largest of
+the following:
+where
+1.2 x load (A)
+1.2 x load (B)
+1.1 x load (C)
+1. 0 x load (D)
+(2-8)
+Load (A):: Working load under normal steady
+operating conditions
+Load (B):: Working load under normal transient
+operation conditions, such as during normal
+engine start and stop
+Load (C):: Working load under occasional transient operation condition, such as load during
+irregular starts
+Load (D):: Mandatory malfunction load which
+must be taken into account. For example, in
+a clustered engine configuration, certain
+mount members may carry the greatest load
+when one engine ceases to fire while the
+others are still operating (engine-out capability). In certain instances it is mandatory that
+an individual rocket engine continue to operate when a given component fails. If this
+causes Significant structural loads, these are
+considered mandatory malfunction loads.
+(2) Yield load:: 1.1 x design limit load (2-9)
+Yield load is the load which will induce a
+stress equal to the yield strength of the
+material used under rated ambient conditions.
+(3) Ultimate load:: 1.5 x design limit load (2-10)
+Ultimate load is the load which will induce a stress equal to the ultimate
+strength of the material used under rated
+ambient conditions.
+(4) Proof test load =
+1.0 x design limit load (2-11)
+Proof test load is the load which is applied to test the part during the acceptance inspection. Its value can be adjusted for material properties if the rated
+ambient conditions cannot be duplicated
+for the test. 
+
+TABLE 2-3. -Failure Modes and Their Criteria
+Failure mode Conditions
+1. Elastic denection:
+a. Stable equilibrium. .. Loads within elastic limits
+b. Unstable equilibrium. Loads within elastic limits
+Criteria
+Strain; linear or angular displacement (stretch or bending)
+Buckling: ratio of applied
+vs. critical load
+Design remedies
+Change of shape or dimensions (stiffening); material
+selection
+Change of shape or dimensions
+c. Vibration .......... . Within elastic limits: abrupt Amplitude. frequency trans- Stlffenmg; change of natural
+changes of loads; repeated missibility. resonance frequency; dampmg
+application of load at or
+near natural frequency
+2. Plastic deformation:
+a. yield ............. . Loads exceed elastic limits Stress; permanent set Change of dimensions and 'or
+matenal
+b. Creep ............. . Loads mayor may not exceed Stress: slow permanent set
+elastic limits; elevated
+Change of dimensions and or
+material
+3. Fracture:
+a. Overload .......... .
+temperatures
+Load increase beyond yield
+point to.ultimate strength
+b. Brittleness .... . .. Load above ultimate stren~th
+c. Impact or shock. . . .. Abrupt load application to
+ductile materials
+d. Fatigue ........... . Many repeated load applications within elastic limits
+parts, to scale models made from the real material or from special plastic material, or to portions of full-scale parts. Not infrequently,
+applied loads are intentionally increased beyond
+rated levels, until failure of the part occurs.
+These "tests to failure" will establish the actual
+margin of safety achieved in the design.
+The tools used in experimental stress analyses include electrical, mechanical, and optical
+strain gages; photoelastic plastic models, lacquers, and paints.
+2.5 SELECTION OF MATERIALS
+The selection of the most suitable material
+for a given rocket engine part will be governed
+by-
+(1) The function, size, and shape of the part
+(2) Required mechanical properties; strength,
+stiffness or rigidity, hardness, and
+ductility, with particular consideration
+Stress; elongation; area
+reduction; rupture
+Stress; rupture with little or
+no yield
+Stress; behavIOr like brittle
+materials
+Chanl'e of dimensions and 'or
+material
+Chanl'e of dimenSIOns and. or
+material: chan~e of heat
+treatment; chanl'e of contour
+Selection of most ducrile
+material; lncreased lI1ar~l!l
+of safety
+Stress: number of load appli- Ch<lnge of shape and dlrnen·
+callons sions; chall~t' of lIlatf'nal:
+increase of endmance linllts 
+
+Resistance to Thermal Shock
+This is a measure of a material's ability to
+resist weakening or fracture as a result of sudden heating or cooling. The following properties
+appear to be requirements for high thermal shock
+resistance: High tensile strength (Ftu), high
+thermal conductivity (k), low modulus of elasticity (E), and a low coefficient of thermal expansion (a). The ratio Ftuk/Ea provides a relative
+measure of thermal shock resistance for comparison of different metals. Typical values are
+5 to 8 for stainless steel and 40 to 48 for
+2014-T6 aluminum.
+Resistance to Hydrogen Embrittlement
+Certain metals, such as steels and titanium
+alloys, have a tendency to embrittlement in a
+hydrogen atmosphere. This tendency is greatest
+in the intermediate-temperature range, but disappears at low and high temperatures. The
+effect is often delayed until a critical hydrogen
+concentration in the metal is reached when
+cracks start to appear, as a result of a marked
+decrease in ductility. Also, the embrittlement
+effect decreases with increasing strain in the
+metal. Heat-treated steels are more susceptible
+to it than annealed ones. 
+
+Austenitic Stainless Steels (300 Series)
+Steels in this group possess the highest corrosion resistance in the family of stainless
+steels and are highly qualified for storable liquid
+propellant application. They are inherently
+tough and well adapted for fabrication by deep
+drawing and other similar means. They can be
+welded easily, can be soldered by proper technique, and are well suited for machining and
+forming under normal conditions. Ordinary sand
+castings, preciSion investment castings, and
+forgings can also be produced from these steels.
+They are widely employed in rocket engines
+using cryogenic and storable propellants. Parts
+slIch as regenerative-cooled thrust-chamber tubes
+and manifolds, injector bodies and domes, valve
+poppets and bodies, propellant ducts and tanks
+are made from these steels.
+Martensitic-Type Stainless Steels (400 Series)
+The steels in this group are hardenable, in Semiaustenitic Stainless Steels
+The steels in this group can be formed in the
+soft state and then precipitation hardened. They
+are intended for use in parts requiring corrosion
+resistance and high strength at operating temperatures up to 8000 F, and where such parts may
+require welding and soldering during fabrication.
+However, the corrosion resistance of this type of
+steel is not as good as that of the austenitic
+stainless steels. Rocket engine component
+parts, such as thrust chambers, pump shafts,
+levers, brackets, bellows, ducts, springs, clamp
+rings, valve poppets, housings, and pressure
+vessels, have been made from the steels of this
+group.
+Aluminum Alloys
+Pure metallic aluminum has a relatively low
+strength. However, the strength can be greatly
+increased by alloying aluminum with one or more
+metals or metalloids. This can be accomplished
+without affecting appreciably the other desirable
+properties of aluminum, such as low weight, corrosion resistance, ductility, good thermal and
+electric conductivity.
+Wrought alloys of aluminum are generally of
+two types: one group that can be hardened by
+cold-working only (non-heat-treatable), such as
+1100, 3003, 3004, 5050, and 5052 and a second
+group that will respond to both cold-working and
+heat-treatment, such as 2011. 2014, 2017, 2024.
+6061, 6066, and 7075. Wrought-aluminum alloys
+are suitable for fabrication processes such as
+machining, shearing, drawing, stretch forming, Magnesium Alloys
+Magnesium alloys have found many applications in rocket engines and vehicles because of
+their excellent strength-to-weight, fatigue and
+stiffness characteristics. These alloys are used
+to make pump housings, valve bodies, and structure mounts and are available in sheets. rods.
+and castings.
+Magnesium sheet alloys can be formed at
+elevated temperatures. They are also suitable
+for various machining processes. They can be
+jOined by fusion and resistance welding as well
+as by adhesive bonding. Magnesium alloys can
+be cast by all three common casting methods:
+sand, permanent mold, and pressure die casting.
+Certain cast alloys can also be welded and heat
+treated. 
+
+TABLE 3-1.-4-Stage Space Alpha Vehicle
+Takeoff weight. 2100000 lb;
+Payload a for 3OO-n.mi. orbit. 109500 lb.
+Stage Number Engine
+Stage thrust. of thrust. Propellant
+lb engines lb
+A-I ... " .. . . 3000000 4 750000 L02/RP-l
+A-2 . . . . . . . . . 600000 4 150000 L02/LH2
+A-3 ......... 48000 3 16000 LF'2/LH2
+A·4. ........ . . 15000 2 7500 NP4/N2H•
+a Consisting of stages 3 and 4. and of the mission payload. Stage A-l: Boost to 250000-foot altitude.
+Stage A-2: Boost to 300-nautical-mile altitude and inject into Earth parking orbit.
+Stage A-3: Accelerate to escape velocity and
+inject into a translunar trajectory.
+Stage A-4:
+First start: Deceleration for lunar orbit
+and soft Moon landing of scientific payload
+Second start: Moon takeoff for return to
+Earth
+In addition to its main powerplant, stage A-4
+will require very-low-thrust attitude-control
+jets. General Engine System DeSCription
+The A-l engine is a single-start. fixed-thrust.
+gimbaled. bipropellant system. The fuel, RP-l,
+is also used as the turbopump lubricant and as
+the engine control system actuating fluid. The
+major components of the A-l engine are a regeneratively fuel-cooled, double-pass. tubular-wall
+thrust chamber with bolt-on injector; a directdrive turbopump consisting of two centrifugal
+pumps and a single-stage, two-wheel turbine; an
+un cooled gas generator with dual-ball valve;
+butterfly main valves; and required controls.
+The gas generator uses the same propellant combination as the thrust chamber. Table 3-2 presents all necessary operating parameters on
+which engine component designs will be based
+for the A-l engine system. 
+
+motor de cohete variables extraer para diseñar el motor y la geometria principal.
+INTRODUCTION TO SAMPLE CALCULATIONS 65
+TABLE 3-2.-750K A-l Stage Engine Operating Parameters
+[Sea-level conditions 1
+Engine (turbopump feed):
+Thrust. . . . . . . . . . . . . . . ... lb ........ 750000
+Nominal single-firing duration ...... sec. . ..... 165
+Specific impulse. . . . sec. . . . . . .. 262.4
+Oxidizer L02:
+Flow rate .............. .
+Density. . .............. .
+Fuel RP-1:
+.lb/sec ..... 1967.7
+. Ib/ftJ . . 71.38
+Flow rate ..................... lb/sec . 892.3
+Density. . . . ............... Ib/nJ . . . . .. 50.45
+Mixture ratio ..................... OfF ........ 2.20
+Thrust chamber (tubular wall construction regeneratively
+cooled by fuel):
+Thrust .......................... lb ........ 747000
+Specific impulse .................. sec .......... 270
+Injector end pressure .............. psia ........ 1095
+Nozzle stagnation pressure ........ psi a ........ 1000
+Oxidizer flow rate ................ lb/sec ...... 1941
+Fuel flow rate .................... lb/sec ....... 827
+Mixture ratio ..................... OfF ........ 2.35
+c* efficiency. . ......... Percent ..... 97.5
+c* . . . . ....................... ft/sec ...... 5660
+C ( efficiency ..................... Percent ....... 98
+C( . . . . . . . . . . . . . . . . . . . . . . . . ............ 1.532
+Contraction ratio ................. Ac/ At .... 1.6
+Expansion ratio .................. Ae/ At . 14
+Throat area At .................. in2 .. 487
+L*. . . . . . . . . . . . . . . . . . . : in . : : ......... 45
+Nozzle contour ................. . . . 80 percent
+bell
+Oxidizer side:
+Injector pressure drop ............. psi. . . . ... 200
+Torus dome pressure drop .......... psi .......... 150
+Line pressure drop ................ psi ........... 25
+Main valve pressure drop .......... psi ........... 35
+Pump inlet pressure .............. psia .......... 55
+Pump discharge pressure .......... psi a ........ 1505
+Developed pump head ............. ft . . . . . . . 2930
+Pump:
+Flow rate.
+Shaft power .
+. ............... lb/sec .. 1971
+14850
+70.7
+7000
+..3
+Efficiency .......... .
+Shaft speed ......... .
+Heat exchanger ......... .
+Fuel side:
+. bhp.
+... Percent
+.. rpm ....
+.. lb/sec .
+Injector pressure drop. . ..... pSi.
+Jacket and manifold pressure drop .. psi.
+...... 200
+..... 290
+Line pressure drop.
+Main valve pressure.
+. .... psi.
+Calibration orifice pressure drop.
+. psi
+.. psi.
+. ... 10
+.... 15
+110
+Pump:
+Inlet pressure ..
+Discharge pressure ..
+Developed pump head ..
+Pump:
+Flow rate .....
+Shaft power ..... .
+Efficiency .
+Shaft speed
+Turbine:
+Inlet pressure.
+Inlet temperature
+Pressure ratio.
+Gas flow rate
+Shaft power.
+Efficiency ..
+Shaft speed
+Shaft torque.
+Auxiliary drive:
+Shaft power.
+Gas generator system:
+Oxidizer side:
+.... psia.
+.. psi a
+· . ft .
+45
+1720
+. ... 4790
+.lb/sec.. . ... 892
+· ... bhp ... 11790
+Percent. . 65.8
+rpm... . .. 7000
+... psia.
+.... OF
+. .. 640
+1400
+23.7
+· . Ib/ sec. . .. 92
+· . bhp. .27140
+· . Percent ..... 58.2
+. rpm ...
+· ... in-lb ..
+.. bhp
+.... 7000
+. .. 20380
+..... 500
+Flow rate. . . lb/ sec. 26.7
+Entrance loss. . . . psi. . . . . 25
+Line pressure drop. . .. psi ........... 25
+Control-orifice pressure drop. . psi. 615
+Valve pressure drop psi 10
+Injector pressure drop. pSI 120
+Fuel side:
+Flow rate. . ... lbl sec 65.3
+Entrance loss ... psi. . . . . . . . . 25
+Line pressure drop. . .. psi. . . . . . . . 25
+Control-orifice pressure drop .... psi .......... 800
+Valve pressure drop. . ..... psi ........... 20
+Injector pressure drop . . ... psi .......... 140
+Gas generator:
+Mixture ratio.
+Injector end pressure ..
+Combustor pressure drop.
+Thrust vector con tro1:
+Minimum acceleration.
+Maximum velocity
+Displacement
+· .O/F.
+.. psia ..
+psi.
+.rad/sec2
+· ... degisec.
+.. deg ..
+0.408
+. . 710
+. .' 70
+1
+10
+t14 
+
+
+A·I
+750K First Stage Engine
+Fuel pump
+Developed head
+Flow rate
+Effi clency
+Nominal engine parameters Horsepower
+Propellants: Speed
+Liquid oxygen density 71.381b/ft3
+Oxidizer pump Rp·l density 50.45 Ib/ft3
+Thrust (sea level) 7500001b Developed head
+Specific impulse 262.4 sec Flow rate
+Mixture ratio 2.20 Efficiency
+Horsepower
+Thrust chamber Speed
+ExpanslOn area ratio 14 Turbine
+Throat area 487 in 2
+Thrust 747000Ib Pin
+Specific impulse 270 sec Pressure ratio
+Mixture ratio <) o· .... ov TemPin
+Flow rates: EffIciency
+oxidizer 1941 Ib sec Horsepower
+fuel 827 Ib sec Exhaust thrust
+Figure 3-l.-A-l engine performance diagram.
+PIN ·45 PSIA
+4-- FUEL INLET
+4790 ft
+892lb/sec
+65.8%
+11790 bhp
+7000 rpm
+2930 ft
+1971Ibi sec
+70.7%
+14850 bhp
+7000 rpm
+640 psia
+23.7
+1400° F
+58.2%
+27 140 bhp
+3000lb
+
+phases of engine design and development, it has
+been found useful to work from an "engine performance diagram. ~ This is a combination of the
+basic engine schematic and the principal performance parameters. The A-l engine diagram is
+shown in figure 3-1. It is suggested that the
+reader prepare his own performance diagrams for
+the other three stages.
+For simplicity of mounting and compactness,
+the turbopump is attached directly to the thrust
+chamber. All other components are either mounted
+on these two assemblies, or are located in the
+plumbing system between them. This arrangement permits engine gimbaling without pumpdischarge high-pressure propellant-duct flexure.
+Rather, thrust-vector control is achieved by
+gimbaling the entire engine. The engine weighs
+approximately 7500 pounds dry, 7900 pounds wet,
+and 7830 pounds at burnout. The preliminary
+design layout of the A-l engine system and its
+overall dimensions are shown in figure 3-2. 
+
+
+For simplicity of mounting and compactness,
+the turbopump is attached directly to the thrust 
+
+System Operation
+The starting method of the A-l engine is the
+"main-tank-head start," combined with pressure
+ladder sequence (figs. 2-7 and 2-8). Propellants
+are used under vehicle-tank-head pressures to
+initiate gas generator operation. As the turbopump starts to accelerate. main propellant pressures "bootstrap" the system to mainstage level.
+Starting Sequence
+After all vehicle launch preparations are completed and the main propellant tanks are pressurized. the gas generator dual sparkplugs are
+activated upon a given signal and the engine
+four-way control valve is energized to open. The
+clOSing side is vented and fuel pump outlet pressure (50 psi a from tank head) is admitted to the
+opening side of the main oxidizer and gas generator valve actuators. The gas generator valves
+open and admit both propellants to the gas generator combustor. where they are ignited by the
+spark plugs. At this point. the main oxidizer
+val ve remains closed, since the valve spring
+prevents opening until substantially higher
+actuating fuel pressures are developed by the
+pump later in the sequence.
+The low initial gas generator power level is
+sufficient to start and accelerate the turbopump.
+This, in turn, increases the propellant pressures
+available to the gas generator. which is connected upstream of the still closed main valves.
+As a result, the gas generator-turbine system
+"bootstraps" itself. 
+3.3 A-2 STAGE ENGINE
+For the same reasons as with the A-l stage.
+a four-engine cluster has been chosen. having a
+total vacuum thrust of 600000 pounds (150000
+pounds per engine). Because of the substantial
+vehicle performance gains obtainable through the
+use of high-energy propellants in upper booster
+stages. liquid oxygen (L0 2 ) and liquid hydrogen
+(LH2 ) have been selected as propellants. For
+decades this combination has attracted the attention of rocket experimenters and developers.
+However. only relatively recently has the art of
+hydrogen engines reached maturity. Several
+major systems are in active development or in
+early night application.
+Through the years. the production and handling
+of the cryogenic propellant liquid oxygen (L0 2 or
+"LOX") has become a routine matter; its price has
+come down considerably. It can be reasonably
+expected that in the near future this will be TABLE 3-3.-150K A-2 Stage Engine Operating Parameters
+[Vacuum conditionsl
+Engine (turbopump feed):
+Thrust .......................... lb ........ 150000
+Nominal single-firing duration ...... sec .......... 250
+Specific impulse .................. sec .......... 434
+Gxidizer L02:
+Flow rate ..................... lb/sec ....... 288
+Density ....................... lb/n J ...... 71.38
+Fuel LH2:
+Flow rate ..................... lb/sec ...... 57.6
+Density ....................... lb/ft 3 .••.. " 4.42
+Mixture ratio ..................... O/F ........... 5
+Thrust chamber (tubular wall construction regeneratively
+cooled by fuel. Nozzle extension film
+cooled by turbine exhaust gas):
+Thrust .......................... lb ........ 149 500
+Specific impulse .................. sec .......... 440
+Injector end pressure .............. psia ......... 875
+Nozzle stagnation pressure ........ psi a ......... 800
+Oxidizer flow rate ................ lb/sec ..... 285.2
+Fuel flow rate .................... lb/sec ...... 54.5
+Mixture ratio ..................... O/F ........ 5.22
+c· efficiency ..................... Percent ..... 97.5
+c· .............................. ft/sec ...... 7480
+Ct efficiency .......... " ......... Percent ...... 101
+Ct ................. · ....................... 1.895
+Contraction ratio ................. Acl At ...... 1.60
+Expansion ratio .................. Ael At ........ 40
+Throat area, At ................... in 2 •.•••.••. 98.6
+L* ........................... ... in ............ 26
+Nozzle contour .......................... 75 percent
+bell
+Oxidizer side:
+Injector pressure drop ............. psi .......... 160
+Torus dome pressure drop .......... pSi ........... 40
+Line pressure drop ................ psi ........... 20
+Main valve pressure drop .......... psi ........... 20
+Calibration orifice pressure drop .... psi ........... 60
+Pump inlet pressure ............... psia .......... 35
+Pump discharge pressure .......... psia ........ 1175
+Developed pump head ............. ft .......... 2305
+Pump weight flow rate ............. lb/sec ..... 290.5
+Pump volumetric flow rate ......... gpm ........ 1830
+Heat exchanger bleed (oxidizer
+tank pressurization) ............. lb/sec ....... 2.5
+Pump:
+Shaft power ................... bhp ....... " 1910
+Efficiency .................... Percent ....... 64
+Shaft sptled ................... rpm .. 8600
+Turbine:
+Inlet pressure ................. psia . ..700
+1200
+. ... 16
+Inlet temperature. . . . ... 0 F ...
+Pressure ratio ....... .
+Gas flow rate .... . . .. lb/sec . 1. 58
+Shaft power ........... . . bhp. . .. 1940
+Efficiency
+Shaft speed
+Shaft torque
+Fuel side:
+. Percent .... ' 54.3
+.. ' rpm. ..8600
+........ in-lb ....... 14200
+Injector pressure drop. . . .. psi 100
+Jacket and manifold pressure drop . psi. . ... 325
+Line pressure drop ................ pSI. . . 20
+Main valve pressure drop ......... psi. . 20
+Calibration orifice pressure drop .... psi. . . .. 60
+Pump inlet pressure. . . . . . .. . .. psi a . . . ... 25
+Pump discharge pressure . psia . . 1400
+Developed pump head . . .. . ....... ft . . . . 44 800
+Pump weight flow rate. . ........ lb/sec ...... 59.8
+Pump volumetric flow rate ......... gpm . . . 6080
+Heat exchanger bleed. . ....... lb/sec ....... 2.2
+Pump:
+Shaft power .. . . ..... bhp. . . . . . . 6100
+Efficiency .... . ...... Percent ....... 80
+Shaft speed . .. rpm. ..27000
+Chamber coolant passage bleed for
+fuel tank pressurization. . . . .. lb/sec . 22
+Turbine:
+Inlet pressure .. psia . . . . ... 700
+Inlet temperature .............. OF ......... 1200
+Pressure ratio. . . ...... 16
+Gas flow rate. . . .lb/sec ...... 4.32
+Shaft power. .. .... . .. bhp. . .. 6100
+Efficiency. . . . . . . . . . .. . ..... Percent ..... 62.5
+Shaft speed ................... rpm ........ 27000
+Shaft torque ................... in-lb. . . . 14250
+Tapoff gas from thrust chamber for turbine drive:
+Pressure. . . . . ........ lblin2 ........ 750
+Temperature. . ...... OF . . . . . . 1200
+Weight flow rate. . ... lb/sec . . . . 5.9
+Mixture ratio ..................... OIF . 0.90
+Thrust vector control:
+Minimum acceleration. . ....... rad/sec 2 .•..... 2
+Maximum velocity. . . . . . . .. deg/sec. . 15
+Displacement ... ' ............... deg. . :,:6
+•
+70 DESIGN OF LIQUID PROPELLANT ROCKET ENGINES
+gimbaled, bipropellant system. The thrust chamber features a combination of fuel regenerative
+cooling, and film cooling with turbine exhaust
+gas. The chamber assembly is fed by two independent, direct-drive centrifugal turbopumps.
+For the fuel, an alternative axial pump may be
+chosen. Each operates at optimum speed. Hot
+gases are tapped off from the main combustion
+chamber to power the turbines. A hot gas orifice
+in the tapoff duct controls the engine thrust
+level. The turbines are gas coupled in parallel.
+Their exhaust gases are routed to the thrust
+chamber and injected in the 30: 1 expansion area
+ratio plane. Thus the gases provide film cooling
+for the nozzle portion from there to the 40: 1 area
+ratio plane. The remainder of the chamber, above
+the 30:1 plane, is regeneratively cooled (H~
+pass). Helium gas is used to actuate the controIs. No lubricants or any other fluids are used
+which could freeze at low temperatures. The
+engine is started by the hot gases generated by
+a solid-grain turbine spinner. Chlorine trifluoride
+(CIF 3), which is hypergolic with LH2 , is used to
+ignite the combustion chamber. Both turbine
+spinner and igniter fluid are insulated and electrically temperature conditioned from a ground
+source until first-stage takeoff. Gaseous hydrogen is bled from the thrust chamber coolant
+OXIDIZER·PUMP
+INLET
+I / OXIDIZER + PUMP
+r-:3I~===? OXIDIZER I r TURBINE
+passage to pressurize the vehicle m;.in fuel tank.
+A small portion of liquid oxygen bled from the
+oxidizer pump discharge IS heated in a heat exchanger and used for vehicle main oxidizer tank
+pressurization.
+A listing of the A-2 engine operating parameters is presented in table 3-3. The engine
+schematic diagram is shown in figure 3-3. Note
+that engine parameters are based on vacuum conditions. This is justified and customary, if a
+stage starts and performs in vacuum for its entire duration. In the case of the A-2 stage, the
+starting altitude of 250 000 feet is not an absolute vacuum, but for all practical purposes may
+be considered absolute.
+Thrust-vector control is achieved by gimbaling
+the entire engine. It weighs apPloximately 2181
+pounds dry, 2317 pounds wet, and 2292 pounds at
+burnout. The overall dimensions and the preliminary design layout of the A-2 engine are shown
+in figure 3-4.
+System Operation
+The starting method of the A-2 engine (figs.
+3-3 and 3-5) is a "turbine spin start," for very
+fast buildup (less than 2 seconds from start signal to main stage). Starting power is furnished
+FUEL·PUMP
+INLET
+~ ,,- FUEL PUMP
+OXIDIZER TANK
+EXCHANGER
+PRESSURANT~H~E~A:T::-fr~~~~~~~~~~~~~~: HYPERGOL CAJ?TRIDGE
+"---H---++--- FUEL TURBINE
+/"""---++---H'--- TURBINE SPINNER
+AND MONITORING VAL VE 111-1t---~~~~
+MAIN VALVE-------++----------jf" OXIDIZER ~~~~il~~~~~~?:!==~L-jL-FUEL·TANK PRESSURANT
+BLEED (GH2)
+PUCONTROL----~+------~~I A------I+---HYPERGOL SEQUENCE
+CHAMBER·GAS TAPOFF VALVE
+MANIFOLD------trr~~~~~~~~~~~:[r~::::~~~~~l[~~~ U ~_+t---ENGINE·CONTROL FUEL BLEED VALVE ~.WAY VALVE
+MAIN THRUST CHAMBER
+TURBINE EXHAUST
+MANIFDLD------/
+'---i------MAIN FUEL VALVE
+-- HELIUM TANK 
+
+3.4 A-3 STAGE ENGINE
+The total thru st of 48000 pounds is subdivided into three engines of 16 OOO-pound thrust
+each. This effects a shorter overall propulsion
+system and a shorter. lighter vehicle interstage.
+Furthermore, the liquid fluorine/liquid hydrogen
+propellant combination was chosen because of
+the relatively stringent performance requirements
+for upper stages.
+Fluorine is the most reactive and energetic
+chemical element. It has vigorous and reliable
+hypergolic ignition characteristics, and superior
+specific impulse capabilities with most fuels.
+The high density of liquid fluorine, combined
+with high performance with liquid hydrogen, results in maximum payloads. As mission requirements become more ambitious, payload advantages from the fluorine-oxidized propellant
+combination should compensate for handling
+problems caused by fluorine toxicity and corrosiveness. Past experience has indicated that
+the operation of a fluorine-oxidized engine is
+practical at this thrust level (50000 pounds or
+less). Fluorine when used for gaseous passivation of metals renders a metallic surface resistant to future chemical reaction. Thus, once a
+metallic fluoride film is formed, further action by
+the liquid fluorine is either prevented or significantly retarded, making handling or storing of
+liquid fluorine less of a problem. No known
+elastomer is completely compatible with fluorine;
+however, flow tests of liquid fluorine with Teflon
+have given satisfactory results.
+General Engine System Description
+The A-3 engine is a multiple-start, gimbaled,
+bipropellant system. The basic system includes
+a thrust chamber assembly using a combination
+of fuel-film (LH2 ) and radiation cooling; propellant ducts; valves; and a control subsystem.
+Ignition is achieved by the hypergolicity of the
+propellants. These are fed directly from pressurized propellant tanks, through main propellant
+valves. to the thrust chamber inlets. The propellant tanks and their gas pressurization system are considered part of the engine propellant
+feed system. Gaseous helium supplied from a
+high-pressure helium bottle located inside the
+main fuel tank is used for main oxidizer tank 
