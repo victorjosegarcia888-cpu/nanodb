@@ -1,0 +1,103 @@
+DESIGN OF THRUST CHAMBERS AND OTHER COMBUSTION DEVICES 87
+Since the value of At is in nearly direct proportion to the product of W tc and V, L* is essentially a function of ts. The effect of L* on c* in
+an experimental combustion chamber is shown in
+figure 4-7. The c* value increases with L* to an
+asymptotic maximum. Increasing L* beyond a
+certain point tends to decrease overall engine
+system performance because of the following:
+(1) Larger L* results in higher thrust chamber
+volume and weight.
+(2) Larger L* creates more surface area in
+need of cooling.
+(3) Larger L* increases friction losses at the
+chamber walls.
+In actual design practice, optimization analyses
+will determine the minimum possible combustion
+chamber L* consistent with efficient combustion.
+Under a given set of operating conditions,
+such as type of propellants, mixture ratio, chamber pressure, injector design, and chamber geometry, the value of the minimum required L* can
+only be evaluated by actual firings of experimental thrust chambers. L* values of 15 to 120
+inches for corresponding propellant stay-time
+values of 0.002-0.040 second have been used in
+various thrust chamber designs. Typical L*
+values for different propellants are given in
+table 4-1. With At and minimum required L*
+established, the required combustion chamber
+volume V c can be calculated by equation (4-4).
+NZ~ I 50-50 NZ H4 - UDMH
+OIF MIXTURE RATIO • 1. 90
+(Pc Ins' 275 PSIA. €c' 2.00
+L -
+5800 u
+w
+IJ) 5700 ~;:::
+~u. 5600 a:- w* tJu 5500
+«-
+~>- 5400 J:C
+ug 5300 ...J
+.".. >--~
+/
+V
+/
+I
+W
+> !5200
+10 20 40 50
+CHAMBER CHARACTERISTIC LENGTH ( L*) IN.
+Figure 4-7.-Effect of L* on c* value of experimental thrust chamber.
+TABLE 4-1.-Recommended Combustion Chamber
+Characteristic Length (L*) for Various Propellant Combinations
+Propellant combination
+Chlorine tnnuoridelhydrazine-base fuel.
+Liquid fluorine/hydrazine ........ .
+Liquid fluorine/liquid hydrogen (GH2
+injection) ....
+Liquid nuorine/liquid hydrogen (LH 2
+injection) .
+Hydrogen peroxide /RP-l (including
+catalyst bed) .....
+Nitric acid/hydrazine-base fuel.
+Nitrogen tetroxideihydrazine-base fuel.
+Liquid oxygen/ammonia.
+LiqUId oxygen/liquid hydrogen (GH 2
+injection) .
+Liquid oxygen/liquid hydrogen (LH 2
+inj ection) ..
+Liquid oxy~en/RP-l .
+Combustion Chamber Shape
+Combustion
+chamber
+characteristic
+length (L*). in.
+30-35
+24-28
+22-26
+25-30
+60-70
+30-35
+30-35
+30-40
+22-28
+30-40
+-to-50
+As can be seen from equation (4-3), the stay
+time ts is independent of the combustion chamber
+geometry. Theoretic:111y. for a given required
+volume, the chamber can be of any shape. In
+actual design, however, the choice of the combustion chamber configuration is limited. In a
+long chamber with a small cross section, higher
+nonisentropic gas flow pressure losses will result as explained in chapter 1. This approach
+also dictates a longer thrust chamber space envelope and imposes certain space limitation on
+the injector design to accommodate the necessary number of injector holes. With a short
+chamber of large cross section, the propellant
+atomization or vaporization zone occupies a
+relatively large portion of the chamber volume,
+while the mixing and combustion zone becomes
+too short for efficient combustion. Other factors,
+such as heat transfer, combustion stability,
+weight, and ease of manufacturing, are to be
+considered in determining the final combustion
+chamber configuration.
+Three geometrical shapes which have been
+used 10 combustion chamber design are shown in
+figure 4-8. While the spherical and the nearspherical chambers were used in earlier European 
