@@ -1,0 +1,45 @@
+case_id: lox_ch4_concept_reference
+status: reference_only
+description: Conceptual LOX methane analysis case assembled from repository notes.
+source_notes:
+  - data/parameters/table-important/LOX_rp.txt
+  - data/parameters/table-important/rocketdesign.txt
+  - data/parameters/directories-work/param.txt
+  - data/parameters/table-important/tests_conditions.txt
+  - data/parameters/table-important/structure.txt
+
+thermodynamics:
+  chamber_pressure_pa: 30000000
+  combustion_temperature_k: 3500
+  mixture_ratio_oxidizer_to_fuel: 3.6
+  characteristic_velocity_m_per_s: 1700
+  wall_heat_flux_w_per_m2: 10000000
+
+geometry:
+  chamber_count: 4
+  chamber_diameter_m: 0.38
+  chamber_length_m: 1.1
+  throat_diameter_m: 0.13
+  exit_diameter_m: 1.1
+  nozzle_length_m: 3.0
+  expansion_ratio: 90
+
+turbomachinery:
+  shaft_speed_rpm: 28000
+  lox_mass_flow_kg_per_s: 900
+  methane_mass_flow_kg_per_s: 380
+  pump_power_w: 140000000
+
+materials:
+  chamber: Inconel718
+  nozzle: UHTC_ZrB2_SiC
+  preburner: UHTC_Monel
+
+validation:
+  required_before_simulation:
+    - confirm_units_and_source_conditions
+    - close_mass_and_energy_balances
+    - verify_cryogenic_property_model
+    - verify_mesh_and_time_step_convergence
+    - run_non_combusting_cold_flow_case
+    - compare_against_independent_reference

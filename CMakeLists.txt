@@ -95,3 +95,8 @@ add_test(NAME voxel_cuda_test COMMAND voxel_cuda_test)
 add_test(NAME voxel_sdf_cuda_test COMMAND voxel_sdf_cuda_test)
 add_test(NAME cuda_thermal_test COMMAND cuda_thermal_test)
 add_test(NAME cuda_rocket_test COMMAND cuda_rocket_test)
+
+option(BUILD_ROCKET_ADVANCED "Build the advanced geometry and design-case module" OFF)
+if(BUILD_ROCKET_ADVANCED)
+  add_subdirectory(rocket_advanced)
+endif()

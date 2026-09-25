@@ -10,6 +10,10 @@
 - `assets/images/image2/`: imágenes procedentes de `directories_work/dir/images`.
 - `assets/images/image3/`: imágenes procedentes de las tablas y notas de `table&/mtr/important`.
 - `rocket_advanced/src/csharp/`: prototipos C# de geometría y configuración.
+- `combustion_internals/`: frontera para solvers de flujo, química y diagnósticos C++/CUDA.
+- `uhtc/`: cribado térmico y estructural de materiales UHTC.
+- `woven/`: topologías woven, lattice y gyroid para geometría generativa.
+- `docs/architecture/`: contrato y límites entre PicoGK, NanoVDB, AMReX y los solvers.
 - `artifacts/legacy-objects/`: objetos compilados heredados; no forman parte del build.
 - `picogk/`, `PicoGKRuntime/`, `nanodb/`, `openvdb/`, `Src/`, `rust/`: código y dependencias de cálculo que conservan sus rutas.
 

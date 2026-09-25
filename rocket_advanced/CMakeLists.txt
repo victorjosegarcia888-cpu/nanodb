@@ -20,5 +20,11 @@ add_executable(advanced_rocket_test
 )
 target_link_libraries(advanced_rocket_test PRIVATE CUDA::cudart)
 
+add_executable(design_case_test
+    tests/test_design_case.cpp
+)
+target_include_directories(design_case_test PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+
 enable_testing()
 add_test(NAME advanced_rocket_test COMMAND advanced_rocket_test)
+add_test(NAME design_case_test COMMAND design_case_test)

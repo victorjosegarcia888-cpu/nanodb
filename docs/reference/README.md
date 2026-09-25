@@ -5,3 +5,5 @@ Aquí están los PDFs que acompañan al repositorio. El grupo `supplemental/` co
 Las referencias cubren, entre otros temas, termoquímica, motores de propelente líquido, prequemadores, inyectores, turbinas, materiales y geometría de redes. Los nombres se conservan para permitir búsquedas y trazabilidad con el historial de Git.
 
 Los PDFs deben tratarse como bibliografía de apoyo. Antes de convertir una cifra en una entrada de simulación hay que comprobar edición, unidades, condiciones de contorno, incertidumbre y aplicabilidad al caso concreto.
+
+El entorno actual no incluye un extractor PDF, por lo que todavía no se han incorporado valores numéricos automáticamente desde estos documentos. La primera tabla normalizada procede de las notas `.txt` y conserva sus fuentes.
