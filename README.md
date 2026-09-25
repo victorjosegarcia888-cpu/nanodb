@@ -1,4 +1,20 @@
-# UHTC-NanoDB tests/motor
+# UHTC-NanoDB
+
+## Estructura del repositorio
+
+- `docs/reference/`: PDFs y documentación externa de referencia.
+- `docs/notes/`: espacio reservado para notas editoriales y decisiones del proyecto.
+- `data/parameters/directories-work/`: tablas y notas procedentes de `directories_work/dir`.
+- `data/parameters/table-important/`: tablas y notas procedentes de `table&/mtr/important`.
+- `assets/images/image1/`: imagen de la raíz del repositorio.
+- `assets/images/image2/`: imágenes procedentes de `directories_work/dir/images`.
+- `assets/images/image3/`: imágenes procedentes de las tablas y notas de `table&/mtr/important`.
+- `rocket_advanced/src/csharp/`: prototipos C# de geometría y configuración.
+- `artifacts/legacy-objects/`: objetos compilados heredados; no forman parte del build.
+- `picogk/`, `PicoGKRuntime/`, `nanodb/`, `openvdb/`, `Src/`, `rust/`: código y dependencias de cálculo que conservan sus rutas.
+
+El índice técnico de parámetros está en [`data/parameters/README.md`](data/parameters/README.md). Los PDFs y notas son material de estudio: cualquier valor usado en un modelo debe trazarse a su fuente y validarse con análisis, pruebas y requisitos de seguridad independientes.
+
 # Rocket's books
 parameters/tables/pikogk or c++ 26-nvidia:https://ntrs.nasa.gov/api/citations/19710019929/downloads/19710019929.pdf
 Russian-Liquid-Propellant-Engines pdf
