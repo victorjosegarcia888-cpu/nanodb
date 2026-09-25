@@ -1,0 +1,11 @@
+# Python caches and local test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local CMake and .NET build outputs
+geometry_engine/csharp/bin/
+geometry_engine/csharp/obj/
+
+# Generated experiment reports can be kept explicitly when needed.
+*.log
