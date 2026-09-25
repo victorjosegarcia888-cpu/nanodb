@@ -120,6 +120,38 @@ AerospikePlug makeAerospikePlug(const GeometryInputs& geometry,
     return params;
 }
 
+LatticeInjectorFace makeLatticeInjectorFace(double face_radius_m, double hole_radius_m,
+                                            double hole_pitch_m, double beam_length_m,
+                                            int nx, int ny, int nz, float voxel_size) {
+    LatticeInjectorFace params{};
+    params.face_radius = face_radius_m;
+    params.hole_radius = hole_radius_m;
+    params.hole_pitch = hole_pitch_m;
+    params.beam_radius_min = hole_radius_m * 0.35;
+    params.beam_radius_max = hole_radius_m * 0.70;
+    params.beam_length = beam_length_m;
+    params.nx = nx;
+    params.ny = ny;
+    params.nz = nz;
+    params.voxel_size = voxel_size;
+    return params;
+}
+
+RegenerativeJacket makeRegenerativeJacket(double inner_radius_m, double outer_radius_m,
+                                          double channel_width_m, double gyroid_scale_m,
+                                          int nx, int ny, int nz, float voxel_size) {
+    RegenerativeJacket params{};
+    params.inner_radius = inner_radius_m;
+    params.outer_radius = outer_radius_m;
+    params.channel_width = channel_width_m;
+    params.gyroid_scale = gyroid_scale_m;
+    params.nx = nx;
+    params.ny = ny;
+    params.nz = nz;
+    params.voxel_size = voxel_size;
+    return params;
+}
+
 bool renderAerospikePlug(float* d_sdf_field, const AerospikePlug& params) {
     VoxelGridDesc desc;
     desc.nx = params.nx;

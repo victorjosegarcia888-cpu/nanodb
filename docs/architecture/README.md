@@ -20,7 +20,8 @@ combustion_internals C++/CUDA       AMReX transport and AMR
 
 ## Ownership boundaries
 
-- `rocket_advanced`: case contract and geometry kernels.
+- `geometry_engine`: host-side profiles, PicoGK data bridge and voxel/SDF boundaries.
+- `rocket_advanced`: case contract and CUDA geometry kernels.
 - `combustion_internals`: flow, chemistry and diagnostics.
 - `uhtc`: thermal and structural screening.
 - `woven`: topology and lattice generation.

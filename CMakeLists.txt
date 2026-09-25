@@ -100,3 +100,8 @@ option(BUILD_ROCKET_ADVANCED "Build the advanced geometry and design-case module
 if(BUILD_ROCKET_ADVANCED)
   add_subdirectory(rocket_advanced)
 endif()
+
+option(BUILD_GEOMETRY_ENGINE "Build the host-only geometry profile engine" OFF)
+if(BUILD_GEOMETRY_ENGINE)
+  add_subdirectory(geometry_engine)
+endif()

@@ -11,6 +11,8 @@
 - `assets/images/image3/`: imágenes procedentes de las tablas y notas de `table&/mtr/important`.
 - `rocket_advanced/src/csharp/`: prototipos C# de geometría y configuración.
 - `combustion_internals/`: frontera para solvers de flujo, química y diagnósticos C++/CUDA.
+- `turbopump_engine/`: casos y modelos 1D de flujo frío para bombas, tuberías, NPSH e inyectores.
+- `injector/`: referencias y criterios para inyectores, separados de los ensayos de turbobomba.
 - `uhtc/`: cribado térmico y estructural de materiales UHTC.
 - `woven/`: topologías woven, lattice y gyroid para geometría generativa.
 - `docs/architecture/`: contrato y límites entre PicoGK, NanoVDB, AMReX y los solvers.

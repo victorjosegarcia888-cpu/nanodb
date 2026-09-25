@@ -1,0 +1,39 @@
+{
+  "case_id": "lox_ch4_cold_flow_scaled",
+  "status": "reference_only",
+  "results": [
+    {
+      "fluid": "lox",
+      "velocity_m_s": 1.1158979357889245,
+      "reynolds": 190985.93171027442,
+      "friction_factor": 0.018086396184651445,
+      "line_loss_head_m": 0.2998873436521748,
+      "pump_pressure_rise_pa": 31550000.0,
+      "hydraulic_power_w": 24886.06485539001,
+      "shaft_power_w": 38286.25362367694,
+      "npsh_available_m": 39.3864630018308,
+      "injector_required_area_m2": 1.5539105741908805e-05,
+      "mass_balance_relative_error": 0.0
+    },
+    {
+      "fluid": "methane",
+      "velocity_m_s": 1.834430434120803,
+      "reynolds": 161277.00899978727,
+      "friction_factor": 0.018810861756078597,
+      "line_loss_head_m": 0.841214500958932,
+      "pump_pressure_rise_pa": 31550000.0,
+      "hydraulic_power_w": 28409.95260663507,
+      "shaft_power_w": 43707.61939482318,
+      "npsh_available_m": 106.49269586911264,
+      "injector_required_area_m2": 1.0788317169161517e-05,
+      "mass_balance_relative_error": 0.0
+    }
+  ],
+  "checks": {
+    "mass_balance": true,
+    "positive_pressure_budget": true,
+    "positive_npsh_margin": true,
+    "property_source_review_required": true,
+    "properties_validated": false
+  }
+}

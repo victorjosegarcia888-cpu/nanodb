@@ -177,6 +177,16 @@ bool renderAerospikePlug(float* d_sdf_field, const AerospikePlug& params);
 AerospikePlug makeAerospikePlug(const GeometryInputs& geometry,
                                 int nx, int ny, int nz, float voxel_size);
 
+/// @brief Convert injector generator dimensions into a CUDA lattice input.
+LatticeInjectorFace makeLatticeInjectorFace(double face_radius_m, double hole_radius_m,
+                                            double hole_pitch_m, double beam_length_m,
+                                            int nx, int ny, int nz, float voxel_size);
+
+/// @brief Convert cooling-channel generator dimensions into a CUDA jacket input.
+RegenerativeJacket makeRegenerativeJacket(double inner_radius_m, double outer_radius_m,
+                                          double channel_width_m, double gyroid_scale_m,
+                                          int nx, int ny, int nz, float voxel_size);
+
 /// @brief Host-side wrapper: render lattice injector face
 bool renderLatticeInjectorFace(float* d_sdf_field, const LatticeInjectorFace& params);
 
