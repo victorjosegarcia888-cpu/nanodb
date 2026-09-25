@@ -7,6 +7,8 @@
 #include <vector>
 #include <string>
 
+#include "DesignCase.h"
+
 namespace rocket_advanced {
 
 /// @brief 3D axis-aligned bounding box
@@ -169,6 +171,11 @@ __global__ void computeThermalGradientKernel(float* grad_x, float* grad_y, float
 
 /// @brief Host-side wrapper: render aerospike plug with gyroid channels
 bool renderAerospikePlug(float* d_sdf_field, const AerospikePlug& params);
+
+/// @brief Convert normalized conceptual geometry into a CUDA aerospike input.
+///        The result is a starting geometry and must pass independent review.
+AerospikePlug makeAerospikePlug(const GeometryInputs& geometry,
+                                int nx, int ny, int nz, float voxel_size);
 
 /// @brief Host-side wrapper: render lattice injector face
 bool renderLatticeInjectorFace(float* d_sdf_field, const LatticeInjectorFace& params);

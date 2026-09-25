@@ -101,6 +101,25 @@ __device__ float regenerativeJacketSdfCallback(float x, float y, float z, void* 
 
 // Host wrappers are directly in rocket_advanced namespace
 
+AerospikePlug makeAerospikePlug(const GeometryInputs& geometry,
+                                int nx, int ny, int nz, float voxel_size) {
+    AerospikePlug params{};
+    params.throat_radius = geometry.throat_diameter_m * 0.5;
+    params.nu_exit = 1.0;
+    params.spike_length = geometry.nozzle_length_m;
+    params.base_radius = geometry.chamber_diameter_m * 0.5;
+    params.cowl_radius = geometry.exit_diameter_m * 0.5;
+    params.gyroid_scale = geometry.throat_diameter_m * 0.15;
+    params.gyroid_width = geometry.throat_diameter_m * 0.02;
+    params.wall_thickness = geometry.throat_diameter_m * 0.04;
+    params.channel_width = geometry.throat_diameter_m * 0.08;
+    params.nx = nx;
+    params.ny = ny;
+    params.nz = nz;
+    params.voxel_size = voxel_size;
+    return params;
+}
+
 bool renderAerospikePlug(float* d_sdf_field, const AerospikePlug& params) {
     VoxelGridDesc desc;
     desc.nx = params.nx;

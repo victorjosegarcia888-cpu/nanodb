@@ -10,3 +10,11 @@
 - En particular, la nota de parámetros contiene caudales cuya relación no coincide automáticamente con el O/F de la tabla termoquímica; esa discrepancia queda pendiente y no se corrige aquí de forma silenciosa.
 
 La extracción de contenido PDF queda pendiente de una herramienta verificable (`pdftotext`, `mutool` o una librería equivalente). Mientras tanto, los PDFs se usan como referencias catalogadas por nombre, no como una fuente numérica ya parseada.
+
+Para regenerar el inventario de candidatos de los TXT:
+
+```bash
+python3 analysis/extract_txt_parameters.py
+```
+
+El resultado queda en `txt_parameter_inventory.json` con archivo, línea, números y categorías. `requires_review` es intencionado: el inventario ayuda a revisar las notas, pero no convierte automáticamente texto OCR o tablas incompletas en datos físicos.
