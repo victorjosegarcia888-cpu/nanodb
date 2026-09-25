@@ -1,29 +1,29 @@
-# Parámetros y notas de diseño
+# Design parameters and notes
 
-Este directorio reúne las notas `.txt` que estaban dispersas en el repositorio. Se conserva la procedencia en dos subdirectorios para que una tabla pueda rastrearse hasta su ubicación original.
+This directory contains the `.txt` notes that were previously scattered across the repository. Provenance is preserved in two source directories so every table can be traced back to its original location.
 
-## Mapa de contenidos
+## Content map
 
 | Grupo | Contenido principal |
 | --- | --- |
-| `directories-work/` | parámetros generales, tablas, estructura y notas de organización |
-| `table-important/` | LOX/CH4, propelentes, motores, turbinas, rodamientos, estructura y condiciones de prueba |
+| `directories-work/` | general parameters, tables, structure and organization notes |
+| `table-important/` | LOX/CH4, propellants, engines, turbines, bearings, structures and test conditions |
 
-Dentro de `table-important/` se conservan los subgrupos `combustion-chamber/`, `fuel-tanks/`, `other-rocket/` y `other-books/` para las notas que estaban anidadas en la fuente.
+The `table-important/` source groups `combustion-chamber/`, `fuel-tanks/`, `other-rocket/` and `other-books/` preserve notes that were nested in the original source.
 
-## Familias de variables detectadas
+## Detected variable families
 
-- **Propulsantes y termoquímica:** LOX, CH4, relaciones de mezcla, propiedades del propelente, temperatura y presión.
-- **Cámara y tobera:** garganta, cámara, flujo másico, expansión, Mach y geometría.
-- **Alimentación y turbobombas:** caudal, presión, turbinas, rodamientos y condiciones de operación.
-- **Estructuras y materiales:** cargas, estructura, UHTC, refrigeración y fabricación.
-- **Simulación:** AMReX, NanoVDB, voxelización, CUDA y condiciones de validación.
+- **Propellants and thermochemistry:** LOX, CH4, mixture ratios, propellant properties, temperature and pressure.
+- **Chamber and nozzle:** throat, chamber, mass flow, expansion, Mach and geometry.
+- **Feed systems and turbopumps:** flow rate, pressure, turbines, bearings and operating conditions.
+- **Structures and materials:** loads, structure, UHTC, cooling and manufacturing.
+- **Simulation:** AMReX, NanoVDB, voxelization, CUDA and validation conditions.
 
-## Flujo de uso recomendado
+## Recommended workflow
 
-1. Identificar la variable y su unidad en la nota original.
-2. Registrar la fuente exacta y separar dato publicado, hipótesis y resultado calculado.
-3. Convertir los datos a un formato estructurado antes de conectarlos a C++, CUDA, C# o Rust.
-4. Validar dimensiones, rangos y sensibilidad antes de alimentar una simulación.
+1. Identify the variable and its unit in the original note.
+2. Record the exact source and separate published data, assumptions and calculated results.
+3. Convert data to a structured format before connecting it to C++, CUDA, C# or Rust.
+4. Validate dimensions, ranges and sensitivity before feeding a simulation.
 
-No se han normalizado ni reinterpretado los valores durante esta reorganización. Estas notas no constituyen por sí solas una especificación de fabricación, ignición, ensayo o vuelo.
+Values were not normalized or reinterpreted during the repository reorganization. These notes are not, by themselves, a manufacturing, ignition, test or flight specification.

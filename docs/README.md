@@ -1,7 +1,7 @@
-# Documentación
+# Documentation
 
-- `reference/` contiene PDFs de referencia técnica.
-- `reference/supplemental/` contiene PDFs que estaban dentro de subdirectorios de tablas.
-- `notes/` contiene notas editoriales futuras y decisiones de modelado.
+- `reference/` contains technical reference PDFs.
+- `reference/supplemental/` contains PDFs that were nested under table directories.
+- `notes/` contains future editorial notes and modeling decisions.
 
-La documentación de parámetros vive en [`../data/parameters/README.md`](../data/parameters/README.md). Las imágenes están en [`../assets/images/`](../assets/images/).
+Parameter documentation lives in [`../data/parameters/README.md`](../data/parameters/README.md). Images are in [`../assets/images/`](../assets/images/).

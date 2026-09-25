@@ -1,0 +1,17 @@
+{
+  "case_id": "lox_ch4_cold_startup_experiment",
+  "telemetry_file": "turbopump_engine/cases/cold_startup_experiment_report/startup_telemetry.csv",
+  "sample_count": 401,
+  "final": {
+    "time_s": 2.0,
+    "valve": 1.0,
+    "rpm": 27999.998382230413,
+    "total_flow_kg_s": 1.2799995161513054,
+    "chamber_pressure_pa": 28999943.066626366,
+    "pump_power_w": 81993.83254946343,
+    "minimum_npsh_m": 39.38646295383228,
+    "estopped": false,
+    "alarms": ""
+  },
+  "alarm_count": 0
+}

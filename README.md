@@ -13,6 +13,9 @@
 - `combustion_internals/`: frontera para solvers de flujo, química y diagnósticos C++/CUDA.
 - `turbopump_engine/`: casos y modelos 1D de flujo frío para bombas, tuberías, NPSH e inyectores.
 - `injector/`: referencias y criterios para inyectores, separados de los ensayos de turbobomba.
+- `control_engine/`: arranque, válvulas, RPM, transitorios y límites del experimento.
+- `telemetry/`: formato de telemetría CSV/JSON y alarmas.
+- `hardware_interface/`: frontera futura para DAQ, FPGA y sensores.
 - `uhtc/`: cribado térmico y estructural de materiales UHTC.
 - `woven/`: topologías woven, lattice y gyroid para geometría generativa.
 - `docs/architecture/`: contrato y límites entre PicoGK, NanoVDB, AMReX y los solvers.

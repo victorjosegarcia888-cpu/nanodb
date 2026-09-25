@@ -1,9 +1,11 @@
-# Imágenes
+# Images
 
-Las imágenes se agrupan en tres carpetas para conservar su procedencia:
+Images are grouped into three folders to preserve provenance:
 
-- `image1/`: imagen que estaba en la raíz.
-- `image2/`: imágenes de `directories_work/dir/images`.
-- `image3/`: imágenes asociadas a las notas importantes de tablas.
+- `image1/`: image that was stored at the repository root.
+- `image2/`: images from `directories_work/dir/images`.
+- `image3/`: images associated with the important table notes.
 
-Los nombres originales se mantienen cuando no hay colisión. En `image3/`, los prefijos `combustion_`, `tanks_`, `rocket_` y `books_` identifican el subdirectorio de procedencia cuando varios archivos tenían el mismo nombre.
+Original names are kept when there is no collision. In `image3/`, the
+`combustion_`, `tanks_`, `rocket_` and `books_` prefixes identify the source
+subdirectory when multiple files had the same name.

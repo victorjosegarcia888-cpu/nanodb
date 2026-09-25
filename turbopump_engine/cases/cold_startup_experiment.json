@@ -1,0 +1,44 @@
+{
+  "case_id": "lox_ch4_cold_startup_experiment",
+  "status": "reference_only",
+  "shared": {
+    "shaft_speed_rpm": 28000.0,
+    "pump_efficiency": 0.65,
+    "pipe_length_m": 1.2,
+    "pipe_roughness_m": 0.00001,
+    "inlet_pressure_pa_abs": 450000.0,
+    "vapor_pressure_pa_abs": 10000.0,
+    "minor_loss_coefficient": 4.0
+  },
+  "dynamic": {
+    "duration_s": 2.0,
+    "time_step_s": 0.005,
+    "valve_start_s": 0.15,
+    "valve_full_open_s": 1.0,
+    "pump_time_constant_s": 0.12,
+    "flow_time_constant_s": 0.08,
+    "chamber_time_constant_s": 0.10,
+    "rated_pressure_rise_pa": 31550000.0,
+    "minimum_npsh_margin_m": 2.0,
+    "maximum_chamber_pressure_pa": 32000000.0,
+    "maximum_rpm": 30000.0
+  },
+  "fluids": {
+    "lox": {
+      "mass_flow_kg_s": 0.9,
+      "density_kg_m3": 1141.0,
+      "dynamic_viscosity_pa_s": 0.0002,
+      "pipe_diameter_m": 0.03,
+      "injector_pressure_drop_pa": 3000000.0,
+      "property_status": "engineering_estimate_requires_validation"
+    },
+    "methane": {
+      "mass_flow_kg_s": 0.38,
+      "density_kg_m3": 422.0,
+      "dynamic_viscosity_pa_s": 0.00012,
+      "pipe_diameter_m": 0.025,
+      "injector_pressure_drop_pa": 3000000.0,
+      "property_status": "engineering_estimate_requires_validation"
+    }
+  }
+}
