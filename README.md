@@ -1,6 +1,7 @@
 # UHTC-NanoDB
 
 ## Estructura del repositorio
+https://www.openvdb.org/documentation/doxygen/LevelSetSphere_8h.html#details
 https://www.openvdb.org/documentation/doxygen/LevelSetSphere_8h_source.html
 https://github.com/victorjosegarcia888-cpu/amrex/blob/development/Src/EB/AMReX_EB2_GeometryShop.H#L280
 1. MeshToVolume.h
