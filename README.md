@@ -1,6 +1,22 @@
 # UHTC-NanoDB
 
 ## Estructura del repositorio
+https://www.openvdb.org/documentation/doxygen/LevelSetSphere_8h_source.html
+https://github.com/victorjosegarcia888-cpu/amrex/blob/development/Src/EB/AMReX_EB2_GeometryShop.H#L280
+1. MeshToVolume.h
+2. Level Set
+3. Signed Distance Field
+4. GeometryShop
+5. Implicit Function
+6. EB2::Build
+7. PeleLMeX
+OpenVDB
+(Level Set / SDF)
+
+        ≈
+
+AMReX
+(Implicit Function)
 
 - `docs/reference/`: PDFs y documentación externa de referencia.
 - `docs/notes/`: espacio reservado para notas editoriales y decisiones del proyecto.
